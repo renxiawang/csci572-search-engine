@@ -37,6 +37,6 @@
 -.*(/[^/]+)/[^/]+\1/[^/]+\1/
 
 # accept anything else
-+^http://([a-z0-9]*\.)*gcmd.gsfc.nasa.gov/
-+^http://([a-z0-9]*\.)*nsidc.org/
-+^http://([a-z0-9]*\.)*aoncadis.org/
++^(ftp|https|http)://([a-z0-9]*\.)*gcmd.gsfc.nasa.gov/
++^(ftp|https|http)://([a-z0-9]*\.)*nsidc.org/
++^(ftp|https|http)://([a-z0-9]*\.)*aoncadis.org/
