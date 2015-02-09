@@ -22,8 +22,8 @@
 # determines whether a URL is included or ignored.  If no pattern
 # matches, the URL is ignored.
 
-# skip file: ftp: and mailto: urls
-# -^(file|ftp|mailto):
+# skip mailto: urls
+-^mailto:
 
 # skip image and other suffixes we can't yet parse
 # for a more extensive coverage use the urlfilter-suffix plugin
@@ -37,6 +37,8 @@
 -.*(/[^/]+)/[^/]+\1/[^/]+\1/
 
 # accept anything else
+# +.
 +^(ftp|https|http)://([a-z0-9]*\.)*gcmd.gsfc.nasa.gov/
 +^(ftp|https|http)://([a-z0-9]*\.)*nsidc.org/
 +^(ftp|https|http)://([a-z0-9]*\.)*aoncadis.org/
+# +.*\.(zip|ZIP|rar|RAR|tar|TAR|gz|GZ|nc|NC|fig|FIG|m|M|mat|MAT|pdf|PDF|shp|SHP|xls|XLS|xlt|XLT|xlm|XLM|xlsx|XLSX|xlsm|XLSM|xltx|XLTX|xltm|XLTM|xlsb|XLSB|xla|XLA|xlam|XLAM|xll|XLL|xlw|XLW|doc|DOC|dot|DOT|docx|DOCX|docm|DOCM|dotx|DOTX|dotm|DOTM|docb|DOCB|tiff|TIFF|bmp|BMP|gif|GIF|jpg|JPG|jpeg|JPEG|PNG|png|svg|SVG|eps|EPS|csv|CSV|tsv|TSV|shp|SHP|shx|SHX|dbf|DBF|sbn|SBN|sbx|SBX|atx|ATX|fbn|FBN|fbx|FBX|ain|AIN|aih|AIH|ixs|IXS|mxs|MXS|prj|PRJ|xml|XML|cpg|CPG|txt|TXT|json|JSON|a|A|ar|AR|cpio|CPIO|shar|SHAR|lbr|LBR|iso|ISO|lbr|LBR|mar|MAR|bz2|BZ2|f|F|lz|LZ|lzma|LZMA|lzo|LZO|rz|RZ|sfark|SFARK|xz|XZ|z|Z|7z|7Z||)$
