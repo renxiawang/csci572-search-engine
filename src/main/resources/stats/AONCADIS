@@ -1,0 +1,102 @@
+AONCADIS
+====================================================
+===== Stats
+====================================================
+Statistics for CrawlDb: aoncadis-15-3/crawldb
+TOTAL urls:	66057
+retry 0:	66004
+retry 1:	51
+retry 2:	2
+min score:	0.0
+avg score:	2.0341523E-4
+max score:	1.117
+status 1 (db_unfetched):	53
+status 2 (db_fetched):	18662
+status 3 (db_gone):	25748
+status 4 (db_redir_temp):	18826
+status 5 (db_redir_perm):	1857
+status 6 (db_notmodified):	814
+status 7 (db_duplicate):	97
+CrawlDb statistics: done
+
+
+====================================================
+===== MIME
+====================================================
+  24023  	Content-Type=text/html
+   8718  	Content-Type=text/plain
+   3263  	Content-Type=application/xhtml+xml
+   2148  	Content-Type=text/iso19139+xml
+   2143  	Content-Type=text/dif+xml
+    883  	Content-Type=application/zip
+    872  	Content-Type=application/x-sh
+    161  	Content-Type=image/jpeg
+     48  	Content-Type=image/gif
+     46  	Content-Type=application/pdf
+      9  	Content-Type=image/png
+      6  	Content-Type=text/css
+      3  	Content-Type=application/vnd.openxmlformats-officedocument.wordprocessingml.document
+      3  	Content-Type=application/javascript
+      2  	Content-Type=text/x-coldfusion
+      2  	Content-Type=image/vnd.microsoft.icon
+      2  	Content-Type=application/vnd.ms-excel
+      2  	Content-Type=application/msword
+      1  	Content-Type=application/xml
+      1  	Content-Type=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+      1  	Content-Type=application/postscript
+      1  	Content-Type=application/atom+xml
+
+====================================================
+===== Failed URL
+====================================================
+### Connection refuesed:
+https://www.aoncadis.org/dataset/id/7d3102ce-638d-11e4-8886-00c0f03d5b7c.dif
+https://www.aoncadis.org/dataset/id/b1101590-638c-11e4-8886-00c0f03d5b7c.txt
+https://www.aoncadis.org/dataset/id/b1101590-638c-11e4-8886-00c0f03d5b7c.html
+https://www.aoncadis.org/dataset/id/2fd10c1e-00c2-11e1-9f20-00c0f03d5b7c.txt
+https://www.aoncadis.org/redirect.html?link=http%3a%2f%2fdata.eol.ucar.edu%2fcodiac%2ffgr_form%2fid%3d62.1490
+
+### Parse Error: Truncated ZIP file
+https://www.aoncadis.org/dataset/2/file.zip
+https://www.aoncadis.org/dataset/2/file.zip
+https://www.aoncadis.org/dataset/20092013MCM_TKsoil.01/file.zip
+https://www.aoncadis.org/dataset/2012_CO2/file.zip
+https://www.aoncadis.org/dataset/AWS/file.zip
+https://www.aoncadis.org/dataset/collaborative_research_diamonds_and_oil_from_the_tundra_a_system_study_on_the_impact_of_changing_seasons_on_mining_and_oil_exploration____nsf_award_0902130/file.zip
+
+### Can't retrieve Tika parser for mime-type application/x-sh
+https://www.aoncadis.org/dataset/21/file.wget
+https://www.aoncadis.org/dataset/BarrowLoggerData2012/file.wget
+https://www.aoncadis.org/dataset/CSASN_I8Inlet_discahrge_2010.01/file.wget
+https://www.aoncadis.org/dataset/Deming_SalineSnow_EPS_Metadata/file.wget
+https://www.aoncadis.org/dataset/Chemical-weathering-organic-carbon-export/file.wget
+
+### Can't retrieve Tika parser for mime-type text/dif+xml
+https://www.aoncadis.org/dataset/ucar.ncar.eol.dataset.46_729.dif
+https://www.aoncadis.org/dataset/ucar.ncar.eol.dataset.46_7300.dif
+https://www.aoncadis.org/dataset/ucar.ncar.eol.dataset.56_218.dif
+https://www.aoncadis.org/dataset/ucar.ncar.eol.dataset.46_225.dif
+https://www.aoncadis.org/dataset/ucar.ncar.eol.dataset.62_107.dif
+
+### Can't retrieve Tika parser for mime-type text/iso19139+xml
+https://www.aoncadis.org/dataset/ucar.ncar.eol.dataset.56_606.iso19139
+https://www.aoncadis.org/dataset/ucar.ncar.eol.dataset.56_229.iso19139
+https://www.aoncadis.org/dataset/ucar.ncar.eol.dataset.46_225.iso19139
+https://www.aoncadis.org/dataset/ucar.ncar.eol.dataset.62_107.iso19139
+
+### Http code=403
+http://data.eol.ucar.edu/codiac_data/sheba/data/lindsay/video_images/flt7b_leads/
+http://data.eol.ucar.edu/codiac_data/sheba/data/lindsay/video_images/flt_9c_leads/
+http://data.eol.ucar.edu/codiac_data/sheba/data/lindsay/video_images/flt10c_leads/
+http://data.eol.ucar.edu/codiac_data/sheba/data/lindsay/video_images/flt10b_random/
+
+### Http code=500
+http://data.eol.ucar.edu/codiac/proj_ds/id=117.082
+http://data.eol.ucar.edu/codiac/proj_ds/id=382.028
+
+### Read timed out
+http://data.eol.ucar.edu/codiac/ds_proj?HAIC-HIWC
+https://www.aoncadis.org/scienceKeywordTopic/Terrestrial%20Hydrosphere.html
+
+### RSS parse error
+https://www.aoncadis.org/dataset.atom

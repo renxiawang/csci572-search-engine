@@ -37,6 +37,5 @@
 #-.*(/[^/]+)/[^/]+\1/[^/]+\1/
 
 # accept anything else
-+^(ftp|https|http)://([a-zA-Z0-9]*\.)*aoncadis.org/
-+^(ftp|https|http)://www.lter.uaf.edu/
-+^(ftp|https|http)://data.eol.ucar.edu/
++^(ftp|https|http)://([a-zA-Z0-9]*\.)*nsidc.org/
++^ftp://sidads.colorado.edu/pub/DATASETS/

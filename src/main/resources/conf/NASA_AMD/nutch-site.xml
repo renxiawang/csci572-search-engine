@@ -22,7 +22,84 @@
   </description>
  </property>
 
-<!-- http properties -->
+<!-- parser properties
+
+<property>
+  <name>parser.timeout</name>
+  <value>-1</value>
+  <description>Timeout in seconds for the parsing of a document, otherwise treats it as an exception and 
+  moves on the the following documents. This parameter is applied to any Parser implementation. 
+  Set to -1 to deactivate, bearing in mind that this could cause
+  the parsing to crash because of a very long or corrupted document.
+  </description>
+</property>
+-->
+
+<!-- mime properties
+
+<property>
+  <name>mime.types.file</name>
+  <value>tika-mimetypes.xml</value>
+  <description>Name of file in CLASSPATH containing filename extension and
+  magic sequence to mime types mapping information. Overrides the default Tika config
+  if specified.
+  </description>
+</property>
+-->
+
+<!-- Used only if plugin parse-metatags is enabled. 
+<property>
+ <name>metatags.names</name>
+ <value>description,keywords</value>
+ <description> Names of the metatags to extract, separated by ','.
+  Use '*' to extract all metatags. Prefixes the names with 'metatag.'
+  in the parse-metadata. For instance to index description and keywords,
+  you need to activate the plugin index-metadata and set the value of the
+  parameter 'index.parse.md' to 'metatag.description,metatag.keywords'.
+ </description>
+</property>
+
+-->
+
+<!-- <property>
+  <name>index.parse.md</name>
+  <value>metatag.description,metatag.keywords,producer</value>
+  <description>
+  Comma-separated list of keys to be taken from the parse metadata to generate fields.
+  Can be used e.g. for 'description' or 'keywords' provided that these values are generated
+  by a parser (see parse-metatags plugin)
+  </description>
+</property>
+
+<property>
+  <name>index.content.md</name>
+  <value>ETag,Server</value>
+  <description>
+  Comma-separated list of keys to be taken from the content metadata to generate fields.
+  Can be used e.g. for 'description' or 'keywords' provided that these values are generated
+  by a parser (see parse-metatags plugin)
+  </description>
+</property>
+
+<property>
+  <name>index.db.md</name>
+  <value>xmpTPg:NPages,xmp:CreatorTool</value>
+  <description>
+  Comma-separated list of keys to be taken from the parse metadata to generate fields.
+  Can be used e.g. for 'description' or 'keywords' provided that these values are generated
+  by a parser (see parse-metatags plugin)
+  </description>
+</property>-->
+
+<property>
+  <name>file.content.limit</name>
+  <value>-1</value>
+  <description>The length limit for downloaded content, in bytes.
+  If this value is nonnegative (>=0), content longer than it will be truncated;
+  otherwise, no truncation at all.
+  </description>
+</property>
+
 <property>
   <name>http.timeout</name>
   <value>30000</value>
@@ -54,7 +131,6 @@
   <description>Authentication configuration file for 'protocol-httpclient' plugin.</description>
 </property>
 
-<!-- ftp properties -->
 <property>
   <name>ftp.content.limit</name>
   <value>-1</value>
@@ -128,4 +204,65 @@
   <description>If true, fetcher will parse content. Default is false, which means
    that a separate parsing step is required after fetching is finished.</description>
  </property>
+
+<!-- solr index properties
+<property>
+  <name>solr.server.url</name>
+  <value>http://localhost:8983/solr/collection1</value>
+  <description>
+  Defines the name of the file that will be used in the mapping of internal
+  nutch field names to solr index fields as specified in the target Solr schema.
+  </description>
+</property>
+
+<property> 
+  <name>solr.commit.size</name>
+  <value>1000</value>
+  <description>
+  Defines the number of documents to send to Solr in a single update batch.
+  Decrease when handling very large documents to prevent Nutch from running
+  out of memory. NOTE: It does not explicitly trigger a server side commit.
+  </description>
+</property>
+
+<property>
+  <name>solr.mapping.file</name>
+  <value>solrindex-mapping.xml</value>
+  <description>
+  Defines the name of the file that will be used in the mapping of internal
+  nutch field names to solr index fields as specified in the target Solr schema.
+  </description>
+</property>
+
+<property>
+  <name>solr.auth</name>
+  <value>false</value>
+  <description>
+  Whether to enable HTTP basic authentication for communicating with Solr.
+  Use the solr.auth.username and solr.auth.password properties to configure
+  your credentials.
+  </description>
+</property>
+
+<property>
+  <name>moreIndexingFilter.indexMimeTypeParts</name>
+  <value>false</value>
+  <description>Determines whether the index-more plugin will split the mime-type 
+  in sub parts, this requires the type field to be multi valued. Set to true for backward 
+  compatibility. False will not split the mime-type. 
+  </description>
+</property>
+
+-->
+
+<property>
+  <name>urlnormalizer.order</name>
+  <value>org.apache.nutch.net.urlnormalizer.basic.BasicURLNormalizer org.apache.nutch.net.urlnormalizer.regex.RegexURLNormalizer</value>
+  <description>Order in which normalizers will run. If any of these isn't
+    activated it will be silently skipped. If other normalizers not on the
+    list are activated, they will run in random order after the ones
+    specified here are run.
+  </description>
+</property>
+
 </configuration>

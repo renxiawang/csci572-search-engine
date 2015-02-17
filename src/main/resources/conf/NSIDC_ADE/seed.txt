@@ -1,0 +1,2 @@
+http://nsidc.org/acadis/search/
+ftp://sidads.colorado.edu/pub/DATASETS/

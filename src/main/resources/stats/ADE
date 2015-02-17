@@ -1,0 +1,133 @@
+ADE
+====================================================
+===== Stats
+====================================================
+Statistics for CrawlDb: ade-11/crawldb
+TOTAL urls: 35038
+retry 0:  35004
+retry 1:  24
+retry 2:  10
+min score:  0.0
+avg score:  1.374793E-4
+max score:  1.167
+status 1 (db_unfetched):  20402
+status 2 (db_fetched):  13940
+status 3 (db_gone): 157
+status 4 (db_redir_temp): 2
+status 5 (db_redir_perm): 174
+status 7 (db_duplicate):  363
+CrawlDb statistics: done
+
+====================================================
+===== MIME
+====================================================
+   5009   Content-Type=application/octet-stream
+   2483   Content-Type=application/x-hdf
+   1808   Content-Type=text/html
+   1482   Content-Type=application/gzip
+   1192   Content-Type=image/png
+    857   Content-Type=image/gif
+    313   Content-Type=image/jpeg
+    274   Content-Type=text/plain
+    140   Content-Type=application/javascript
+    119   Content-Type=application/x-compress
+    114   Content-Type=text/css
+    101   Content-Type=application/xhtml+xml
+     98   Content-Type=application/postscript
+     94   Content-Type=application/x-tar
+     91   Content-Type=application/pdf
+     76   Content-Type=text/x-log
+     60   Content-Type=image/tiff
+     42   Content-Type=audio/mpeg
+     40   Content-Type=application/x-gtar
+     33   Content-Type=application/xml
+     30   Content-Type=application/vnd.americandynamics.acc
+     27   Content-Type=application/rss+xml
+     20   Content-Type=text/x-fortran
+     17   Content-Type=application/x-matlab-data
+     14   Content-Type=application/x-netcdf
+     13   Content-Type=application/msword
+     11   Content-Type=application/zip
+     10   Content-Type=text/x-assembly
+      8   Content-Type=text/x-prolog
+      7   Content-Type=application/vnd.ms-excel
+      5   Content-Type=video/x-msvideo
+      5   Content-Type=text/x-php
+      4   Content-Type=text/x-csrc
+      4   Content-Type=text/csv
+      4   Content-Type=application/x-director
+      3   Content-Type=image/x-raw-panasonic
+      2   Content-Type=application/x-sharedlib
+      2   Content-Type=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+      2   Content-Type=application/vnd.ms-project
+      2   Content-Type=application/vnd.apple.keynote
+      1   Content-Type=text/x-objcsrc
+      1   Content-Type=text/x-c++src
+      1   Content-Type=image/vnd.microsoft.icon
+      1   Content-Type=application/x-msdownload
+      1   Content-Type=application/x-elc
+      1   Content-Type=application/vnd.google-earth.kml+xml
+
+====================================================
+===== Failed URL
+====================================================
+### Can't retrieve Tika parser for mime-type application/octet-stream
+ftp://sidads.colorado.edu/pub/DATASETS/AGDC/nsidc0468_waddington_V01/borehole_raytrace_simulation/examples/run_examples
+ftp://sidads.colorado.edu/pub/DATASETS/ICESHELVES/scoti/scoti_2006056_1245_modis_a22a.tfw
+ftp://sidads.colorado.edu/pub/DATASETS/IPAB_BUOYS/1996/awi69_24h.a_96
+ftp://sidads.colorado.edu/pub/DATASETS/NOAA/G00801/bci77.dat
+ftp://sidads.colorado.edu/pub/DATASETS/NSIDC0393_GLAS_SI_Freeboard_v01/glas_seaice_grids/laser2a_freeboard_mskd.img.hdr
+ftp://sidads.colorado.edu/pub/DATASETS/fgdc/ggd318_map_circumarctic/subsea.shx
+ftp://sidads.colorado.edu/pub/DATASETS/fgdc/ggd648_map_mongolia/dig_lakes.dbf
+ftp://sidads.colorado.edu/pub/DATASETS/fgdc/ggd648_map_mongolia/solifluction.shp
+ftp://sidads.colorado.edu/pub/DATASETS/fgdc/ggd648_map_mongolia/solifluction.shx
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0007_smmr_radiance_seaice_v01/ICECON_S/1981/810426S.CON
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0007_smmr_radiance_seaice_v01/TBS/1979/APR/790402N.06V
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0007_smmr_radiance_seaice_v01/TBS/1979/APR/790402N.18H
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0007_smmr_radiance_seaice_v01/TBS/1979/APR/790402S.06H
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0026_avhrr_leads_ari_v01/1992/e02feb1992_1106.gpg
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0026_avhrr_leads_ari_v01/emap.img
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0153_clpx_air_airsar/cm6566/cm6566_c.rad_vec
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0026_avhrr_leads_ari_v01/emap.img
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0153_clpx_air_airsar/ts1451/ts1451_rad_vec.README
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0481_MEASURES_greenland_V01/Wcoast-70.55N/TSX_May-07-2012_May-18-2012_09-56-34/TSX_W70.55N_07May12_18May12.vy.geodat
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0153_clpx_air_airsar/cm6529/cm6529_meta.podaac
+
+
+### Can't retrieve Tika parser for mime-type application/x-compress
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0036_pathfinder_smmr_tbs_v01/1981/smmrtb1981.009_brwsrastr_37H.hdf.Z
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0036_pathfinder_smmr_tbs_v01/1981/smmrtb1981.019_brwsrastr_37H.hdf.Z
+
+### Can't retrieve Tika parser for mime-type application/x-gtar
+ftp://sidads.colorado.edu/pub/DATASETS/NOAA/G02171/East_Coast/2011/cis_SGRDREC_20111114_pl_a.tar
+
+### Can't retrieve Tika parser for mime-type text/x-log
+ftp://sidads.colorado.edu/pub/DATASETS/fgdc/ggd223_boreholes_alaska/ati0884a.log
+
+### Can't retrieve Tika parser for mime-type application/vnd.americandynamics.acc
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0020_cearex_v01/SEAICE/ACCEL/A322_12.ACC
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0020_cearex_v01/SEAICE/ACCEL/A322_12.ACC
+
+### Can't retrieve Tika parser for mime-type application/postscript
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0116_icemotion_vectors_v2/browse/south/months/01/icemotion.mean.01.1979.s.v02.ps
+
+### Can't retrieve Tika parser for mime-type application/x-director
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0053_icesheets_surf_elev_v01/DATA/ANT3GM_.DIR
+
+### Ftp Error: 404
+ftp://sidads.colorado.edu/pub/DATASETS/AVDM/.notar
+ftp://sidads.colorado.edu/pub/DATASETS/NOAA/.temp/
+
+### Read timed out
+http://nsidc.org/the-drift/data-update/nasa-icebridge-mcords-l1b-geolocated-radar-echo-strength-profiles-data-for-2011-antarctica-now-available-at-nsidc/
+http://nsidc.org/the-drift/2014/03/amsre-data-quality/
+
+
+### Can't retrieve Tika parser for mime-type text/css
+http://nsidc.org/data/barrow/css/barrow_print.css
+
+### Can't retrieve Tika parser for mime-type application/javascript
+http://nsidc.org/scripts/dataset-details-popup.js
+
+### Can't retrieve Tika parser for mime-type text/x-php 
+http://nsidc.org/the-drift/xmlrpc.php (XML-RPC server accepts POST requests only.)
