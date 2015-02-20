@@ -83,4 +83,28 @@
         <substitution>%20</substitution>
     </regex>
 
+    <!-- removes tailing anchor: -->
+    <regex>
+        <pattern>anchor:</pattern>
+        <substitution></substitution>
+    </regex>
+
+    <!-- replace '[' with ASCII value "%5b" -->
+    <regex>
+        <pattern>&#x91;</pattern>
+        <substitution>%5b</substitution>
+    </regex>
+
+    <!-- replace ']' with ASCII value "%5d" -->
+    <regex>
+        <pattern>&#x93;</pattern>
+        <substitution>%5d</substitution>
+    </regex>
+
+    <!-- replace pipe | with ASCII value "%7c" -->
+    <regex>
+        <pattern>&#124;</pattern>
+        <substitution>%7c</substitution>
+    </regex>
+
 </regex-normalize>

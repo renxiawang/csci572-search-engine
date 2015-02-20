@@ -43,4 +43,4 @@
 +^(ftp|https|http)://([a-zA-Z0-9]*\.)*sedac.ciesin.columbia.edu/
 +^(ftp|https|http)://([a-zA-Z0-9]*\.)*ngdc.noaa.gov/
 +^(ftp|https|http)://([a-zA-Z0-9]*\.)*larc.nasa.gov/
-+^(ftp|https|http)://([a-zA-Z0-9]*\.)*mirador.gsfc.nasa.gov/
++^(ftp|https|http)://([a-zA-Z0-9]*\.)*gsfc.nasa.gov/

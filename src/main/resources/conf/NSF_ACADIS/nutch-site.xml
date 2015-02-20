@@ -75,7 +75,7 @@
 
     <property>
         <name>http.content.limit</name>
-        <value>-1</value>
+        <value>100000000</value>
         <description>The length limit for downloaded content using the http://
             protocol, in bytes. If this value is nonnegative (>=0), content longer
             than it will be truncated; otherwise, no truncation at all. Do not
@@ -86,7 +86,7 @@
     <!-- ftp properties -->
     <property>
         <name>ftp.content.limit</name>
-        <value>-1</value>
+        <value>100000000</value>
         <description>The length limit for downloaded content, in bytes.
             If this value is nonnegative (>=0), content longer than it will be truncated;
             otherwise, no truncation at all.

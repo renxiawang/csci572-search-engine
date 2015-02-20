@@ -38,4 +38,4 @@
 
 # accept anything else
 +^(ftp|https|http)://([a-zA-Z0-9]*\.)*nsidc.org/
-+^ftp://sidads.colorado.edu/pub/DATASETS/
++^(ftp|https|http)://([a-zA-Z0-9]*\.)*sidads.colorado.edu/pub/DATASETS/

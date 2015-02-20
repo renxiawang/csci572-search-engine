@@ -75,7 +75,7 @@
 
     <property>
         <name>http.content.limit</name>
-        <value>-1</value>
+        <value>100000000</value>
         <description>The length limit for downloaded content using the http://
             protocol, in bytes. If this value is nonnegative (>=0), content longer
             than it will be truncated; otherwise, no truncation at all. Do not
@@ -86,7 +86,7 @@
     <!-- ftp properties -->
     <property>
         <name>ftp.content.limit</name>
-        <value>-1</value>
+        <value>100000000</value>
         <description>The length limit for downloaded content, in bytes.
             If this value is nonnegative (>=0), content longer than it will be truncated;
             otherwise, no truncation at all.
@@ -99,7 +99,7 @@
     <!-- fetcher properties -->
     <property>
         <name>fetcher.server.delay</name>
-        <value>3.0</value>
+        <value>5.0</value>
         <description>The number of seconds the fetcher will delay between
             successive requests to the same server. Note that this might get
             overriden by a Crawl-Delay from a robots.txt and is used ONLY if
@@ -109,7 +109,7 @@
 
     <property>
         <name>fetcher.server.min.delay</name>
-        <value>3.0</value>
+        <value>5.0</value>
         <description>The minimum number of seconds the fetcher will delay between
             successive requests to the same server. This value is applicable ONLY
             if fetcher.threads.per.queue is greater than 1 (i.e. the host blocking
@@ -150,6 +150,11 @@
             as a delay between successive requests to the same server instead
             of fetcher.server.delay.
         </description>
+    </property>
+
+    <property>
+        <name>hadoop.tmp.dir</name>
+        <value>/home/renxia/tmp</value>
     </property>
 
 </configuration>

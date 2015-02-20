@@ -1,1 +1,9 @@
 http://gcmd.gsfc.nasa.gov/KeywordSearch/Home.do?Portal=amd&MetadataType=0
+https://eosweb.larc.nasa.gov/order-data
+https://www1.data.antarctica.gov.au/aadc/metadata/search.cfm?search_text=&full_text_search=true&submit_btn=Search
+http://sedac.ciesin.columbia.edu/data/collections/browse
+http://ngdc.noaa.gov/ngdcinfo/onlineaccess.html
+http://disc.sci.gsfc.nasa.gov/data-holdings
+ftp://acdisc.gsfc.nasa.gov/
+ftp://l5eil01.larc.nasa.gov/
+http://l0dup05.larc.nasa.gov/opendap/
