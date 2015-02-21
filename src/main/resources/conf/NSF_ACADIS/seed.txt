@@ -1,2 +1,4 @@
 https://www.aoncadis.org/search.html?Type=Dataset
 ftp://ftp.etl.noaa.gov/psd3/arctic/
+ftp://aftp.cmdl.noaa.gov/
+ftp://ladsweb.nascom.nasa.gov/

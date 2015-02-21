@@ -44,3 +44,4 @@
 +^(ftp|https|http)://([a-zA-Z0-9]*\.)*lter.uaf.edu/
 +^(ftp|https|http)://([a-zA-Z0-9]*\.)*data.eol.ucar.edu/
 +^(ftp|https|http)://([a-zA-Z0-9]*\.)*ftp.etl.noaa.gov
++^ftp://aftp.cmdl.noaa.gov/

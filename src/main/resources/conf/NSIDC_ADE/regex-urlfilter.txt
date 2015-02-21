@@ -39,3 +39,8 @@
 # accept anything else
 +^(ftp|https|http)://([a-zA-Z0-9]*\.)*nsidc.org/
 +^(ftp|https|http)://([a-zA-Z0-9]*\.)*sidads.colorado.edu/pub/DATASETS/
++^ftp://n5eil01u.ecs.nsidc.org/
++^http://optserv1.whoi.edu/
++^http://www.bco-dmo.org/
++^https://www.sciencebase.gov/catalog/
++^http://pubs.usgs.gov/
