@@ -1,72 +1,79 @@
-ADE
+ADE 1st
 ====================================================
 ===== Stats
 ====================================================
+CrawlDb statistics start: ade-11/crawldb
 Statistics for CrawlDb: ade-11/crawldb
-TOTAL urls: 35038
-retry 0:  35004
-retry 1:  24
-retry 2:  10
-min score:  0.0
-avg score:  1.374793E-4
-max score:  1.167
-status 1 (db_unfetched):  20402
-status 2 (db_fetched):  13940
-status 3 (db_gone): 157
-status 4 (db_redir_temp): 2
-status 5 (db_redir_perm): 174
-status 7 (db_duplicate):  363
+TOTAL urls:	45335
+retry 0:	45280
+retry 1:	39
+retry 2:	16
+min score:	0.0
+avg score:	1.06694606E-4
+max score:	1.167
+status 1 (db_unfetched):	23522
+status 2 (db_fetched):	20974
+status 3 (db_gone):	168
+status 4 (db_redir_temp):	3
+status 5 (db_redir_perm):	174
+status 7 (db_duplicate):	494
 CrawlDb statistics: done
 
 ====================================================
 ===== MIME
 ====================================================
-   5009   Content-Type=application/octet-stream
-   2483   Content-Type=application/x-hdf
-   1808   Content-Type=text/html
-   1482   Content-Type=application/gzip
-   1192   Content-Type=image/png
-    857   Content-Type=image/gif
-    313   Content-Type=image/jpeg
-    274   Content-Type=text/plain
-    140   Content-Type=application/javascript
-    119   Content-Type=application/x-compress
-    114   Content-Type=text/css
-    101   Content-Type=application/xhtml+xml
-     98   Content-Type=application/postscript
-     94   Content-Type=application/x-tar
-     91   Content-Type=application/pdf
-     76   Content-Type=text/x-log
-     60   Content-Type=image/tiff
-     42   Content-Type=audio/mpeg
-     40   Content-Type=application/x-gtar
-     33   Content-Type=application/xml
-     30   Content-Type=application/vnd.americandynamics.acc
-     27   Content-Type=application/rss+xml
-     20   Content-Type=text/x-fortran
-     17   Content-Type=application/x-matlab-data
-     14   Content-Type=application/x-netcdf
-     13   Content-Type=application/msword
-     11   Content-Type=application/zip
-     10   Content-Type=text/x-assembly
-      8   Content-Type=text/x-prolog
-      7   Content-Type=application/vnd.ms-excel
-      5   Content-Type=video/x-msvideo
-      5   Content-Type=text/x-php
-      4   Content-Type=text/x-csrc
-      4   Content-Type=text/csv
-      4   Content-Type=application/x-director
-      3   Content-Type=image/x-raw-panasonic
-      2   Content-Type=application/x-sharedlib
-      2   Content-Type=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-      2   Content-Type=application/vnd.ms-project
-      2   Content-Type=application/vnd.apple.keynote
-      1   Content-Type=text/x-objcsrc
-      1   Content-Type=text/x-c++src
-      1   Content-Type=image/vnd.microsoft.icon
-      1   Content-Type=application/x-msdownload
-      1   Content-Type=application/x-elc
-      1   Content-Type=application/vnd.google-earth.kml+xml
+text/x-prolog	13
+application/vnd.americandynamics.acc	34
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet	2
+image/jpeg	374
+text/x-log	97
+application/postscript	123
+image/png	1649
+image/vnd.microsoft.icon	1
+text/x-objcsrc	1
+application/vnd.ms-project	2
+application/pdf	123
+text/x-csrc	8
+application/gzip	2838
+application/x-director	4
+application/vnd.apple.keynote	2
+image/x-raw-panasonic	3
+application/x-sharedlib	2
+application/x-msdownload	1
+image/gif	1692
+application/javascript	140
+text/x-fortran	44
+text/x-c++src	1
+application/xml	38
+application/vnd.ms-excel	21
+image/tiff	98
+application/x-compress	156
+chemical/x-xyz	1
+application/x-object	20
+text/x-assembly	12
+application/x-hdf	3524
+audio/mpeg	68
+application/x-elc	1
+application/vnd.google-earth.kmz	91
+application/x-gtar	76
+application/octet-stream	7062
+application/vnd.google-earth.kml+xml	5
+text/plain	470
+application/xhtml+xml	101
+application/x-tar	197
+application/x-netcdf	16
+text/html	4194
+application/x-matlab-data	22
+application/rss+xml	27
+text/x-php	5
+video/mpeg	1
+application/x-sh	1
+video/x-msvideo	5
+text/csv	266
+application/zip	14
+audio/x-aiff	3
+text/css	115
+application/msword	26
 
 ====================================================
 ===== Failed URL
@@ -131,3 +138,113 @@ http://nsidc.org/scripts/dataset-details-popup.js
 
 ### Can't retrieve Tika parser for mime-type text/x-php 
 http://nsidc.org/the-drift/xmlrpc.php (XML-RPC server accepts POST requests only.)
+
+
+ADE 2st round
+====================================================
+===== Stats
+====================================================
+===================== FTP ==========================
+CrawlDb statistics start: ade-19/crawldb
+Statistics for CrawlDb: ade-19/crawldb
+TOTAL urls:	32291
+retry 0:	32072
+retry 1:	163
+retry 2:	56
+min score:	0.0
+avg score:	1.6955189E-4
+max score:	1.167
+status 1 (db_unfetched):	20431
+status 2 (db_fetched):	11593
+status 3 (db_gone):	1
+status 7 (db_duplicate):	266
+CrawlDb statistics: done
+
+===================== HTTP ==========================
+CrawlDb statistics start: ade-20/crawldb
+Statistics for CrawlDb: ade-20/crawldb
+TOTAL urls:	723618
+retry 0:	723321
+retry 1:	297
+min score:	0.0
+avg score:	8.369057E-6
+max score:	1.016
+status 1 (db_unfetched):	668512
+status 2 (db_fetched):	45796
+status 3 (db_gone):	4173
+status 4 (db_redir_temp):	822
+status 5 (db_redir_perm):	4055
+status 7 (db_duplicate):	260
+CrawlDb statistics: done
+
+====================================================
+===== MIME
+====================================================
+===================== FTP ==========================
+text/x-prolog	10
+text/x-csrc	7
+image/jpeg	125
+text/x-log	73
+application/postscript	107
+image/png	1283
+application/x-sh	1
+application/vnd.ms-project	1
+application/pdf	81
+application/gzip	2065
+application/x-director	4
+application/vnd.apple.keynote	2
+image/x-raw-panasonic	1
+application/x-sharedlib	2
+application/x-msdownload	1
+image/gif	1264
+text/x-fortran	17
+chemical/x-xyz	1
+application/xml	20
+application/vnd.ms-excel	14
+image/tiff	46
+application/x-compress	128
+text/x-c++src	1
+text/x-assembly	11
+application/x-hdf	2589
+audio/mpeg	31
+text/x-objcsrc	1
+application/octet-stream	2543
+application/vnd.google-earth.kml+xml	1
+text/plain	314
+application/x-tar	63
+application/x-netcdf	6
+text/html	985
+application/x-matlab-data	4
+video/x-msvideo	5
+text/csv	20
+application/zip	7
+audio/x-aiff	3
+application/msword	22
+
+===================== HTTP ==========================
+image/jpeg	53
+image/png	10
+image/vnd.microsoft.icon	2
+application/json	1823
+application/pdf	100
+application/vnd.openxmlformats-officedocument.presentationml.presentation	1
+image/gif	11
+application/javascript	35
+application/xml	2
+application/vnd.ms-excel	2
+application/x-octet-stream	1
+application/x-turtle	11
+application/x-elc	2
+application/rdf+xml	1779
+application/rtf	4
+text/plain	40
+application/xhtml+xml	12981
+application/vnd.ms-powerpoint	2
+text/html	38558
+application/rss+xml	113
+text/css	19
+application/msword	2
+
+====================================================
+===== Failed URL
+====================================================

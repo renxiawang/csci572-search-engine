@@ -1,7 +1,8 @@
-AONCADIS
+AONCADIS 1st
 ====================================================
 ===== Stats
 ====================================================
+CrawlDb statistics start: aoncadis-15-3/crawldb
 Statistics for CrawlDb: aoncadis-15-3/crawldb
 TOTAL urls:	66057
 retry 0:	66004
@@ -23,28 +24,28 @@ CrawlDb statistics: done
 ====================================================
 ===== MIME
 ====================================================
-  24023  	Content-Type=text/html
-   8718  	Content-Type=text/plain
-   3263  	Content-Type=application/xhtml+xml
-   2148  	Content-Type=text/iso19139+xml
-   2143  	Content-Type=text/dif+xml
-    883  	Content-Type=application/zip
-    872  	Content-Type=application/x-sh
-    161  	Content-Type=image/jpeg
-     48  	Content-Type=image/gif
-     46  	Content-Type=application/pdf
-      9  	Content-Type=image/png
-      6  	Content-Type=text/css
-      3  	Content-Type=application/vnd.openxmlformats-officedocument.wordprocessingml.document
-      3  	Content-Type=application/javascript
-      2  	Content-Type=text/x-coldfusion
-      2  	Content-Type=image/vnd.microsoft.icon
-      2  	Content-Type=application/vnd.ms-excel
-      2  	Content-Type=application/msword
-      1  	Content-Type=application/xml
-      1  	Content-Type=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-      1  	Content-Type=application/postscript
-      1  	Content-Type=application/atom+xml
+text/x-coldfusion	2
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet	1
+image/jpeg	161
+application/postscript	1
+image/png	9
+application/x-sh	1510
+application/vnd.openxmlformats-officedocument.wordprocessingml.document	7
+application/pdf	50
+image/gif	48
+application/javascript	3
+text/dif+xml	2143
+application/vnd.ms-excel	2
+application/xml	1
+image/vnd.microsoft.icon	2
+text/plain	19857
+application/xhtml+xml	6568
+application/atom+xml	6
+text/html	42282
+text/iso19139+xml	2148
+application/zip	1516
+text/css	6
+application/msword	2
 
 ====================================================
 ===== Failed URL
@@ -100,3 +101,128 @@ https://www.aoncadis.org/scienceKeywordTopic/Terrestrial%20Hydrosphere.html
 
 ### RSS parse error
 https://www.aoncadis.org/dataset.atom
+
+AONCADIS 2nd
+====================================================
+===== Stats
+====================================================
+===================== FTP ==========================
+CrawlDb statistics start: aoncadis-ftp/crawldb
+Statistics for CrawlDb: aoncadis-ftp/crawldb
+TOTAL urls:	15547
+retry 0:	14493
+retry 1:	1054
+min score:	0.0
+avg score:	4.6439827E-4
+max score:	1.126
+status 1 (db_unfetched):	9831
+status 2 (db_fetched):	5634
+status 7 (db_duplicate):	82
+CrawlDb statistics: done
+
+
+===================== HTTP ==========================
+CrawlDb statistics start: aoncadis-http/crawldb
+Statistics for CrawlDb: aoncadis-http/crawldb
+TOTAL urls:	206492
+retry 0:	205282
+retry 1:	1210
+min score:	0.0
+avg score:	4.1546402E-5
+max score:	1.031
+status 1 (db_unfetched):	140703
+status 2 (db_fetched):	49233
+status 3 (db_gone):	4337
+status 4 (db_redir_temp):	1002
+status 5 (db_redir_perm):	1214
+status 7 (db_duplicate):	10003
+CrawlDb statistics: done
+
+====================================================
+===== MIME
+====================================================
+===================== FTP ==========================
+text/x-prolog	4
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet	1
+image/jpeg	1392
+text/x-log	55
+application/postscript	8
+image/png	193
+application/x-sh	10
+application/vnd.ms-powerpoint	1
+application/vnd.openxmlformats-officedocument.wordprocessingml.document	1
+image/vnd.fujixerox.edmics-rlc	12
+application/pdf	2
+application/vnd.openxmlformats-officedocument.presentationml.presentation	4
+application/gzip	65
+application/relax-ng-compact-syntax	35
+image/gif	24
+application/vnd.sun.xml.calc.template	13
+text/x-objcsrc	2
+application/vnd.ms-excel	2
+application/x-hdf	33
+application/x-executable	2
+application/pgp-signature	7
+application/x-pkcs7-certificates	65
+application/x-gtar	1
+application/octet-stream	714
+application/rtf	6
+text/plain	619
+application/x-tar	1
+application/x-netcdf	278
+application/vnd.wt.stf	5
+text/html	599
+application/x-matlab-data	1
+application/x-dtbresource+xml	11
+text/csv	48
+application/zip	1502
+
+===================== HTTP ==========================
+image/x-ms-bmp	1
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet	1
+image/jpeg	3642
+image/svg+xml	5
+image/png	5546
+image/vnd.microsoft.icon	23
+text/x-jsp	1
+application/vnd.openxmlformats-officedocument.wordprocessingml.document	20
+application/pdf	762
+application/vnd.openxmlformats-officedocument.presentationml.presentation	5
+application/gzip	14
+application/vnd.google-earth.kmz	31
+video/mpeg	7
+audio/vnd.digital-winds	2
+text/x-log	2
+application/x-tika-msoffice	1
+image/gif	3601
+application/javascript	130
+text/x-objcsrc	2
+application/xml	241
+application/vnd.ms-excel	8
+image/tiff	12
+application/x-sqlite3	1
+application/x-executable	3
+application/x-elc	3
+text/x-perl	2
+application/x-gtar	3
+application/octet-stream	15
+application/x-apple-diskimage	7
+application/rtf	1
+application/vnd.google-earth.kml+xml	57
+text/plain	307
+application/xhtml+xml	4398
+application/vnd.ms-powerpoint	13
+text/x-matlab	2
+application/atom+xml	1
+text/html	44474
+application/rss+xml	52
+application/vnd.openxmlformats-officedocument.presentationml.slideshow	3
+video/x-msvideo	2
+text/csv	107
+application/zip	20
+text/css	50
+application/msword	50
+
+====================================================
+===== Failed URL
+====================================================
