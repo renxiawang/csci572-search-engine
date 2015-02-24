@@ -36,12 +36,7 @@
 # skip URLs with slash-delimited segment that repeats 3+ times, to break loops
 #-.*(/[^/]+)/[^/]+\1/[^/]+\1/
 
-# skip zip archive as they are too size
--https://www.aoncadis.org/dataset/.*/file.zip$
-
 # accept anything else
-+^(ftp|https|http)://([a-zA-Z0-9]*\.)*aoncadis.org/
-+^(ftp|https|http)://([a-zA-Z0-9]*\.)*lter.uaf.edu/
-+^(ftp|https|http)://([a-zA-Z0-9]*\.)*data.eol.ucar.edu/
-+^(ftp|https|http)://([a-zA-Z0-9]*\.)*ftp.etl.noaa.gov
-+^ftp://aftp.cmdl.noaa.gov/
++^(ftp|https|http)://([a-zA-Z0-9]*\.)*sidads.colorado.edu/pub/DATASETS/
++^ftp://n5eil01u.ecs.nsidc.org/SAN/
++^ftp://ftp.nodc.noaa.gov/nodc/archive/

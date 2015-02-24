@@ -100,5 +100,4 @@
         <pattern>&#124;</pattern>
         <substitution>%7c</substitution>
     </regex>
-
 </regex-normalize>

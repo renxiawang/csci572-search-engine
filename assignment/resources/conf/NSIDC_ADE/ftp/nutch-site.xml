@@ -6,7 +6,7 @@
 <configuration>
     <property>
         <name>http.agent.name</name>
-        <value>CSCI572 Doubi Shenmegui</value>
+        <value>wolegedacao</value>
     </property>
 
     <property>
@@ -69,13 +69,14 @@
     <!-- http properties -->
     <property>
         <name>http.timeout</name>
-        <value>100000000</value>
+        <value>30000</value>
         <description>The default network timeout, in milliseconds.</description>
     </property>
 
+
     <property>
         <name>http.content.limit</name>
-        <value>50000000</value>
+        <value>100000000</value>
         <description>The length limit for downloaded content using the http://
             protocol, in bytes. If this value is nonnegative (>=0), content longer
             than it will be truncated; otherwise, no truncation at all. Do not
@@ -99,7 +100,7 @@
     <!-- fetcher properties -->
     <property>
         <name>fetcher.server.delay</name>
-        <value>5.0</value>
+        <value>3.0</value>
         <description>The number of seconds the fetcher will delay between
             successive requests to the same server. Note that this might get
             overriden by a Crawl-Delay from a robots.txt and is used ONLY if
@@ -142,7 +143,7 @@
 
     <property>
         <name>fetcher.threads.per.queue</name>
-        <value>5</value>
+        <value>1</value>
         <description>This number is the maximum number of threads that
             should be allowed to access a queue at one time. Setting it to
             a value > 1 will cause the Crawl-Delay value from robots.txt to
@@ -151,14 +152,6 @@
             of fetcher.server.delay.
         </description>
     </property>
-
-<property>
-  <name>fetcher.throughput.threshold.retries</name>
-  <value>5</value>
-  <description>The number of times the fetcher.throughput.threshold is allowed to be exceeded.
-  This settings prevents accidental slow downs from immediately killing the fetcher thread.
-  </description>
-</property>
 
     <property>
         <name>hadoop.tmp.dir</name>

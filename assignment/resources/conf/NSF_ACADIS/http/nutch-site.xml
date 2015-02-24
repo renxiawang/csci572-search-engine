@@ -6,7 +6,7 @@
 <configuration>
     <property>
         <name>http.agent.name</name>
-        <value>CSCI572 Doubi Shenmegui</value>
+        <value>bingbangdyoyoyo</value>
     </property>
 
     <property>
@@ -69,13 +69,13 @@
     <!-- http properties -->
     <property>
         <name>http.timeout</name>
-        <value>100000000</value>
+        <value>30000</value>
         <description>The default network timeout, in milliseconds.</description>
     </property>
 
     <property>
         <name>http.content.limit</name>
-        <value>50000000</value>
+        <value>100000000</value>
         <description>The length limit for downloaded content using the http://
             protocol, in bytes. If this value is nonnegative (>=0), content longer
             than it will be truncated; otherwise, no truncation at all. Do not
@@ -151,14 +151,6 @@
             of fetcher.server.delay.
         </description>
     </property>
-
-<property>
-  <name>fetcher.throughput.threshold.retries</name>
-  <value>5</value>
-  <description>The number of times the fetcher.throughput.threshold is allowed to be exceeded.
-  This settings prevents accidental slow downs from immediately killing the fetcher thread.
-  </description>
-</property>
 
     <property>
         <name>hadoop.tmp.dir</name>

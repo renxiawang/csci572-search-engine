@@ -47,7 +47,6 @@
         <plugin id="parse-js"/>
     </mimeType>
 
-
     <mimeType name="application/x-shockwave-flash">
         <plugin id="parse-swf"/>
     </mimeType>

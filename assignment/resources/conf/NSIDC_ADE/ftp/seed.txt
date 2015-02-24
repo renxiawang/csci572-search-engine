@@ -1,6 +1,3 @@
-http://nsidc.org/acadis/search/
 ftp://sidads.colorado.edu/pub/DATASETS/
 ftp://n5eil01u.ecs.nsidc.org/SAN/
 ftp://ftp.nodc.noaa.gov/nodc/archive/
-http://www.bco-dmo.org/datasets
-https://www.sciencebase.gov/catalog/

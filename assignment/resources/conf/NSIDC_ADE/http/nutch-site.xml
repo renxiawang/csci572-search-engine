@@ -6,7 +6,7 @@
 <configuration>
     <property>
         <name>http.agent.name</name>
-        <value>CSCI572 Doubi Shenmegui</value>
+        <value>wolegedacao</value>
     </property>
 
     <property>
@@ -100,7 +100,7 @@
     <!-- fetcher properties -->
     <property>
         <name>fetcher.server.delay</name>
-        <value>3.0</value>
+        <value>5.0</value>
         <description>The number of seconds the fetcher will delay between
             successive requests to the same server. Note that this might get
             overriden by a Crawl-Delay from a robots.txt and is used ONLY if
@@ -143,7 +143,7 @@
 
     <property>
         <name>fetcher.threads.per.queue</name>
-        <value>1</value>
+        <value>5</value>
         <description>This number is the maximum number of threads that
             should be allowed to access a queue at one time. Setting it to
             a value > 1 will cause the Crawl-Delay value from robots.txt to

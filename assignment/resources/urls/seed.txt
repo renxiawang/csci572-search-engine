@@ -1,3 +1,0 @@
-http://gcmd.gsfc.nasa.gov/KeywordSearch/Home.do?Portal=amd&MetadataType=0
-http://nsidc.org/acadis/search/
-https://www.aoncadis.org/home.htm

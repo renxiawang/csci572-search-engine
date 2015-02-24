@@ -1,0 +1,3 @@
+http://www.bco-dmo.org/datasets
+https://www.sciencebase.gov/catalog/
+http://nsidc.org/acadis/search/

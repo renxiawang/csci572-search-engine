@@ -6,7 +6,7 @@
 <configuration>
     <property>
         <name>http.agent.name</name>
-        <value>CSCI572 Doubi Shenmegui</value>
+        <value>bingbangdyoyoyo</value>
     </property>
 
     <property>
@@ -142,7 +142,7 @@
 
     <property>
         <name>fetcher.threads.per.queue</name>
-        <value>5</value>
+        <value>1</value>
         <description>This number is the maximum number of threads that
             should be allowed to access a queue at one time. Setting it to
             a value > 1 will cause the Crawl-Delay value from robots.txt to
