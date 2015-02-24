@@ -177,6 +177,24 @@ status 5 (db_redir_perm):	4055
 status 7 (db_duplicate):	260
 CrawlDb statistics: done
 
+===================== Merged 1st and 2nd run ==========================
+CrawlDb statistics start: ade-19/crawldb
+Statistics for CrawlDb: ade-19/crawldb
+TOTAL urls:	769103
+retry 0:	768565
+retry 1:	477
+retry 2:	61
+min score:	0.0
+avg score:	2.300082E-5
+max score:	1.502
+status 1 (db_unfetched):	692311
+status 2 (db_fetched):	55582
+status 3 (db_gone):	4334
+status 4 (db_redir_temp):	825
+status 5 (db_redir_perm):	4229
+status 6 (db_notmodified):	11822
+CrawlDb statistics: done
+
 ====================================================
 ===== MIME
 ====================================================
@@ -245,6 +263,66 @@ application/rss+xml	113
 text/css	19
 application/msword	2
 
+===================== Merged 1st and 2nd run ==========================
+text/x-prolog	23
+application/vnd.americandynamics.acc	34
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet	2
+image/jpeg	552
+text/x-log	170
+application/postscript	230
+image/png	2942
+image/vnd.microsoft.icon	3
+text/x-objcsrc	2
+application/vnd.ms-project	3
+application/json	1823
+application/pdf	304
+text/x-csrc	15
+application/vnd.openxmlformats-officedocument.presentationml.presentation	1
+application/gzip	4903
+application/x-director	8
+application/vnd.apple.keynote	4
+image/x-raw-panasonic	4
+application/x-sharedlib	4
+application/x-msdownload	2
+image/gif	2967
+application/javascript	175
+text/x-fortran	61
+text/x-c++src	2
+application/xml	60
+application/vnd.ms-excel	37
+image/tiff	144
+application/x-compress	284
+chemical/x-xyz	2
+application/x-octet-stream	1
+application/x-object	20
+text/x-assembly	23
+application/x-hdf	6113
+audio/mpeg	99
+application/vnd.ms-powerpoint	2
+application/x-turtle	11
+application/x-elc	3
+application/vnd.google-earth.kmz	91
+application/x-gtar	76
+application/octet-stream	9605
+application/rdf+xml	1779
+application/rtf	4
+application/vnd.google-earth.kml+xml	6
+text/plain	824
+application/xhtml+xml	13082
+application/x-tar	260
+application/x-netcdf	22
+text/html	43737
+application/x-matlab-data	26
+application/rss+xml	140
+text/x-php	5
+video/mpeg	1
+application/x-sh	2
+video/x-msvideo	10
+text/csv	286
+application/zip	21
+audio/x-aiff	6
+text/css	134
+application/msword	50
 ====================================================
 ===== Failed URL
 ====================================================
