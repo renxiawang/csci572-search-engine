@@ -1,14 +1,12 @@
 package org.apache.nutch.urlfilter.neardup;
 
 import com.google.common.base.Joiner;
+import com.google.common.base.Strings;
 import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileStatus;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.Text;
-import org.apache.hadoop.io.Writable;
 import org.apache.nutch.net.URLFilter;
 import org.apache.nutch.segment.SegmentReader;
 import org.apache.nutch.util.HadoopFSUtil;
@@ -16,12 +14,14 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.Set;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 /**
  * Created by renxia on 2/21/15.
@@ -37,9 +37,6 @@ public class NearDupURLFilter implements URLFilter {
     private static final String SEGMENTS = "segments";
     private static final String FILE_PROTOCOL = "file:";
     private static final String PARSE_DATA = "parse_data";
-    private static final String PARSE_DATA_KEY = "pd";
-
-    private static final Pattern p = Pattern.compile("Parse Metadata: (.*)");
 
     private static SimHashMap simHashMap = new SimHashMap(64, 3);
 
@@ -49,7 +46,6 @@ public class NearDupURLFilter implements URLFilter {
 
     private String basePath;
     private List<Path> segmentPaths;
-
 
 
     private boolean initialized = false;
@@ -114,6 +110,10 @@ public class NearDupURLFilter implements URLFilter {
 
             String metaData = null;
 
+            // multi threading to speed up the searching
+            ExecutorService pool = Executors.newFixedThreadPool(segmentPaths.size());
+            Set<Future<String>> set = new HashSet<Future<String>>();
+
             for (Path path : segmentPaths) {
                 // if not parse_text under current segment dir
                 // skip
@@ -121,28 +121,23 @@ public class NearDupURLFilter implements URLFilter {
                     continue;
                 }
 
-                Map<String, List<Writable>> results = Maps.newHashMap();
-                segmentReader.get(path, new Text(urlString),
-                        new OutputStreamWriter(System.out, "UTF-8"),
-                        results);
+                // concurrent run searching on all segments
+                Callable<String> callable = new ParsedMetaReaderCallable(segmentReader, path, urlString);
+                Future<String> future = pool.submit(callable);
+                set.add(future);
+            }
 
-                if (results.containsKey(PARSE_DATA_KEY)) {
-                    List<Writable> res = results.get(PARSE_DATA_KEY);
-                    boolean isParseDataEmpty = true;
-                    for (int i = 0; i < res.size(); i++) {
-                        isParseDataEmpty = false;
-                        metaData = getParseMeta(res.get(i).toString());
-                        // LOG.info("Retrieved meta data: " + metaData);
-                    }
-
-                    if (!isParseDataEmpty) {
-                        break;
-                    }
+            for (Future<String> future : set) {
+                String tmp = future.get();
+                if (tmp != null) {
+                    LOG.info("data retrieved, killing other searching...");
+                    metaData = tmp.trim();
+                    pool.shutdownNow(); // stop all other searching
                 }
             }
 
             // filter out the duplicate url
-            if (simHashMap.isDuplicate(metaData)) {
+            if (!Strings.isNullOrEmpty(metaData) && simHashMap.isDuplicate(metaData)) {
                 duplicateCounter++;
                 LOG.info("Near duplicate count: " + duplicateCounter);
                 return null;
@@ -155,24 +150,13 @@ public class NearDupURLFilter implements URLFilter {
         return urlString;
     }
 
-    private String getParseMeta(String parseData) {
-        Matcher m = p.matcher (parseData);
-        StringBuilder stringBuilder = new StringBuilder();
-
-        while (m.find()) {
-            stringBuilder.append(m.group());
-        }
-
-        return stringBuilder.toString();
+    @Override
+    public Configuration getConf() {
+        return conf;
     }
 
     @Override
     public void setConf(Configuration configuration) {
         this.conf = configuration;
-    }
-
-    @Override
-    public Configuration getConf() {
-        return conf;
     }
 }

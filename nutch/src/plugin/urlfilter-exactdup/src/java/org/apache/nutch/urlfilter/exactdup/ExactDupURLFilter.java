@@ -1,14 +1,12 @@
 package org.apache.nutch.urlfilter.exactdup;
 
 import com.google.common.base.Joiner;
+import com.google.common.base.Strings;
 import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileStatus;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.Text;
-import org.apache.hadoop.io.Writable;
 import org.apache.nutch.net.URLFilter;
 import org.apache.nutch.segment.SegmentReader;
 import org.apache.nutch.util.HadoopFSUtil;
@@ -16,10 +14,14 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
+import java.util.Set;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 /**
  * Created by renxia on 2/21/15.
@@ -35,7 +37,6 @@ public class ExactDupURLFilter implements URLFilter {
     private static final String SEGMENTS = "segments";
     private static final String FILE_PROTOCOL = "file:";
     private static final String PARSE_TEXT = "parse_text";
-    private static final String PARSE_TEXT_KEY = "pt";
 
     private Configuration conf;
     private FileSystem fs;
@@ -106,6 +107,10 @@ public class ExactDupURLFilter implements URLFilter {
 
             String parseText = null;
 
+            // multi threading to speed up the searching
+            ExecutorService pool = Executors.newFixedThreadPool(segmentPaths.size());
+            Set<Future<String>> set = new HashSet<Future<String>>();
+
             for (Path path : segmentPaths) {
 
                 // if not parse_text under current segment dir
@@ -114,27 +119,23 @@ public class ExactDupURLFilter implements URLFilter {
                     continue;
                 }
 
-                Map<String, List<Writable>> results = Maps.newHashMap();
-                segmentReader.get(path, new Text(urlString),
-                        new OutputStreamWriter(System.out, "UTF-8"),
-                        results);
+                // concurrent run searching on all segments
+                Callable<String> callable = new ParsedTextReaderCallable(segmentReader, path, urlString);
+                Future<String> future = pool.submit(callable);
+                set.add(future);
+            }
 
-                if (results.containsKey(PARSE_TEXT_KEY)) {
-                    List<Writable> res = results.get(PARSE_TEXT_KEY);
-                    boolean isParseDataEmpty = true;
-                    for (int i = 0; i < res.size(); i++) {
-                        isParseDataEmpty = false;
-                        parseText = res.get(i).toString();
-                    }
-
-                    if (!isParseDataEmpty) {
-                        break;
-                    }
+            for (Future<String> future : set) {
+                String tmp = future.get();
+                if (tmp != null) {
+                    LOG.info("data retrieved, killing other searching...");
+                    parseText = tmp.trim();
+                    pool.shutdownNow(); // stop all other searching
                 }
             }
 
             // filter out the duplicate url
-            if (SHA1.isDuplicate(parseText)) {
+            if (!Strings.isNullOrEmpty(parseText) && SHA1.isDuplicate(parseText)) {
                 duplicateCounter++;
                 LOG.info("Exact duplicate count: " + duplicateCounter);
                 return null;
@@ -148,12 +149,12 @@ public class ExactDupURLFilter implements URLFilter {
     }
 
     @Override
-    public void setConf(Configuration configuration) {
-        this.conf = configuration;
+    public Configuration getConf() {
+        return conf;
     }
 
     @Override
-    public Configuration getConf() {
-        return conf;
+    public void setConf(Configuration configuration) {
+        this.conf = configuration;
     }
 }

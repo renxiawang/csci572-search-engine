@@ -58,6 +58,7 @@ class SimHashMap {
     }
 
     public boolean isDuplicate(String s) {
+        LOG.info("simhash -------------------> " + s);
         LOG.info("size of simhash map: " + maps.size());
         SimHash newHash = new SimHash(s, 64);
         return isDuplicate(newHash);
@@ -75,6 +76,34 @@ public class SimHash {
         this.tokens = tokens;
         this.hashbits = hashbits;
         this.intSimHash = this.simHash();
+    }
+
+    public static void main(String[] args) {
+
+        //args simhash is 64 bits and use distance 3
+        SimHashMap simHashMap = new SimHashMap(64, 3);
+
+        String s = "This is a test string for testing";
+        SimHash hash1 = new SimHash(s, 64);
+        System.out.println(simHashMap.isDuplicate(hash1));
+        System.out.println(simHashMap.isDuplicate(s));
+
+        s = "This is a test string for testing, This is a test string for testing abcdef";
+        SimHash hash2 = new SimHash(s, 64);
+
+        System.out.println(simHashMap.isDuplicate(hash2));
+        System.out.println(simHashMap.isDuplicate(s));
+
+        s = "This is a test string for testing als";
+        SimHash hash3 = new SimHash(s, 64);
+        System.out.println(simHashMap.isDuplicate(hash3));
+        System.out.println(simHashMap.isDuplicate(s));
+
+        s = "taaawjljerlmflasjflsfjlkadjlfj  ffajlafjldf";
+        SimHash hash4 = new SimHash(s, 64);
+        System.out.println(simHashMap.isDuplicate(hash4));
+        System.out.println(simHashMap.isDuplicate(s));
+
     }
 
     public BigInteger simHash() {
@@ -180,34 +209,6 @@ public class SimHash {
             }
         }
         return characters;
-    }
-
-    public static void main(String[] args) {
-
-        //args simhash is 64 bits and use distance 3
-        SimHashMap simHashMap = new SimHashMap(64, 3);
-
-        String s = "This is a test string for testing";
-        SimHash hash1 = new SimHash(s, 64);
-        System.out.println(simHashMap.isDuplicate(hash1));
-        System.out.println(simHashMap.isDuplicate(s));
-
-        s = "This is a test string for testing, This is a test string for testing abcdef";
-        SimHash hash2 = new SimHash(s, 64);
-
-        System.out.println(simHashMap.isDuplicate(hash2));
-        System.out.println(simHashMap.isDuplicate(s));
-
-        s = "This is a test string for testing als";
-        SimHash hash3 = new SimHash(s, 64);
-        System.out.println(simHashMap.isDuplicate(hash3));
-        System.out.println(simHashMap.isDuplicate(s));
-
-        s = "taaawjljerlmflasjflsfjlkadjlfj  ffajlafjldf";
-        SimHash hash4 = new SimHash(s, 64);
-        System.out.println(simHashMap.isDuplicate(hash4));
-        System.out.println(simHashMap.isDuplicate(s));
-
     }
 
 }
