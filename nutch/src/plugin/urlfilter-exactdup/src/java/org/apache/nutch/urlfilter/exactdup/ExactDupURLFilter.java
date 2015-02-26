@@ -9,10 +9,6 @@ import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.Writable;
-import org.apache.nutch.crawl.CrawlDatum;
-import org.apache.nutch.crawl.CrawlDbReader;
-import org.apache.nutch.crawl.Inlinks;
-import org.apache.nutch.crawl.LinkDbReader;
 import org.apache.nutch.net.URLFilter;
 import org.apache.nutch.segment.SegmentReader;
 import org.apache.nutch.util.HadoopFSUtil;
@@ -22,7 +18,6 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -37,29 +32,23 @@ public class ExactDupURLFilter implements URLFilter {
     private static final String MAPRED_INPUT_DIR = "mapred.input.dir";
     private static final String CRAWLDB = "crawldb";
     private static final String CURRENT = "current";
-    private static final String LINKDB = "linkdb";
     private static final String SEGMENTS = "segments";
-    private static final String CRAWL_FETCH = "crawl_fetch";
-    private static final String CRAWL_PARSE = "crawl_parse";
-    private static final String PARSE_DATA = "parse_data";
-    private static final String PARSE_TEXT = "parse_text";
     private static final String FILE_PROTOCOL = "file:";
+    private static final String PARSE_TEXT = "parse_text";
+    private static final String PARSE_TEXT_KEY = "pt";
 
     private Configuration conf;
     private FileSystem fs;
-    private LinkDbReader linkdbReader;
-    private CrawlDbReader crawlDbReader;
     private SegmentReader segmentReader;
 
     private String basePath;
-    private Path crawlDbPath;
-    private Path linkDbPath;
     private List<Path> segmentPaths;
 
     private boolean initialized = false;
     private long duplicateCounter = 0;
 
-    public ExactDupURLFilter() {}
+    public ExactDupURLFilter() {
+    }
 
     public void init() {
         try {
@@ -67,14 +56,12 @@ public class ExactDupURLFilter implements URLFilter {
 
             segmentPaths = Lists.newArrayList();
 
-            // get crawldb, linkdb, parse_data, parse_text paths
+            // get segments paths
             String paths = conf.get(MAPRED_INPUT_DIR);
             generatePaths(paths);
 
-            // init readers
-            linkdbReader = new LinkDbReader(conf, linkDbPath);
-            crawlDbReader = new CrawlDbReader();
-            segmentReader = new SegmentReader(conf, false, false, false, false, true, true);
+            // init readers for parse_text
+            segmentReader = new SegmentReader(conf, false, false, false, false, false, true);
 
             initialized = true;
         } catch (Exception e) {
@@ -86,11 +73,8 @@ public class ExactDupURLFilter implements URLFilter {
     public void generatePaths(String paths) {
         String[] pathAry = paths.split(",");
 
-        basePath = pathAry[0].replace(FILE_PROTOCOL, "").replace(String.format("%s/%s", CRAWLDB, CURRENT), "");
-
-        crawlDbPath = new Path(basePath, CRAWLDB);
-        linkDbPath = new Path(basePath, LINKDB);
-
+        basePath = pathAry[0].replace(FILE_PROTOCOL, "")
+                .replace(String.format("%s/%s", CRAWLDB, CURRENT), "");
 
         try {
             FileStatus[] fstats = new FileStatus[0];
@@ -106,8 +90,6 @@ public class ExactDupURLFilter implements URLFilter {
             LOG.error("Unable to get segment paths", e);
         }
 
-        LOG.info("crawldb path: " + crawlDbPath);
-        LOG.info("linkdb path: " + linkDbPath);
         LOG.info("segment paths " + Joiner.on(",").join(segmentPaths));
     }
 
@@ -119,49 +101,43 @@ public class ExactDupURLFilter implements URLFilter {
             init();
         }
 
-        /*try {
-            LOG.info("Reading anchors for url: " + urlString);
-            Text url = new Text(urlString);
-            String[] anchors = linkdbReader.getAnchors(url);
-            for (String s : anchors) {
-                LOG.info("anchors: " + s);
-            }
-
-            LOG.info("Reading inlinks for url: " + urlString);
-            Inlinks inLinks = linkdbReader.getInlinks(url);
-            LOG.info("Inlinks: " + inLinks.toString());
-        } catch (IOException e) {
-            LOG.error("Unable to get data of " + urlString + " from linkdb", e);
-        }
-
-        try {
-            LOG.info("Reading crawldb data for url: " + urlString);
-            CrawlDatum data = crawlDbReader.get(crawlDbPath.toString(), urlString, conf);
-            LOG.info("Crawl data: " + data.toString());
-        } catch (IOException e) {
-            LOG.error("Unable to get data of " + urlString + " from crawldb", e);
-        }*/
-
         try {
             LOG.info("Reading parse data and text for url: " + urlString);
+
+            String parseText = null;
+
             for (Path path : segmentPaths) {
+
+                // if not parse_text under current segment dir
+                // skip
+                if (!fs.exists(new Path(path, PARSE_TEXT))) {
+                    continue;
+                }
+
                 Map<String, List<Writable>> results = Maps.newHashMap();
                 segmentReader.get(path, new Text(urlString),
                         new OutputStreamWriter(System.out, "UTF-8"),
                         results);
 
-                if (results.containsKey("pd")) {
-                    List<Writable> res = results.get("pd");
+                if (results.containsKey(PARSE_TEXT_KEY)) {
+                    List<Writable> res = results.get(PARSE_TEXT_KEY);
                     boolean isParseDataEmpty = true;
                     for (int i = 0; i < res.size(); i++) {
                         isParseDataEmpty = false;
-                        LOG.info("===================================" + res.get(i));
+                        parseText = res.get(i).toString();
                     }
 
                     if (!isParseDataEmpty) {
                         break;
                     }
                 }
+            }
+
+            // filter out the duplicate url
+            if (SHA1.isDuplicate(parseText)) {
+                duplicateCounter++;
+                LOG.info("Exact duplicate count: " + duplicateCounter);
+                return null;
             }
 
         } catch (Exception e) {
