@@ -107,22 +107,22 @@ public class SimHash {
     }
 
     public BigInteger simHash() {
-        // 定义特征向量/数组
+        // Defining feature vector/array
         int[] v = new int[this.hashbits];
-        // 1、将文本去掉格式后, 分词.
+        // 1、removing the text format, word segmentation
         StringTokenizer stringTokens = new StringTokenizer(this.tokens);
         while (stringTokens.hasMoreTokens()) {
             String temp = stringTokens.nextToken();
-            // 2、将每一个分词hash为一组固定长度的数列.比如 64bit 的一个整数.
+            // 2、Each word segmentation hash as a set of fixed length sequence. For example, a 64 - bit integer.
             BigInteger t = this.hash(temp);
             for (int i = 0; i < this.hashbits; i++) {
                 BigInteger bitmask = new BigInteger("1").shiftLeft(i);
-                // 3、建立一个长度为64的整数数组(假设要生成64位的数字指纹,也可以是其它数字),
-                // 对每一个分词hash后的数列进行判断,如果是1000...1,那么数组的第一位和末尾一位加1,
-                // 中间的62位减一,也就是说,逢1加1,逢0减1.一直到把所有的分词hash数列全部判断完毕.
+                // 3, to establish a length of 64 integer array (assuming to generate a 64 - bit digital fingerprint, may also be other Numbers).
+				// for each word after the hash sequence to judge, if it is 1000... 1, the array at the end of the first and a + 1,
+				// in the middle of the 62 minus one, that is to say, every 1 plus 1, 0 as the minus 1. Until all the participle hash sequence judgement completely.
                 if (t.and(bitmask).signum() != 0) {
-                    // 这里是计算整个文档的所有特征的向量和
-                    // 这里实际使用中需要 +- 权重，而不是简单的 +1/-1，
+                    // here is to calculate all the feature vector and the entire document
+					//need + - weights in the actual use, rather than simply + 1 / - 1,
                     v[i] += 1;
                 } else {
                     v[i] -= 1;
@@ -132,7 +132,7 @@ public class SimHash {
         BigInteger fingerprint = new BigInteger("0");
         StringBuffer simHashBuffer = new StringBuffer();
         for (int i = 0; i < this.hashbits; i++) {
-            // 4、最后对数组进行判断,大于0的记为1,小于等于0的记为0,得到一个 64bit 的数字指纹/签名.
+            // 4、Finally to judge array, greater than 0 to 1, less than or equal to 0 to 0, remember to get a 64 - bit digital fingerprint/signature.
             if (v[i] >= 0) {
                 fingerprint = fingerprint.add(new BigInteger("1").shiftLeft(i));
                 simHashBuffer.append("1");
@@ -171,9 +171,9 @@ public class SimHash {
         BigInteger x = this.intSimHash.xor(other.intSimHash);
         int tot = 0;
 
-        // 统计x中二进制位数为1的个数
-        // 我们想想，一个二进制数减去1，那么，从最后那个1（包括那个1）后面的数字全都反了，对吧，然后，n&(n-1)就相当于把后面的数字清0，
-        // 我们看n能做多少次这样的操作就OK了。
+        // statistics the number of binary digits 1 x
+		// we think about it, a binary number minus 1, so, from that last 1 (including the 1) all the Numbers behind the counter, right, then, n & behind (n - 1) is equivalent to the Numbers 0,
+		// we see n how many times can do such operations with respect to OK.
 
         while (x.signum() != 0) {
             tot += 1;
@@ -183,7 +183,7 @@ public class SimHash {
     }
 
     public List subByDistance(SimHash simHash, int distance) {
-        // 分成几组来检查
+        // devide into several groups to check
         int numEach = this.hashbits / (distance + 1);
         List characters = new ArrayList();
 
@@ -191,7 +191,7 @@ public class SimHash {
 
         int k = 0;
         for (int i = 0; i < this.intSimHash.bitLength(); i++) {
-            // 当且仅当设置了指定的位时，返回 true
+            // If and only if set the specified, returns true
             boolean sr = simHash.intSimHash.testBit(i);
 
             if (sr) {
@@ -201,7 +201,7 @@ public class SimHash {
             }
 
             if ((i + 1) % numEach == 0) {
-                // 将二进制转为BigInteger
+                // turn binary to BigInteger 
                 BigInteger eachValue = new BigInteger(buffer.toString(), 2);
                 //System.out.println("----" + eachValue);
                 buffer.delete(0, buffer.length());

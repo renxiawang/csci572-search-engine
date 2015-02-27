@@ -20,13 +20,13 @@ public class SHA1 {
                 'A', 'B', 'C', 'D', 'E', 'F'};
         try {
             byte[] btInput = s.getBytes();
-            // 获得SHA-1摘要算法的 MessageDigest 对象
+            // SHA - 1 MessageDigest object of the algorithm
             MessageDigest mdInst = MessageDigest.getInstance("SHA-1");
-            // 使用指定的字节更新摘要
+            // Use the specified byte update summary
             mdInst.update(btInput);
-            // 获得密文
+            // Obtain ciphertext
             byte[] md = mdInst.digest();
-            // 把密文转换成十六进制的字符串形式
+            // The cipher text converted to hexadecimal string
             int j = md.length;
             char str[] = new char[j * 2];
             int k = 0;
