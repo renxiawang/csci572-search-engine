@@ -1,0 +1,18 @@
+2015-02-23 00:35:20,357 INFO  crawl.CrawlDbReader - CrawlDb statistics start: nasa-20/crawldb
+2015-02-23 00:35:21,300 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-02-23 00:35:21,304 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2015-02-23 00:35:39,180 INFO  crawl.CrawlDbReader - Statistics for CrawlDb: nasa-20/crawldb
+2015-02-23 00:35:39,180 INFO  crawl.CrawlDbReader - TOTAL urls:	550306
+2015-02-23 00:35:39,180 INFO  crawl.CrawlDbReader - retry 0:	547740
+2015-02-23 00:35:39,180 INFO  crawl.CrawlDbReader - retry 1:	1316
+2015-02-23 00:35:39,180 INFO  crawl.CrawlDbReader - retry 2:	1250
+2015-02-23 00:35:39,180 INFO  crawl.CrawlDbReader - min score:	0.0
+2015-02-23 00:35:39,180 INFO  crawl.CrawlDbReader - avg score:	2.4132029E-5
+2015-02-23 00:35:39,180 INFO  crawl.CrawlDbReader - max score:	1.014
+2015-02-23 00:35:39,180 INFO  crawl.CrawlDbReader - status 1 (db_unfetched):	473883
+2015-02-23 00:35:39,181 INFO  crawl.CrawlDbReader - status 2 (db_fetched):	60976
+2015-02-23 00:35:39,181 INFO  crawl.CrawlDbReader - status 3 (db_gone):	4153
+2015-02-23 00:35:39,181 INFO  crawl.CrawlDbReader - status 4 (db_redir_temp):	984
+2015-02-23 00:35:39,181 INFO  crawl.CrawlDbReader - status 5 (db_redir_perm):	596
+2015-02-23 00:35:39,181 INFO  crawl.CrawlDbReader - status 7 (db_duplicate):	9714
+2015-02-23 00:35:39,181 INFO  crawl.CrawlDbReader - CrawlDb statistics: done

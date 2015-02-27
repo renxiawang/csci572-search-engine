@@ -1,0 +1,21 @@
+2015-02-23 00:23:06,374 INFO  crawl.CrawlDbReader - CrawlDb statistics start: ade-20/crawldb
+2015-02-23 00:23:07,583 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-02-23 00:23:07,586 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2015-02-23 00:23:13,548 INFO  crawl.CrawlDbReader - Statistics for CrawlDb: ade-20/crawldb
+2015-02-23 00:23:13,548 INFO  crawl.CrawlDbReader - TOTAL urls:	723618
+2015-02-23 00:23:13,548 INFO  crawl.CrawlDbReader - retry 0:	723321
+2015-02-23 00:23:13,548 INFO  crawl.CrawlDbReader - retry 1:	297
+2015-02-23 00:23:13,548 INFO  crawl.CrawlDbReader - min score:	0.0
+2015-02-23 00:23:13,548 INFO  crawl.CrawlDbReader - avg score:	8.369057E-6
+2015-02-23 00:23:13,548 INFO  crawl.CrawlDbReader - max score:	1.016
+2015-02-23 00:23:13,548 INFO  crawl.CrawlDbReader - status 1 (db_unfetched):	668512
+2015-02-23 00:23:13,549 INFO  crawl.CrawlDbReader - status 2 (db_fetched):	45796
+2015-02-23 00:23:13,549 INFO  crawl.CrawlDbReader - status 3 (db_gone):	4173
+2015-02-23 00:23:13,549 INFO  crawl.CrawlDbReader - status 4 (db_redir_temp):	822
+2015-02-23 00:23:13,549 INFO  crawl.CrawlDbReader - status 5 (db_redir_perm):	4055
+2015-02-23 00:23:13,549 INFO  crawl.CrawlDbReader - status 7 (db_duplicate):	260
+2015-02-23 00:23:13,549 INFO  crawl.CrawlDbReader - CrawlDb statistics: done
+2015-02-23 21:53:19,258 INFO  crawl.LinkDbReader - LinkDb dump: starting at 2015-02-23 21:53:19
+2015-02-23 21:53:19,266 INFO  crawl.LinkDbReader - LinkDb dump: db: ade-20/linkdb
+2015-02-23 21:53:20,334 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-02-23 21:53:22,709 INFO  crawl.LinkDbReader - LinkDb dump: finished at 2015-02-23 21:53:22, elapsed: 00:00:03

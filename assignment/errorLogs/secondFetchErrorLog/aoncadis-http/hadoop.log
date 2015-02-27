@@ -1,0 +1,16 @@
+2015-02-24 19:47:01,340 INFO  segment.SegmentReader - SegmentReader: dump segment: nasa-20/segments/20150221231503
+2015-02-24 19:47:01,500 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-02-24 19:47:01,502 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2015-02-24 19:47:01,569 ERROR security.UserGroupInformation - PriviledgedActionException as:renxia cause:org.apache.hadoop.mapred.InvalidInputException: Input path does not exist: file:/home/renxia/nutch/runtime/aoncadis/nasa-20/segments/20150221231503/parse_data
+2015-02-24 19:48:19,199 INFO  segment.SegmentReader - SegmentReader: dump segment: aoncadis-2nd-http/segments/20150222001442
+2015-02-24 19:48:19,233 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-02-24 19:48:19,236 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2015-02-24 19:48:20,676 INFO  segment.SegmentReader - SegmentReader: done
+2015-02-24 19:49:25,314 INFO  segment.SegmentReader - SegmentReader: dump segment: aoncadis-2nd-http/segments/20150222174939
+2015-02-24 19:49:25,364 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-02-24 19:49:25,368 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2015-02-24 19:49:29,939 INFO  segment.SegmentReader - SegmentReader: done
+2015-02-24 20:28:07,227 INFO  segment.SegmentReader - SegmentReader: dump segment: aoncadis-2nd-http/segments/20150222033701
+2015-02-24 20:28:07,265 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-02-24 20:28:07,268 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2015-02-24 20:28:12,922 INFO  segment.SegmentReader - SegmentReader: done
