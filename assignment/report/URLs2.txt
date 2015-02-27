@@ -1,4 +1,5 @@
-//The failed urls from the second fatch
+//The failed urls from the second crawl
+
 //Read time out
 2015-02-20 00:28:03,454 INFO  fetcher.Fetcher - fetch of ftp://sidads.colorado.edu/pub/DATASETS/nsidc0118_DISP_GreenlandMosaic/DISP63/DISP63_grlnd.raw failed with: org.apache.nutch.protocol.ftp.FtpException: java.net.SocketTimeoutException: Read timed out
 2015-02-20 00:35:22,402 INFO  fetcher.Fetcher - fetch of ftp://sidads.colorado.edu/pub/DATASETS/NOAA/G01938/G01938.zip failed with: org.apache.nutch.protocol.ftp.FtpException: java.net.SocketTimeoutException: Read timed out
