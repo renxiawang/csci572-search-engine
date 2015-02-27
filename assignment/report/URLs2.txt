@@ -1,0 +1,146 @@
+//The failed urls from the second fatch
+//Read time out
+2015-02-20 00:28:03,454 INFO  fetcher.Fetcher - fetch of ftp://sidads.colorado.edu/pub/DATASETS/nsidc0118_DISP_GreenlandMosaic/DISP63/DISP63_grlnd.raw failed with: org.apache.nutch.protocol.ftp.FtpException: java.net.SocketTimeoutException: Read timed out
+2015-02-20 00:35:22,402 INFO  fetcher.Fetcher - fetch of ftp://sidads.colorado.edu/pub/DATASETS/NOAA/G01938/G01938.zip failed with: org.apache.nutch.protocol.ftp.FtpException: java.net.SocketTimeoutException: Read timed out
+2015-02-20 00:41:15,208 INFO  fetcher.Fetcher - fetch of ftp://sidads.colorado.edu/pub/DATASETS/nsidc0153_clpx_air_airsar/cm6454/cm6454_p.dat failed with: org.apache.nutch.protocol.ftp.FtpException: java.net.SocketTimeoutException: Read timed out
+2015-02-20 00:52:00,707 INFO  fetcher.Fetcher - fetch of ftp://sidads.colorado.edu/pub/DATASETS/nsidc0153_clpx_air_airsar/cm6604/cm6604_l.dat failed with: org.apache.nutch.protocol.ftp.FtpException: java.net.SocketTimeoutException: Read timed out
+
+//Can't retrieve Tika parser for mime-type application/octet-stream
+2015-02-20 01:07:29,712 INFO  fetcher.Fetcher - fetch of ftp://sidads.colorado.edu/pub/DATASETS/nsidc0153_clpx_air_airsar/cm6602/cm6602_c.dat failed with: org.apache.nutch.protocol.ftp.FtpException: java.net.SocketTimeoutException: Read timed out
+2015-02-20 01:15:12,048 WARN  parse.ParseSegment - Error parsing: ftp://sidads.colorado.edu/pub/DATASETS/ICESHELVES/scoti/scoti_2006024_1245_modis_ch02.tfw: failed(2,0): Can't retrieve Tika parser for mime-type application/octet-stream
+2015-02-20 01:15:21,806 WARN  parse.ParseSegment - Error parsing: ftp://sidads.colorado.edu/pub/DATASETS/ICESHELVES/scoti/scoti_2006056_1245_modis_a22a.tfw: failed(2,0): Can't retrieve Tika parser for mime-type application/octet-stream
+2015-02-20 01:15:24,181 WARN  parse.ParseSegment - Error parsing: ftp://sidads.colorado.edu/pub/DATASETS/ICESHELVES/scoti/scoti_2006072_1245_modis_a22a.tfw: failed(2,0): Can't retrieve Tika parser for mime-type application/octet-stream
+2015-02-20 01:15:25,810 WARN  parse.ParseSegment - Error parsing: ftp://sidads.colorado.edu/pub/DATASETS/IPAB_BUOYS/1996/aad19_all.a_96: failed(2,0): Can't retrieve Tika parser for mime-type application/octet-stream
+2015-02-20 01:15:25,811 WARN  parse.ParseSegment - Error parsing: ftp://sidads.colorado.edu/pub/DATASETS/IPAB_BUOYS/1996/aad32_all.a_96: failed(2,0): Can't retrieve Tika parser for mime-type application/octet-stream
+
+//Can't retrieve Tika parser for mime-type text/x-log
+2015-02-20 01:19:06,181 WARN  parse.ParseSegment - Error parsing: ftp://sidads.colorado.edu/pub/DATASETS/fgdc/ggd223_boreholes_alaska/ati0884a.log: failed(2,0): Can't retrieve Tika parser for mime-type text/x-log
+2015-02-20 01:19:06,182 WARN  parse.ParseSegment - Error parsing: ftp://sidads.colorado.edu/pub/DATASETS/fgdc/ggd223_boreholes_alaska/ati0884b.log: failed(2,0): Can't retrieve Tika parser for mime-type text/x-log
+2015-02-20 01:19:06,183 WARN  parse.ParseSegment - Error parsing: ftp://sidads.colorado.edu/pub/DATASETS/fgdc/ggd223_boreholes_alaska/awun0881.log: failed(2,0): Can't retrieve Tika parser for mime-type text/x-log
+2015-02-20 01:19:06,183 WARN  parse.ParseSegment - Error parsing: ftp://sidads.colorado.edu/pub/DATASETS/fgdc/ggd223_boreholes_alaska/awun0883.log: failed(2,0): Can't retrieve Tika parser for mime-type text/x-log
+2015-02-20 01:19:06,184 WARN  parse.ParseSegment - Error parsing: ftp://sidads.colorado.edu/pub/DATASETS/fgdc/ggd223_boreholes_alaska/ccb0719.log: failed(2,0): Can't retrieve Tika parser for mime-type text/x-log
+2015-02-20 01:19:06,185 WARN  parse.ParseSegment - Error parsing: ftp://sidads.colorado.edu/pub/DATASETS/fgdc/ggd223_boreholes_alaska/clow.dat: failed(2,0): Can't retrieve Tika parser for mime-type application/octet-stream
+
+//Invalid header signature; read 0x2020202020202020, expected 0xE11AB1A1E011CFD0 - Your file appears not to be a valid OLE2 document
+2015-02-20 01:19:06,334 WARN  parse.ParseSegment - Error parsing: ftp://sidads.colorado.edu/pub/DATASETS/nsidc0020_cearex_v01/METEOR/METEOR.DOC: failed(2,0): Invalid header signature; read 0x2020202020202020, expected 0xE11AB1A1E011CFD0 - Your file appears not to be a valid OLE2 document
+
+// Can't retrieve Tika parser for mime-type text/x-assembly
+2015-02-20 01:19:41,496 WARN  parse.ParseSegment - Error parsing: ftp://sidads.colorado.edu/pub/DATASETS/nsidc0192_seaice_trends_climo/ice-persistence/persistence.feb.1979-2013.s: failed(2,0): Can't retrieve Tika parser for mime-type text/x-assembly
+
+//failed with: Http code=403
+2015-02-20 02:23:04,848 INFO  fetcher.Fetcher - fetch of http://nsidc.org/data/nsidc-0321.html failed with: Http code=403, url=http://nsidc.org/data/nsidc-0321.html
+2015-02-20 02:23:08,263 INFO  fetcher.Fetcher - fetch of http://nsidc.org/data/docs/arcss/images/arcss303/thumbnail_bp_qmquad.jpg failed with: Http code=403, url=http://nsidc.org/data/docs/arcss/images/arcss303/thumbnail_bp_qmquad.jpg
+
+//org.apache.nutch.protocol.ftp.FtpException: java.lang.IndexOutOfBoundsException
+2015-02-20 06:05:41,235 INFO  fetcher.Fetcher - fetch of ftp://sidads.colorado.edu/pub/DATASETS/nsidc0530_MEASURES_nhsnow_daily25.tar failed with: org.apache.nutch.protocol.ftp.FtpException: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+
+//org.apache.nutch.protocol.ftp.FtpException: java.net.SocketTimeoutException: Read timed out
+2015-02-20 23:53:14,534 INFO  fetcher.Fetcher - fetch of ftp://sidads.colorado.edu/pub/DATASETS/nsidc0036_pathfinder_smmr_tbs_v01/1980/smmrtb1980.021_Pfndr_daily.hdf.tar failed with: org.apache.nutch.protocol.ftp.FtpException: java.net.SocketTimeoutException: Read timed out
+2015-02-20 23:59:15,039 INFO  fetcher.Fetcher - fetch of ftp://sidads.colorado.edu/pub/DATASETS/nsidc0036_pathfinder_smmr_tbs_v01/1980/smmrtb1980.011_Pfndr_daily.hdf.tar failed with: org.apache.nutch.protocol.ftp.FtpException: java.net.SocketTimeoutException: Read timed out
+
+//ERROR httpclient.Http - Failed to get protocol output
+2015-02-20 19:33:32,891 ERROR httpclient.Http - Failed to get protocol output
+
+//java.lang.IllegalArgumentException: Invalid uri 'https://www.sciencebase.gov/catalog/\/catalog\/items\/spatialQueryPreview': escaped absolute path not valid
+2015-02-20 19:33:46,199 INFO  fetcher.Fetcher - fetch of https://www.sciencebase.gov/catalog/\/catalog\/items\/spatialQueryPreview failed with: java.lang.IllegalArgumentException: Invalid uri 'https://www.sciencebase.gov/catalog/\/catalog\/items\/spatialQueryPreview': escaped absolute path not valid
+
+//Can't retrieve Tika parser for mime-type application/javascript
+2015-02-20 19:35:38,749 WARN  parse.ParseSegment - Error parsing: http://www.bco-dmo.org/sites/default/files/googleanalytics/ga.js?nk3gef: failed(2,0): Can't retrieve Tika parser for mime-type application/javascript
+2015-02-20 19:35:38,751 WARN  parse.ParseSegment - Error parsing: http://www.bco-dmo.org/sites/default/files/js/js_aWiQ9fvPkOXyPwxBu2QprjK_mqzskAq4obsa04reQJE.js: failed(2,0): Can't retrieve Tika parser for mime-type application/javascript
+2015-02-20 19:35:38,757 WARN  parse.ParseSegment - Error parsing: http://www.bco-dmo.org/sites/default/files/js/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js: failed(2,0): Can't retrieve Tika parser for mime-type application/javascript
+2015-02-20 19:35:38,759 WARN  parse.ParseSegment - Error parsing: http://www.bco-dmo.org/sites/default/files/js/js_xYlaheDokOA7lDxI1jybdTjnuc7BTOWjdsyZnEYCPjc.js: failed(2,0): Can't retrieve Tika parser for mime-type application/javascript
+2015-02-20 19:35:39,895 WARN  parse.ParseSegment - Error parsing: https://www.sciencebase.gov/catalog/static/KbBqUID8hzrXLOSRposkmYcYI1V0gOcjY1ooyquqmbM.js: failed(2,0): Can't retrieve Tika parser for mime-type application/javascript
+
+//org.apache.nutch.parse.ParseException: Unable to successfully parse content
+2015-02-22 23:30:47,633 WARN  parse.ParseSegment - Error parsing: ftp://ftp.etl.noaa.gov/psd3/arctic/summit/capabl/raw/CAPABL20100617.zip: failed(2,200):
+2015-02-22 23:32:09,180 WARN  parse.ParseSegment - Error parsing: ftp://ftp.etl.noaa.gov/psd3/arctic/summit/mwr/quicklooks/smtmwr.20100716.tbndtsys.png: failed(2,200): org.apache.nutch.parse.ParseException: Unable to successfully parse content
+2015-02-22 02:55:46,383 WARN  parse.ParseSegment - Error parsing: ftp://ftp.etl.noaa.gov/psd3/arctic/summit/mwr/quicklooks/smtmwr.20100713.tbndtsys.png: failed(2,200): org.apache.nutch.parse.ParseException: Unable to successfully parse content
+2015-02-22 02:56:20,154 WARN  parse.ParseSegment - Error parsing: ftp://ftp.etl.noaa.gov/psd3/arctic/summit/mwr/quicklooks/smtmwr.20100721.tbndtsys.png: failed(2,200): org.apache.nutch.parse.ParseException: Unable to successfully parse content
+2015-02-22 02:56:55,000 WARN  parse.ParseSegment - Error parsing: ftp://ftp.etl.noaa.gov/psd3/arctic/summit/mwr/quicklooks/smtmwr.20100817.tbndtsys.png: failed(2,200): org.apache.nutch.parse.ParseException: Unable to successfully parse content
+
+//org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+2015-02-22 02:58:46,447 INFO  fetcher.Fetcher - fetch of ftp://ftp.etl.noaa.gov/psd3/arctic/summit/mwr/quicklooks/smtmwr.20100809.tbndtsys.png failed with: org.apache.nutch.protocol.ftp.FtpException: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+
+//java.net.SocketTimeoutException: Read timed out
+2015-02-22 02:37:44,084 INFO  fetcher.Fetcher - fetch of ftp://ftp.etl.noaa.gov/psd3/arctic/summit/capabl/processed/smtcapablX1.b1.20100604.024030.cdf failed with: org.apache.nutch.protocol.ftp.FtpException: java.net.SocketTimeoutException: Read timed out
+2015-02-22 02:41:12,070 INFO  fetcher.Fetcher - fetch of ftp://ftp.etl.noaa.gov/psd3/arctic/summit/mpl/processed/smtmplpolX1.a1.20100722.000000.cdf failed with: org.apache.nutch.protocol.ftp.FtpException: java.net.SocketTimeoutException: Read timed out
+2015-02-22 02:33:12,568 INFO  fetcher.Fetcher - fetch of ftp://ftp.etl.noaa.gov/psd3/arctic/summit/capabl/processed/smtcapablX1.b1.20100825.000001.cdf failed with: org.apache.nutch.protocol.ftp.FtpException: java.net.SocketTimeoutException: Read timed out
+
+//FTP response 421 received.  Server closed connection.
+2015-02-22 01:53:02,298 INFO  fetcher.Fetcher - fetch of ftp://ftp.etl.noaa.gov/psd3/arctic/summit/capabl/processed/smtcapablX1.b1.20100715.000001.cdf failed with: org.apache.nutch.protocol.ftp.FtpException: org.apache.commons.net.ftp.FTPConnectionClosedException: FTP response 421 received.  Server closed connection.
+2015-02-22 01:53:02,540 INFO  fetcher.Fetcher - fetch of ftp://ladsweb.nascom.nasa.gov/allData/3002/NPP_DGAHPD_L2GD/NOTICE failed with: org.apache.nutch.protocol.ftp.FtpException: java.lang.NullPointerException
+2015-02-22 01:53:09,571 INFO  fetcher.Fetcher - fetch of ftp://ftp.etl.noaa.gov/psd3/arctic/summit/ceilometer/raw/10060703.DAT failed with: org.apache.nutch.protocol.ftp.FtpException: org.apache.commons.net.ftp.FTPConnectionClosedException: FTP response 421 received.  Server closed connection.
+2015-02-22 01:53:09,609 INFO  fetcher.Fetcher - fetch of ftp://ladsweb.nascom.nasa.gov/allData/3002/NCEP_PRWIP_L2/2015/ failed with: org.apache.nutch.protocol.ftp.FtpException: java.lang.NullPointerException
+2015-02-22 01:53:14,785 INFO  fetcher.Fetcher - fetch of ftp://ftp.etl.noaa.gov/psd3/arctic/summit/tsi/raw/tsi20110707.tar.gz failed with: org.apache.nutch.protocol.ftp.FtpException: org.apache.commons.net.ftp.FTPConnectionClosedException: FTP response 421 received.  Server closed connection.
+2015-02-22 01:53:15,809 INFO  fetcher.Fetcher - fetch of ftp://ladsweb.nascom.nasa.gov/allData/3002/NPP_D16BRDF2_L3D/2015/ failed with: org.apache.nutch.protocol.ftp.FtpException: java.lang.NullPointerException
+2015-02-22 01:53:20,167 INFO  fetcher.Fetcher - fetch of ftp://ftp.etl.noaa.gov/psd3/arctic/summit/icecam/201305/2013-05-01_10.25.39.jpg failed with: org.apache.nutch.protocol.ftp.FtpException: org.apache.commons.net.ftp.FTPConnectionClosedException: FTP response 421 received.  Server closed connection.
+2015-02-22 01:53:29,439 INFO  fetcher.Fetcher - fetch of ftp://ladsweb.nascom.nasa.gov/allData/3002/NPP_D16BRDF3_L3D/2015/ failed with: org.apache.nutch.protocol.ftp.FtpException: java.io.IOException: Stream closed
+2015-02-22 01:53:29,792 INFO  fetcher.Fetcher - fetch of ftp://ftp.etl.noaa.gov/psd3/arctic/summit/icecam/201302/2013-02-01_14.50.35.jpg failed with: org.apache.nutch.protocol.ftp.FtpException: org.apache.commons.net.ftp.FTPConnectionClosedException: FTP response 421 received.  Server closed connection.
+2015-02-22 01:53:38,690 INFO  fetcher.Fetcher - fetch of ftp://ladsweb.nascom.nasa.gov/allData/3002/NPP_D16BRDF4_L3D/2015/ failed with: org.apache.nutch.protocol.ftp.FtpException: java.io.IOException: Stream closed
+2015-02-22 01:53:39,852 INFO  fetcher.Fetcher - fetch of ftp://ftp.etl.noaa.gov/psd3/arctic/summit/icecam/201210/2012-10-01_20.45.23.jpg failed with: org.apache.nutch.protocol.ftp.FtpException: org.apache.commons.net.ftp.FTPConnectionClosedException: FTP response 421 received.  Server closed connection.
+2015-02-22 01:53:45,016 INFO  fetcher.Fetcher - fetch of ftp://ftp.etl.noaa.gov/psd3/arctic/summit/icecam/201112/2011-12-05_12.00.00.jpg failed with: org.apache.nutch.protocol.ftp.FtpException: org.apache.commons.net.ftp.FTPConnectionClosedException: FTP response 421 received.  Server closed connection.
+
+//Connection closed without indication.
+2015-02-22 01:50:53,469 INFO  fetcher.Fetcher - fetch of ftp://ladsweb.nascom.nasa.gov/allData/3002/NCEP_PRWIP_L2/NOTICE failed with: org.apache.nutch.protocol.ftp.FtpException: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+2015-02-22 01:50:53,469 INFO  fetcher.Fetcher - fetch of ftp://ftp.etl.noaa.gov/psd3/arctic/summit/icecam/201305/2013-05-01_03.55.38.jpg failed with: org.apache.nutch.protocol.ftp.FtpException: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+2015-02-22 01:51:00,774 WARN  ftp.Ftp - createFileEntryParser() failed. ladsweb.nascom.nasa.gov/198.118.194.40 org.apache.commons.net.ftp.parser.ParserInitializationException: Unknown parser type: Entering Passive Mode (198,118,194,40,227,140)
+2015-02-22 01:51:01,073 INFO  fetcher.Fetcher - fetch of ftp://ladsweb.nascom.nasa.gov/allData/3002/NPP_DSI1KPD_L3D/2015/ failed with: org.apache.nutch.protocol.ftp.FtpException: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+2015-02-22 01:50:14,133 INFO  fetcher.Fetcher - fetch of ftp://ftp.etl.noaa.gov/psd3/arctic/summit/icecam/201308/2013-08-01_14.16.18.jpg failed with: org.apache.nutch.protocol.ftp.FtpException: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+2015-02-22 01:50:14,133 INFO  fetcher.Fetcher - fetch of ftp://ladsweb.nascom.nasa.gov/allData/3002/NPP_D16BRDF4_L3D/NOTICE failed with: org.apache.nutch.protocol.ftp.FtpException: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+2015-02-22 01:50:25,099 WARN  ftp.Ftp - createFileEntryParser() failed. ftp.etl.noaa.gov/140.172.38.114 org.apache.commons.net.ftp.parser.ParserInitializationException: Unknown parser type: "/allData/3002/NPP_D16BRDF2_L3D/2013" is new cwd.
+2015-02-22 01:50:25,407 INFO  fetcher.Fetcher - fetch of ftp://ftp.etl.noaa.gov/psd3/arctic/summit/tsi/raw/tsi20110714.tar.gz failed with: org.apache.nutch.protocol.ftp.FtpException: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+2015-02-22 01:50:25,407 INFO  fetcher.Fetcher - fetch of ftp://ladsweb.nascom.nasa.gov/allData/3002/NPP_D16BRDF2_L3D/2013/ failed with: org.apache.nutch.protocol.ftp.FtpException: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+2015-02-22 01:50:36,594 WARN  ftp.Ftp - createFileEntryParser() failed. ladsweb.nascom.nasa.gov/198.118.194.40 org.apache.commons.net.ftp.parser.ParserInitializationException: Unknown parser type: Entering Passive Mode (198,118,194,40,217,163)
+2015-02-22 01:50:36,693 INFO  fetcher.Fetcher - fetch of ftp://ladsweb.nascom.nasa.gov/allData/3002/NPP_D16BRDF3_L3D/2013/ failed with: org.apache.nutch.protocol.ftp.FtpException: org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+
+//Unknown parser type: Entering Passive Mode 
+2015-02-22 01:00:20,403 WARN  ftp.Ftp - createFileEntryParser() failed. ladsweb.nascom.nasa.gov/198.118.194.40 org.apache.commons.net.ftp.parser.ParserInitializationException: Unknown parser type: Entering Passive Mode (198,118,194,40,249,65)
+
+//Unknown parser type: Entering Passive Mode (198,118,194,40,215,243)
+2015-02-22 00:55:24,410 WARN  ftp.Ftp - createFileEntryParser() failed. ladsweb.nascom.nasa.gov/198.118.194.40 org.apache.commons.net.ftp.parser.ParserInitializationException: Unknown parser type: Entering Passive Mode (198,118,194,40,215,243)
+
+//Bad response of SYST: 550 No such directory.
+2015-02-22 00:55:15,586 WARN  ftp.Ftp - ftp.client.getSystemName() failed: ladsweb.nascom.nasa.gov/198.118.194.40 org.apache.nutch.protocol.ftp.FtpExceptionBadSystResponse: Bad response of SYST: 550 No such directory.
+2015-02-22 00:22:03,274 WARN  ftp.Ftp - ftp.client.getSystemName() failed: ladsweb.nascom.nasa.gov/198.118.194.40 org.apache.nutch.protocol.ftp.FtpExceptionBadSystResponse: Bad response of SYST: 550 No such directory.
+
+//550 Failed to change directory.
+2015-02-22 00:54:47,412 WARN  ftp.Ftp - Unrecognized reply after forced close of data channel. If this is acceptable, please modify Client.java accordingly. org.apache.nutch.protocol.ftp.FtpExceptionUnknownForcedDataClose: 550 Failed to change directory.
+
+//Ftp Error: 400
+2015-02-22 00:54:47,777 INFO  fetcher.Fetcher - fetch of ftp://ftp.etl.noaa.gov/psd3/arctic/ISDAC/strapp-bulkdata/001F23_201540.txt failed with: org.apache.nutch.protocol.ftp.FtpError: Ftp Error: 400
+
+//Connection refused
+2015-02-22 00:54:47,781 INFO  fetcher.Fetcher - fetch of ftp://ladsweb.nascom.nasa.gov/allData/3002/NPP_DSCD1KD_L2GD/ failed with: org.apache.nutch.protocol.ftp.FtpException: java.net.ConnectException: Connection refused
+
+//Unknown parser type: "/allData/3002/NPP_DGA1KN_L2GD" is new cwd
+2015-02-22 00:49:53,227 WARN  ftp.Ftp - createFileEntryParser() failed. ftp.etl.noaa.gov/140.172.38.114 org.apache.commons.net.ftp.parser.ParserInitializationException: Unknown parser type: "/allData/3002/NPP_DGA1KN_L2GD" is new cwd.
+
+//Ftp Error: 500
+2015-02-22 00:27:30,485 INFO  fetcher.Fetcher - fetch of ftp://ladsweb.nascom.nasa.gov/AMS/13_921/ failed with: org.apache.nutch.protocol.ftp.FtpError: Ftp Error: 500
+2015-02-22 00:22:27,407 INFO  fetcher.Fetcher - fetch of ftp://ftp.etl.noaa.gov/psd3/arctic/reanalyses/ failed with: org.apache.nutch.protocol.ftp.FtpError: Ftp Error: 500
+
+//550 Login first, then I might let you do that.
+2015-02-22 00:22:27,042 WARN  ftp.Ftp - org.apache.nutch.protocol.ftp.FtpExceptionCanNotHaveDataConnection: pasv() failed. 550 Login first, then I might let you do that.
+
+//Can't retrieve Tika parser for mime-type text/csv
+2015-02-22 07:36:06,097 WARN  parse.ParseSegment - Error parsing: ftp://ftp.etl.noaa.gov/psd3/arctic/summit/aeri/raw/AE100712_1/100712F2.CSV: failed(2,0): Can't retrieve Tika parser for mime-type text/csv
+2015-02-22 08:49:43,231 WARN  parse.ParseSegment - Error parsing: ftp://ftp.etl.noaa.gov/psd3/arctic/summit/aeri/raw/AE100910/100910F1.CSV: failed(2,0): Can't retrieve Tika parser for mime-type text/csv
+2015-02-22 08:49:44,349 WARN  parse.ParseSegment - Error parsing: ftp://ftp.etl.noaa.gov/psd3/arctic/summit/aeri/raw/AE100910/100910F2.CSV: failed(2,0): Can't retrieve Tika parser for mime-type text/csv
+2015-02-22 09:55:48,687 WARN  parse.ParseSegment - Error parsing: ftp://ftp.etl.noaa.gov/psd3/arctic/summit/aeri/raw/AE100903/100903F2.CSV: failed(2,0): Can't retrieve Tika parser for mime-type text/csv
+
+//Http code=500
+2015-02-22 23:00:37,013 INFO  fetcher.Fetcher - fetch of http://catalog.eol.ucar.edu/deepwave/loop/92130?date=2014/06/13&count=12 failed with: Http code=500, url=http://catalog.eol.ucar.edu/deepwave/loop/92130?date=2014/06/13&count=12
+2015-02-22 23:02:32,944 INFO  fetcher.Fetcher - fetch of http://catalog.eol.ucar.edu/deepwave/loop/112171?date=2014/06/06&count=6 failed with: Http code=500, url=http://catalog.eol.ucar.edu/deepwave/loop/112171?date=2014/06/06&count=6
+2015-02-22 23:04:06,602 INFO  fetcher.Fetcher - fetch of http://catalog.eol.ucar.edu/deepwave/loop/96303?date=2014/06/14&count=6 failed with: Http code=500, url=http://catalog.eol.ucar.edu/deepwave/loop/96303?date=2014/06/14&count=6
+2015-02-22 23:06:45,232 INFO  fetcher.Fetcher - fetch of http://catalog.eol.ucar.edu/deepwave/loop/112170?date=2014/06/06&count=6 failed with: Http code=500, url=http://catalog.eol.ucar.edu/deepwave/loop/112170?date=2014/06/06&count=6
+2015-02-22 22:59:57,091 INFO  fetcher.Fetcher - fetch of http://catalog.eol.ucar.edu/deepwave/radar/2014/07/2014/07/27 failed with: Http code=500, url=http://catalog.eol.ucar.edu/deepwave/radar/2014/07/2014/07/27
+2015-02-22 22:59:57,091 INFO  fetcher.Fetcher - fetch of http://catalog.eol.ucar.edu/deepwave/satellite/2014/06/2014/06/25 failed with: Http code=500, url=http://catalog.eol.ucar.edu/deepwave/satellite/2014/06/2014/06/25
+2015-02-22 22:55:40,775 INFO  fetcher.Fetcher - fetch of http://catalog.eol.ucar.edu/deepwave/loop/112173?date=2014/06/06&count=6 failed with: Http code=500, url=http://catalog.eol.ucar.edu/deepwave/loop/112173?date=2014/06/06&count=6
+2015-02-22 22:58:58,531 INFO  fetcher.Fetcher - fetch of http://catalog.eol.ucar.edu/deepwave/loop/112172?date=2014/06/06&count=6 failed with: Http code=500, url=http://catalog.eol.ucar.edu/deepwave/loop/112172?date=2014/06/06&count=6
+2015-02-22 22:59:18,510 INFO  fetcher.Fetcher - fetch of http://catalog.eol.ucar.edu/deepwave/loop/92582?date=2014/06/11&count=6 failed with: Http code=500, url=http://catalog.eol.ucar.edu/deepwave/loop/92582?date=2014/06/11&count=6
+2015-02-22 22:59:19,188 INFO  fetcher.Fetcher - fetch of http://wiki.eol.ucar.edu/rafscience/AWAS failed with: Http code=403, url=http://wiki.eol.ucar.edu/rafscience/AWAS
+2015-02-22 22:59:57,091 INFO  fetcher.Fetcher - fetch of http://catalog.eol.ucar.edu/deepwave/radar/2014/07/2014/07/27 failed with: Http code=500, url=http://catalog.eol.ucar.edu/deepwave/radar/2014/07/2014/07/27
+
+
+
+
