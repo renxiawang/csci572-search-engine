@@ -30,6 +30,7 @@ class SimHashMap {
     // dup return true/ else return false false
     public boolean isDuplicate(int group, SimHash newHash) {
         List chs = newHash.subByDistance(newHash, distance);
+        if(group >= chs.size()) return false;
         BigInteger key = (BigInteger) chs.get(group);
         if (maps.get(group).containsKey(key)) {
             ArrayList<SimHash> l = maps.get(group).get(key);
@@ -58,7 +59,6 @@ class SimHashMap {
     }
 
     public boolean isDuplicate(String s) {
-        LOG.info("simhash -------------------> " + s);
         LOG.info("size of simhash map: " + maps.size());
         SimHash newHash = new SimHash(s, 64);
         return isDuplicate(newHash);

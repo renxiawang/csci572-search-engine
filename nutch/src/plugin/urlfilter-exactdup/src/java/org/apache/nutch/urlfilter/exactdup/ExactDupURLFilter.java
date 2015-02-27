@@ -37,6 +37,7 @@ public class ExactDupURLFilter implements URLFilter {
     private static final String SEGMENTS = "segments";
     private static final String FILE_PROTOCOL = "file:";
     private static final String PARSE_TEXT = "parse_text";
+    private static final Integer MAX_ACTIVE_THREAD = 10;
 
     private Configuration conf;
     private FileSystem fs;
@@ -47,6 +48,7 @@ public class ExactDupURLFilter implements URLFilter {
 
     private boolean initialized = false;
     private long duplicateCounter = 0;
+    private long totalCounter = 0;
 
     public ExactDupURLFilter() {
     }
@@ -102,13 +104,16 @@ public class ExactDupURLFilter implements URLFilter {
             init();
         }
 
+        totalCounter++;
+        LOG.info("Total processed offer: " + totalCounter);
+
         try {
             LOG.info("Reading parse data and text for url: " + urlString);
 
             String parseText = null;
 
             // multi threading to speed up the searching
-            ExecutorService pool = Executors.newFixedThreadPool(segmentPaths.size());
+            ExecutorService pool = Executors.newFixedThreadPool(MAX_ACTIVE_THREAD);
             Set<Future<String>> set = new HashSet<Future<String>>();
 
             for (Path path : segmentPaths) {
