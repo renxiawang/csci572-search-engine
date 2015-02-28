@@ -5,8 +5,12 @@ Course project of CSCI 572
 There are 5 dirs: ```failed_urls```, ```scripts```, ```stats```, ```conf``` and ```nutch```.
 
 #### 100 Failed urls
-Failed urls in the 1st crawl: failed_urls/1st_failed_urls.txt
-Failed urls in the 2nd crawl: failed_urls/2nd_failed_urls.txt
+Failed urls in the 1st crawl:
+
+- failed_urls/1st_failed_urls.txt
+Failed urls in the 2nd crawl:
+
+- failed_urls/2nd_failed_urls.txt
 
 #### MIME Type extract script
 scripts/extract_mime_types.py
@@ -91,7 +95,7 @@ ant runtime
 
 If you want to use the plugin with your own Nutch version, do steps **4** and **5** (while are source codes), then configure by yourself (recommended as files in Nutch trunk may changes).
 
-### Simulate Deduplication
+### Simulate Deduplication Process
 In path/to/your/nutch/runtime/local, use the my submitted conf files and run:
 
 ```
@@ -137,3 +141,8 @@ The logs of total processed urls will printed:
     2015-02-27 09:57:59,057 INFO  neardup.NearDupURLFilter - Total processed offer: 2674
     2015-02-27 09:58:04,062 INFO  exactdup.ExactDupURLFilter - Total processed offer: 4864
     2015-02-27 09:58:04,698 INFO  exactdup.ExactDupURLFilter - Total processed offer: 4865
+
+### Work Divide
+- Renxia Wang: Configure Nucth, install tools and plugins, crawl, implement mime script, URLFilter, integrate deduplication algorithms and generate stats.
+- Zhenni Huang: Implement deduplication algorithms.
+- Shaoyi Li: Crawl, analysis failed url, report
