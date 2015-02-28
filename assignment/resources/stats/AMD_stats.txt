@@ -1,0 +1,41 @@
+NASA AMD 1st
+====================================================
+===== Stats
+====================================================
+CrawlDb statistics start: nasa-08/crawldb
+Statistics for CrawlDb: nasa-08/crawldb
+TOTAL urls:	1554388
+retry 0:	1517723
+retry 1:	36009
+retry 2:	656
+min score:	0.0
+avg score:	1.4507317E-6
+max score:	1.018
+status 1 (db_unfetched):	1180885
+status 2 (db_fetched):	247959
+status 3 (db_gone):	12991
+status 4 (db_redir_temp):	17280
+status 5 (db_redir_perm):	3
+status 7 (db_duplicate):	95270
+CrawlDb statistics: done
+
+NASA AMD 2nd
+====================================================
+===== Stats
+====================================================
+CrawlDb statistics start: nasa-20/crawldb
+Statistics for CrawlDb: nasa-20/crawldb
+TOTAL urls:	550306
+retry 0:	547740
+retry 1:	1316
+retry 2:	1250
+min score:	0.0
+avg score:	2.4132029E-5
+max score:	1.014
+status 1 (db_unfetched):	473883
+status 2 (db_fetched):	60976
+status 3 (db_gone):	4153
+status 4 (db_redir_temp):	984
+status 5 (db_redir_perm):	596
+status 7 (db_duplicate):	9714
+CrawlDb statistics: done

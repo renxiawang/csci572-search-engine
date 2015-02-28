@@ -1,0 +1,162 @@
+### Can't retrieve Tika parser for mime-type application/octet-stream
+ftp://sidads.colorado.edu/pub/DATASETS/AGDC/nsidc0468_waddington_V01/borehole_raytrace_simulation/examples/run_examples
+ftp://sidads.colorado.edu/pub/DATASETS/ICESHELVES/scoti/scoti_2006056_1245_modis_a22a.tfw
+ftp://sidads.colorado.edu/pub/DATASETS/IPAB_BUOYS/1996/awi69_24h.a_96
+ftp://sidads.colorado.edu/pub/DATASETS/NOAA/G00801/bci77.dat
+ftp://sidads.colorado.edu/pub/DATASETS/NSIDC0393_GLAS_SI_Freeboard_v01/glas_seaice_grids/laser2a_freeboard_mskd.img.hdr
+ftp://sidads.colorado.edu/pub/DATASETS/fgdc/ggd318_map_circumarctic/subsea.shx
+ftp://sidads.colorado.edu/pub/DATASETS/fgdc/ggd648_map_mongolia/dig_lakes.dbf
+ftp://sidads.colorado.edu/pub/DATASETS/fgdc/ggd648_map_mongolia/solifluction.shp
+ftp://sidads.colorado.edu/pub/DATASETS/fgdc/ggd648_map_mongolia/solifluction.shx
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0007_smmr_radiance_seaice_v01/ICECON_S/1981/810426S.CON
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0007_smmr_radiance_seaice_v01/TBS/1979/APR/790402N.06V
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0007_smmr_radiance_seaice_v01/TBS/1979/APR/790402N.18H
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0007_smmr_radiance_seaice_v01/TBS/1979/APR/790402S.06H
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0026_avhrr_leads_ari_v01/1992/e02feb1992_1106.gpg
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0026_avhrr_leads_ari_v01/emap.img
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0153_clpx_air_airsar/cm6566/cm6566_c.rad_vec
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0026_avhrr_leads_ari_v01/emap.img
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0153_clpx_air_airsar/ts1451/ts1451_rad_vec.README
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0481_MEASURES_greenland_V01/Wcoast-70.55N/TSX_May-07-2012_May-18-2012_09-56-34/TSX_W70.55N_07May12_18May12.vy.geodat
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0153_clpx_air_airsar/cm6529/cm6529_meta.podaac
+
+
+### Can't retrieve Tika parser for mime-type application/x-compress
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0036_pathfinder_smmr_tbs_v01/1981/smmrtb1981.009_brwsrastr_37H.hdf.Z
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0036_pathfinder_smmr_tbs_v01/1981/smmrtb1981.019_brwsrastr_37H.hdf.Z
+
+### Can't retrieve Tika parser for mime-type application/x-gtar
+ftp://sidads.colorado.edu/pub/DATASETS/NOAA/G02171/East_Coast/2011/cis_SGRDREC_20111114_pl_a.tar
+
+### Can't retrieve Tika parser for mime-type text/x-log
+ftp://sidads.colorado.edu/pub/DATASETS/fgdc/ggd223_boreholes_alaska/ati0884a.log
+
+### Can't retrieve Tika parser for mime-type application/vnd.americandynamics.acc
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0020_cearex_v01/SEAICE/ACCEL/A322_12.ACC
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0020_cearex_v01/SEAICE/ACCEL/A322_12.ACC
+
+### Can't retrieve Tika parser for mime-type application/postscript
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0116_icemotion_vectors_v2/browse/south/months/01/icemotion.mean.01.1979.s.v02.ps
+
+### Can't retrieve Tika parser for mime-type application/x-director
+ftp://sidads.colorado.edu/pub/DATASETS/nsidc0053_icesheets_surf_elev_v01/DATA/ANT3GM_.DIR
+
+### Ftp Error: 404
+ftp://sidads.colorado.edu/pub/DATASETS/AVDM/.notar
+ftp://sidads.colorado.edu/pub/DATASETS/NOAA/.temp/
+
+### Read timed out
+http://nsidc.org/the-drift/data-update/nasa-icebridge-mcords-l1b-geolocated-radar-echo-strength-profiles-data-for-2011-antarctica-now-available-at-nsidc/
+http://nsidc.org/the-drift/2014/03/amsre-data-quality/
+
+
+### Can't retrieve Tika parser for mime-type text/css
+http://nsidc.org/data/barrow/css/barrow_print.css
+
+### Can't retrieve Tika parser for mime-type application/javascript
+http://nsidc.org/scripts/dataset-details-popup.js
+
+### Can't retrieve Tika parser for mime-type text/x-php
+http://nsidc.org/the-drift/xmlrpc.php (XML-RPC server accepts POST requests only.)
+
+### Connection refuesed:
+https://www.aoncadis.org/dataset/id/7d3102ce-638d-11e4-8886-00c0f03d5b7c.dif
+https://www.aoncadis.org/dataset/id/b1101590-638c-11e4-8886-00c0f03d5b7c.txt
+https://www.aoncadis.org/dataset/id/b1101590-638c-11e4-8886-00c0f03d5b7c.html
+https://www.aoncadis.org/dataset/id/2fd10c1e-00c2-11e1-9f20-00c0f03d5b7c.txt
+https://www.aoncadis.org/redirect.html?link=http%3a%2f%2fdata.eol.ucar.edu%2fcodiac%2ffgr_form%2fid%3d62.1490
+
+### Parse Error: Truncated ZIP file
+https://www.aoncadis.org/dataset/2/file.zip
+https://www.aoncadis.org/dataset/2/file.zip
+https://www.aoncadis.org/dataset/20092013MCM_TKsoil.01/file.zip
+https://www.aoncadis.org/dataset/2012_CO2/file.zip
+https://www.aoncadis.org/dataset/AWS/file.zip
+https://www.aoncadis.org/dataset/collaborative_research_diamonds_and_oil_from_the_tundra_a_system_study_on_the_impact_of_changing_seasons_on_mining_and_oil_exploration____nsf_award_0902130/file.zip
+
+### Can't retrieve Tika parser for mime-type application/x-sh
+https://www.aoncadis.org/dataset/21/file.wget
+https://www.aoncadis.org/dataset/BarrowLoggerData2012/file.wget
+https://www.aoncadis.org/dataset/CSASN_I8Inlet_discahrge_2010.01/file.wget
+https://www.aoncadis.org/dataset/Deming_SalineSnow_EPS_Metadata/file.wget
+https://www.aoncadis.org/dataset/Chemical-weathering-organic-carbon-export/file.wget
+
+### Can't retrieve Tika parser for mime-type text/dif+xml
+https://www.aoncadis.org/dataset/ucar.ncar.eol.dataset.46_729.dif
+https://www.aoncadis.org/dataset/ucar.ncar.eol.dataset.46_7300.dif
+https://www.aoncadis.org/dataset/ucar.ncar.eol.dataset.56_218.dif
+https://www.aoncadis.org/dataset/ucar.ncar.eol.dataset.46_225.dif
+https://www.aoncadis.org/dataset/ucar.ncar.eol.dataset.62_107.dif
+
+### Can't retrieve Tika parser for mime-type text/iso19139+xml
+https://www.aoncadis.org/dataset/ucar.ncar.eol.dataset.56_606.iso19139
+https://www.aoncadis.org/dataset/ucar.ncar.eol.dataset.56_229.iso19139
+https://www.aoncadis.org/dataset/ucar.ncar.eol.dataset.46_225.iso19139
+https://www.aoncadis.org/dataset/ucar.ncar.eol.dataset.62_107.iso19139
+
+### Http code=403
+http://data.eol.ucar.edu/codiac_data/sheba/data/lindsay/video_images/flt7b_leads/
+http://data.eol.ucar.edu/codiac_data/sheba/data/lindsay/video_images/flt_9c_leads/
+http://data.eol.ucar.edu/codiac_data/sheba/data/lindsay/video_images/flt10c_leads/
+http://data.eol.ucar.edu/codiac_data/sheba/data/lindsay/video_images/flt10b_random/
+
+### Http code=500
+http://data.eol.ucar.edu/codiac/proj_ds/id=117.082
+http://data.eol.ucar.edu/codiac/proj_ds/id=382.028
+
+### Read timed out
+http://data.eol.ucar.edu/codiac/ds_proj?HAIC-HIWC
+https://www.aoncadis.org/scienceKeywordTopic/Terrestrial%20Hydrosphere.html
+
+### RSS parse error
+https://www.aoncadis.org/dataset.atom
+
+### httpclient.Http - Failed to get protocol output java.lang.IllegalArgumentException: Invalid uri
+http://gcmd.gsfc.nasa.gov/KeywordSearch/OpenSearch.do?KeywordPath=Parameters|BIOSPHERE&Portal=amd&Output=atom&clientId=fromgcmd
+http://gcmd.gsfc.nasa.gov/KeywordSearch/Keywords.do?KeywordPath=%5BParameters%3A+Topic%3D%27ASTROPHYSICS%27%2C+Term%3D%27EXTRAGALACTIC+ASTRONOMY%27]&Portal=amd&MetadataType=0
+http://gcmd.gsfc.nasa.gov/KeywordSearch/OpenSearch.do?KeywordPath=Parameters|ATMOSPHERE&Portal=amd&Output=atom&clientId=fromgcmd
+http://gcmd.gsfc.nasa.gov/KeywordSearch/OpenSearch.do?KeywordPath=Parameters|OCEANS&Portal=amd&Output=atom&clientId=fromgcmd
+http://gcmd.gsfc.nasa.gov/KeywordSearch/Keywords.do?Portal=GCMD&KeywordPath=Projects|A+-+C|ASPECT
+
+### ftp.client.login() failed
+ftp://l5eil01.larc.nasa.gov/MOPITT/MOP02N.006/
+
+### java.net.MalformedURLException: unknown protocol: chttp
+http://gcmd.gsfc.nasa.gov/KeywordSearch/RedirectAction.do?target=ksnzs%2BQxDgaHoqzX%2F7vmuuiCt4yjv5s5UhiCQR43ytwzf0YZlLZPFJwEM40X9cm9
+
+### javax.net.ssl.SSLProtocolException: handshake alert:  unrecognized_name
+https://eosweb.larc.nasa.gov/project/tes/tes_tl2hdol_table
+https://eosweb.larc.nasa.gov/project/tes/tes_tl2nh3ns_table
+
+### Http code=500
+http://gcmd.gsfc.nasa.gov/KeywordSearch/default/openSearch.jsp?Portal=GCMD_Services
+http://gcmd.gsfc.nasa.gov/KeywordSearch/default/openSearch.jsp?Portal=amd_ee
+http://gcmd.gsfc.nasa.gov/KeywordSearch/default/openSearch.jsp?Portal=GCMD_legacy
+
+### java.net.SocketTimeoutException: Read timed out
+http://gcmd.gsfc.nasa.gov/KeywordSearch/Keywords.do?Portal=amd_cn&KeywordPath=Locations&MetadataType=0&lbnode=mdlb2
+http://gcmd.gsfc.nasa.gov/KeywordSearch/Keywords.do?Portal=amd_cn&KeywordPath=Parameters%7CBIOSPHERE&MetadataType=0&lbnode=mdlb2
+
+### Http code=403
+http://gcmd.gsfc.nasa.gov/KeywordSearch/OpenSearch.do?KeywordPath=[Personnel: Last_Name='HECQ', First_Name='JEAN-HENRI']&Portal=amd_be&Output=atom&clientId=fromgcmd
+http://gcmd.gsfc.nasa.gov/KeywordSearch/Titles.do?Portal=GCMD&KeywordPath=DataCenters%7CU.S.+STATE%2FREGIONAL%2FLOCAL+AGENCIES%7CNORTH+CAROLINA%7CNC%2FNCSU%2FCLIM&MetadataType=0&Columns=0&lbnode=mdlb2
+http://gcmd.gsfc.nasa.gov/KeywordSearch/OpenSearch.do?KeywordPath=[Location: Location_Category='GEOGRAPHIC REGION', Location_Type='POLAR']&Portal=amd_be&Output=atom&clientId=fromgcmd
+
+### java.net.NoRouteToHostException: No route to host
+http://gcmd.gsfc.nasa.gov/KeywordSearch/Titles.do?Portal=GCMD&KeywordPath=Locations%7COCEAN%7CPACIFIC+OCEAN%7CWESTERN+PACIFIC+OCEAN%7CEAST+CHINA+SEA&MetadataType=0&lbnode=mdlb3
+
+### org.apache.nutch.protocol.ftp.FtpException: java.net.ConnectException: Connection refused
+ftp://www.ngdc.noaa.gov/paleo/climate1500ad/
+
+### org.apache.nutch.protocol.ftp.FtpError: Ftp Error: 404
+ftp://l5eil01.larc.nasa.gov/TES/TL2NO2L.006/
+
+### Can't retrieve Tika parser for mime-type text/x-csrc
+http://gcmd.gsfc.nasa.gov/Connect/clients/csw/libcurl.c
+
+### Can't retrieve Tika parser for mime-type text/x-objcsrc
+http://gcmd.gsfc.nasa.gov/Connect/clients/mws/main.m
+
+### RSS parse error
+http://gcmd.gsfc.nasa.gov/KeywordSearch/rss/gcmd_highlights.rss
+http://gcmd.gsfc.nasa.gov/KeywordSearch/Titles.do?Portal=GCMD&KeywordPath=DataCenters%7CCONSORTIA%2FINSTITUTIONS%7CAQUANIC&MetadataType=0&Output=rss&lbnode=mdlb3

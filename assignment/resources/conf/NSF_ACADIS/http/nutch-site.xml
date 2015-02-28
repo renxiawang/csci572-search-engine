@@ -11,7 +11,7 @@
 
     <property>
         <name>plugin.includes</name>
-        <value>protocol-(selenium|httpclient|ftp)|urlfilter-regex|parse-(html|tika|metatags|js|zip)|feed|index-(basic|anchor|metadata|more)|indexer-solr|scoring-opic|urlnormalizer-(pass|regex|basic)
+        <value>protocol-(selenium|httpclient|ftp)|urlfilter-(regex|exactdup|neardup)|parse-(html|tika|metatags|js|zip)|feed|index-(basic|anchor|metadata|more)|indexer-solr|scoring-opic|urlnormalizer-(pass|regex|basic)
         </value>
         <description>Regular expression naming plugin directory names to
             include. Any plugin not matching this expression is excluded.
@@ -42,27 +42,6 @@
             in the parse-metadata. For instance to index description and keywords,
             you need to activate the plugin index-metadata and set the value of the
             parameter 'index.parse.md' to 'metatag.description,metatag.keywords'.
-        </description>
-    </property>
-
-    <!-- index properties -->
-    <property>
-        <name>index.parse.md</name>
-        <value>metatag.description,metatag.keywords,producer</value>
-        <description>
-            Comma-separated list of keys to be taken from the parse metadata to generate fields.
-            Can be used e.g. for 'description' or 'keywords' provided that these values are generated
-            by a parser (see parse-metatags plugin)
-        </description>
-    </property>
-
-    <property>
-        <name>index.content.md</name>
-        <value>ETag,Server</value>
-        <description>
-            Comma-separated list of keys to be taken from the content metadata to generate fields.
-            Can be used e.g. for 'description' or 'keywords' provided that these values are generated
-            by a parser (see parse-metatags plugin)
         </description>
     </property>
 

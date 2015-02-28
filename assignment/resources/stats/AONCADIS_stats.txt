@@ -1,0 +1,39 @@
+AONCADIS 1st
+====================================================
+===== Stats
+====================================================
+CrawlDb statistics start: aoncadis-15-3/crawldb
+Statistics for CrawlDb: aoncadis-15-3/crawldb
+TOTAL urls:	66057
+retry 0:	66004
+retry 1:	51
+retry 2:	2
+min score:	0.0
+avg score:	2.0341523E-4
+max score:	1.117
+status 1 (db_unfetched):	53
+status 2 (db_fetched):	18662
+status 3 (db_gone):	25748
+status 4 (db_redir_temp):	18826
+status 5 (db_redir_perm):	1857
+status 6 (db_notmodified):	814
+status 7 (db_duplicate):	97
+CrawlDb statistics: done
+
+AONCADIS 2nd
+====================================================
+===== Stats
+====================================================
+===================== FTP ==========================
+CrawlDb statistics start: aoncadis-ftp/crawldb
+Statistics for CrawlDb: aoncadis-ftp/crawldb
+TOTAL urls:	15547
+retry 0:	14493
+retry 1:	1054
+min score:	0.0
+avg score:	4.6439827E-4
+max score:	1.126
+status 1 (db_unfetched):	9831
+status 2 (db_fetched):	5634
+status 7 (db_duplicate):	82
+CrawlDb statistics: done

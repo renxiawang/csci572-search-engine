@@ -1,0 +1,58 @@
+ADE 1st round
+====================================================
+===== Stats
+====================================================
+CrawlDb statistics start: ade-11/crawldb
+Statistics for CrawlDb: ade-11/crawldb
+TOTAL urls:	45335
+retry 0:	45280
+retry 1:	39
+retry 2:	16
+min score:	0.0
+avg score:	1.06694606E-4
+max score:	1.167
+status 1 (db_unfetched):	23522
+status 2 (db_fetched):	20974
+status 3 (db_gone):	168
+status 4 (db_redir_temp):	3
+status 5 (db_redir_perm):	174
+status 7 (db_duplicate):	494
+CrawlDb statistics: done
+
+
+ADE 2st round
+====================================================
+===== Stats
+====================================================
+===================== FTP ==========================
+CrawlDb statistics start: ade-19/crawldb
+Statistics for CrawlDb: ade-19/crawldb
+TOTAL urls:	32291
+retry 0:	32072
+retry 1:	163
+retry 2:	56
+min score:	0.0
+avg score:	1.6955189E-4
+max score:	1.167
+status 1 (db_unfetched):	20431
+status 2 (db_fetched):	11593
+status 3 (db_gone):	1
+status 7 (db_duplicate):	266
+CrawlDb statistics: done
+
+===================== HTTP ==========================
+CrawlDb statistics start: ade-20/crawldb
+Statistics for CrawlDb: ade-20/crawldb
+TOTAL urls:	723618
+retry 0:	723321
+retry 1:	297
+min score:	0.0
+avg score:	8.369057E-6
+max score:	1.016
+status 1 (db_unfetched):	668512
+status 2 (db_fetched):	45796
+status 3 (db_gone):	4173
+status 4 (db_redir_temp):	822
+status 5 (db_redir_perm):	4055
+status 7 (db_duplicate):	260
+CrawlDb statistics: done
