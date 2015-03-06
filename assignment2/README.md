@@ -85,3 +85,20 @@ java -jar tika-app-1.8-SNAPSHOT.jar -t CCITT_1.TIF
 cd tika/tika-app/target
 java -jar tika-app-1.8-SNAPSHOT.jar -m <path/to/a/avi/file>
 ```
+
+
+### Run Solr example
+* Build project WAR and JAR files
+```
+cd lucene_solr_4_10/solr
+ant dist
+```
+
+* Run Solr example
+```
+cp dist/solr-4.10.5-SNAPSHOT.war example/webapps/solr.war
+cd example
+jar -jar start.jar
+```
+
+* Open Solr admin in browser: ```http://localhost:8983/solr/```
