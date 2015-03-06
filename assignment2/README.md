@@ -1,18 +1,18 @@
 # Assignment 2 Solr Indexing and Ranking
 
 ### Install Solr with Tika 1.8-SNAPSHOT
-1. Pull tika truck and build:
+* Pull tika truck and build:
 ```
 git clone https://github.com/apache/tika.git
 cd tika
 mvn clean install
 ```
-2. Pull solr 4.10:
+* Pull solr 4.10:
 ```
 svn co http://svn.apache.org/repos/asf/lucene/dev/branches/lucene_solr_4_10/
 ```
 
-3. Update ```lucene_solr_4_10/lucene/ivy-settings.xml``` and ```lucene_solr_4_10/lucene/ivy-versions.properties```:
+* Update ```lucene_solr_4_10/lucene/ivy-settings.xml``` and ```lucene_solr_4_10/lucene/ivy-versions.properties```:
 
     - Change line 138 ```org.apache.tika.version = 1.5``` to ```org.apache.tika.version = 1.8-SNAPSHOT```.
     - Uncomment line 46 - 51:
@@ -29,22 +29,22 @@ svn co http://svn.apache.org/repos/asf/lucene/dev/branches/lucene_solr_4_10/
     ```
     <resolver ref="local-maven-2" />
     ```
-4. Build Solr:
+* Build Solr:
 ```
 cd lucene_solr_4_10
 ant compile
 ```
 
 ### Install gdal, ocr, ffmpeg on Ubuntu 14.10 (may works on 14.04)
-1. Install GDAL
+* Install GDAL
 ```
 sudo apt-get install gdal-bin
 ```
-2. Install OCR support
+* Install OCR support
 ```
 sudo apt-get install tesseract-ocr
 ```
-3. Install ffmpeg
+* Install ffmpeg
 ```
 sudo add-apt-repository ppa:kirillshkrogalev/ffmpeg-next
 sudo apt-get update
@@ -55,7 +55,7 @@ sudo apt-get install ffmpeg
 
 Sample TIFF, FITS and AVI data are in ```test/``` dir.
 
-1. Verify GDAL
+* Verify GDAL
 ```
 cd tika/tika-app/target
 java -jar tika-app-1.8-SNAPSHOT.jar -m <path/to/a/fits/file>
@@ -67,7 +67,7 @@ java -jar tika-app-1.8-SNAPSHOT.jar -m <path/to/a/fits/file>
 # X-Parsed-By: org.apache.tika.parser.gdal.GDALParser
 # resourceName: adctest1.fits
 ```
-2. Verify Tesseract
+* Verify Tesseract
 ```
 # verify tesseract
 tesseract -psm 3 <path/to/a/tiff/file> out.txt
@@ -79,7 +79,7 @@ cd tika/tika-app/target
 java -jar tika-app-1.8-SNAPSHOT.jar -t CCITT_1.TIF
 # should be able to see text dumped from the tif file.
 ```
-3. Verify FFMpeg
+* Verify FFMpeg
 ```
 # AT THE TIME I WROTE THIS README, THE tika-ffmpeg IS NOT WORKING
 cd tika/tika-app/target
