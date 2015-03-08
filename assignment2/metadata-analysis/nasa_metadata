@@ -1,0 +1,740 @@
+=============================================
+http://seawifs.gsfc.nasa.gov/OCEAN_PLANET/VRML/k30_vrml2.wrl
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.content.digest=e9a93803b4f851816cf86abbfd004995 nutch.crawl.score=4.6152714E-11 nutch.segment.name=20150221230624 
+=============================================
+=============================================
+http://spdf.gsfc.nasa.gov/istp_guide/skeleton_table/cn_k0_asi_00000000_v01.skt
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150222053317 nutch.content.digest=c0c52391cf1d3132d667a39337bf4369 nutch.crawl.score=2.0633351E-11 
+=============================================
+=============================================
+http://spdf.gsfc.nasa.gov/istp_guide/skeleton_table/cn_k0_mari_00000000_v01.skt
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150222053317 nutch.content.digest=c76d5191c6ac7073d19089bd2a230621 nutch.crawl.score=2.0633351E-11 
+=============================================
+=============================================
+http://disc.sci.gsfc.nasa.gov/Aura/data-holdings/OMI/documents/v003/OMAERUVG_OSIPS_README_V003.doc
+------------------
+------------------
+Parsed Metadata: 
+Character-Count-With-Spaces=2740 Total-Time=4 Creation-Date=2011-12-15T20:59:00Z extended-properties:Application=Microsoft Office Word Revision-Number=5 meta:character-count=2336 dc:publisher= Last-Author=Suraiya Application-Name=Microsoft Office Word Author=Suraiya date=2011-12-15T21:18:00Z extended-properties:Template=Normal meta:line-count=19 publisher= extended-properties:AppVersion=12.0000 meta:author=Suraiya Page-Count=2 extended-properties:Company= extended-properties:TotalTime=4 Character Count=2336 meta:character-count-with-spaces=2740 meta:last-author=Suraiya meta:save-date=2011-12-15T21:18:00Z Last-Save-Date=2011-12-15T21:18:00Z Paragraph-Count=5 meta:creation-date=2011-12-15T20:59:00Z Last-Modified=2011-12-15T21:18:00Z meta:word-count=409 modified=2011-12-15T21:18:00Z xmpTPg:NPages=2 meta:page-count=2 Content-Type=application/vnd.openxmlformats-officedocument.wordprocessingml.document cp:revision=5 dcterms:created=2011-12-15T20:59:00Z Application-Version=12.0000 creator=Suraiya meta:paragraph-count=5 Word-Count=409 Line-Count=19 dcterms:modified=2011-12-15T21:18:00Z Template=Normal dc:creator=Suraiya 
+------------------
+Content Metadata: 
+Age=0 X-Caching-Rule-Id=downloads Content-Length=12761 Expires=Wed, 23 Feb 2005 00:01:58 GMT Last-Modified=Thu, 15 Dec 2011 21:32:40 GMT _fst_=33 nutch.segment.name=20150220153732 X-Cache-Headers-Set-By=CachingPolicyManager: /disc/caching_policy_manager Connection=close Server=Apache Cache-Control=max-age=0, private, must-revalidate X-Varnish=996016480 nutch.content.digest=1001235063462b7655a2ad0ccf50f324 X-Header-Set-Id=cache-with-last-modified Date=Sat, 21 Feb 2015 00:01:58 GMT nutch.crawl.score=1.0955777E-10 Via=1.0 disc.sci.gsfc.nasa.gov Content-Type=application/msword 
+=============================================
+=============================================
+http://gis.ngdc.noaa.gov/arcgis/rest/services/bag_hillshades_subsets/ImageServer?f=lyr&v=9.3
+------------------
+------------------
+Parsed Metadata: 
+Content-Type=application/x-tika-msoffice 
+------------------
+Content Metadata: 
+ETag=ac351143 Content-Length=3072 _fst_=33 nutch.segment.name=20150220153732 Connection=close Server= Cache-Control=max-age=0,must-revalidate nutch.content.digest=cd9065a7ada382ed250f73862658d534 Access-Control-Allow-Headers=X-Requested-With, Content-Type Date=Fri, 20 Feb 2015 23:37:40 GMT Access-Control-Allow-Origin=* Content-Disposition=attachment; filename="bag_hillshades_subsets.lyr" nutch.crawl.score=1.7994658E-8 Content-Type=application/octet-stream 
+=============================================
+=============================================
+http://sedac.ciesin.columbia.edu/es/esi/ESI_01.ppt
+------------------
+------------------
+Parsed Metadata: 
+Edit-Time=877974620000 Creation-Date=2001-01-22T10:52:29Z extended-properties:Application=Microsoft PowerPoint Revision-Number=40 Last-Author=fpozzi Application-Name=Microsoft PowerPoint Author=Marc Levy date=2001-01-25T21:47:57Z extended-properties:Template=C:\Program Files\Microsoft Office\Templates\Presentation Designs\Blends.pot meta:author=Marc Levy extended-properties:Company=Columbia University meta:last-author=fpozzi meta:save-date=2001-01-25T21:47:57Z Slide-Count=26 Last-Save-Date=2001-01-25T21:47:57Z dc:title=2001 Environmental Sustainability Index Last-Printed=1601-01-01T00:00:00Z meta:creation-date=2001-01-22T10:52:29Z Last-Modified=2001-01-25T21:47:57Z meta:word-count=927 modified=2001-01-25T21:47:57Z xmpTPg:NPages=26 Content-Type=application/vnd.ms-powerpoint meta:slide-count=26 cp:revision=40 dcterms:created=2001-01-22T10:52:29Z creator=Marc Levy Word-Count=927 Company=Columbia University meta:print-date=1601-01-01T00:00:00Z dcterms:modified=2001-01-25T21:47:57Z Template=C:\Program Files\Microsoft Office\Templates\Presentation Designs\Blends.pot dc:creator=Marc Levy 
+------------------
+Content Metadata: 
+ETag="1a3c23-253400-3aac78cb4b980" Content-Length=2438144 Last-Modified=Mon, 16 Sep 2002 17:56:06 GMT _fst_=33 nutch.segment.name=20150220153732 Connection=close Server=Apache nutch.content.digest=5f5bb4fd61268e03854593be83087b40 Date=Fri, 20 Feb 2015 23:40:43 GMT nutch.crawl.score=1.8189985E-8 Content-Type=application/vnd.ms-powerpoint Accept-Ranges=bytes 
+=============================================
+=============================================
+http://disc.sci.gsfc.nasa.gov/nimbus/documentation/documents/1n5-115-thir-inventory-20141222.xlsx
+------------------
+------------------
+Parsed Metadata: 
+meta:last-author=ezamkoff Last-Author=ezamkoff meta:save-date=2014-12-22T15:29:38Z Application-Name=Microsoft Excel Author=Emily Zamkoff dcterms:created=2011-09-19T17:25:08Z Application-Version=12.0000 date=2014-12-22T15:29:38Z creator=Emily Zamkoff Creation-Date=2011-09-19T17:25:08Z extended-properties:AppVersion=12.0000 meta:author=Emily Zamkoff protected=false extended-properties:Application=Microsoft Excel Last-Save-Date=2014-12-22T15:29:38Z dcterms:modified=2014-12-22T15:29:38Z meta:creation-date=2011-09-19T17:25:08Z dc:creator=Emily Zamkoff Last-Modified=2014-12-22T15:29:38Z modified=2014-12-22T15:29:38Z Content-Type=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet 
+------------------
+Content Metadata: 
+Age=0 X-Caching-Rule-Id=downloads Content-Length=520685 Expires=Wed, 23 Feb 2005 05:31:57 GMT Last-Modified=Mon, 22 Dec 2014 18:45:03 GMT _fst_=33 nutch.segment.name=20150220210602 X-Cache-Headers-Set-By=CachingPolicyManager: /disc/caching_policy_manager Connection=close Server=Apache Cache-Control=max-age=0, private, must-revalidate X-Varnish=996036076 nutch.content.digest=4780cefa040decdf7b0477023d0ea1a7 X-Header-Set-Id=cache-with-last-modified Date=Sat, 21 Feb 2015 05:31:57 GMT Content-Disposition=attachment; filename="N5 115 THIR Inventory 20141222.xlsx" nutch.crawl.score=8.314914E-8 Via=1.0 disc.sci.gsfc.nasa.gov Content-Type=application/zip 
+=============================================
+=============================================
+https://www.ngdc.noaa.gov/mgg/image/images/IleRoyal.mpg
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150221042931 nutch.content.digest=cfaa7fc2cc7e1f6ab023f75a8adc1f5c nutch.crawl.score=3.5334535E-10 
+=============================================
+=============================================
+https://www.ngdc.noaa.gov/mgg/image/images/duluthtochicago.mpg
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150221042931 nutch.content.digest=44505e0c12acfc80863280b4ee4b8e9d nutch.crawl.score=3.5334535E-10 
+=============================================
+=============================================
+http://acdisc.gsfc.nasa.gov/opendap/HDF-EOS5/Aura_OMI_Level3/OMAEROe.003/2004/OMI-Aura_L3-OMAEROe_2004m1003_v003-2011m1109t080425.he5.rdf
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.content.digest=caa0591049e0980bbda0a6700045a24a nutch.crawl.score=4.391941E-9 nutch.segment.name=20150220202942 
+=============================================
+=============================================
+http://acdisc.gsfc.nasa.gov/opendap/HDF-EOS5/Aura_OMI_Level3/OMAEROe.003/2004/OMI-Aura_L3-OMAEROe_2004m1004_v003-2011m1109t080433.he5.das
+------------------
+------------------
+Parsed Metadata: 
+Content-Encoding=ISO-8859-1 Content-Type=text/plain; charset=ISO-8859-1 
+------------------
+Content Metadata: 
+XOPeNDAP-Server=bes/3.11.0, libdap/3.11.7, dap-server/ascii/4.1.2, freeform_handler/3.8.5, fileout_netcdf/1.1.3, hdf4_handler/3.11.4, hdf5_handler/2.1.2, netcdf_handler/3.10.2, ncml_module/1.2.2, dap-server/usage/4.1.2, dap-server/www/4.1.2 nutch.content.digest=62a0dba63faf64839c4999449de58518 XDAP=3.2 Date=Sat, 21 Feb 2015 04:42:35 GMT Content-Disposition=dods_das nutch.crawl.score=4.391941E-9 Last-Modified=Sat, 24 Mar 2012 19:05:50 GMT _fst_=33 nutch.segment.name=20150220202942 Content-Type=text/plain; charset=UTF-8 Connection=close Server=Apache XDODS-Server=dods/3.2 
+=============================================
+=============================================
+http://ngdc.noaa.gov/stp/iono/ustec/storm_us.avi
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150220090037 nutch.content.digest=223431da19db005cc8416d6593c28cd1 nutch.crawl.score=2.3144536E-5 
+=============================================
+=============================================
+http://sedac.ciesin.columbia.edu/downloads/data/energy/energy-pop-exposure-nuclear-plants-country/energy-pop-exposure-nuclear-plants-country.zip
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+ETag="216001b-e0339-50c8a002506c0" Content-Length=918329 Last-Modified=Tue, 13 Jan 2015 15:08:51 GMT _fst_=33 nutch.segment.name=20150220090037 Connection=close Server=Apache/2.2.22 (Ubuntu) nutch.content.digest=f87df960c3201141556d0ec0f1a90e2f Date=Fri, 20 Feb 2015 17:06:24 GMT nutch.crawl.score=2.3809523E-6 Via=1.0 sedac.ciesin.columbia.edu Content-Type=application/zip Accept-Ranges=bytes 
+=============================================
+=============================================
+http://www.ngdc.noaa.gov/dem/squareCellGrid/feed.rss
+------------------
+------------------
+Parsed Metadata: 
+dc:description=A news feed powered by Grails metatag.description=A news feed powered by Grails metatag.description=A news feed powered by Grails description=A news feed powered by Grails dc:title=Square Cell Grid RSS Feed Content-Type=application/rss+xml 
+------------------
+Content Metadata: 
+_fst_=33 nutch.segment.name=20150220090037 Connection=close nutch.content.digest=f5126337b819059913d2a604960359ff Date=Fri, 20 Feb 2015 17:06:10 GMT nutch.crawl.score=6.4641245E-6 Content-Type=application/rss+xml;charset=UTF-8 
+=============================================
+=============================================
+http://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/tiled/ice_surface/etopo1_ice_surface.kmz
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150220090037 nutch.content.digest=82a9121d06fb5b567804f36636be63b5 nutch.crawl.score=1.0255502E-5 
+=============================================
+=============================================
+https://www.ngdc.noaa.gov/geoportal/rest/document?id=%7B0494F7FD-4C07-453E-A14E-5DABF089CE3D%7D
+------------------
+------------------
+Parsed Metadata: 
+OriginalCharEncoding=utf-8 CharEncodingForConversion=utf-8 
+------------------
+Content Metadata: 
+_fst_=33 nutch.segment.name=20150220090037 Connection=close X-Powered-By=JSF/2.0 nutch.content.digest=e63a632cf58a8e098500630e132e1ecf Date=Fri, 20 Feb 2015 17:01:32 GMT nutch.crawl.score=3.6764707E-6 Content-Type=text/xml;charset=UTF-8 
+=============================================
+=============================================
+https://www.ngdc.noaa.gov/geoportal/rest/document?id=%7B2CA83A0C-6622-4912-8097-A07432C69A45%7D
+------------------
+------------------
+Parsed Metadata: 
+OriginalCharEncoding=utf-8 CharEncodingForConversion=utf-8 
+------------------
+Content Metadata: 
+_fst_=33 nutch.segment.name=20150220090037 Set-Cookie=JSESSIONID=720AD61FE6549F876D8735121964EA52; Path=/geoportal; Secure Connection=close X-Powered-By=JSF/2.0 nutch.content.digest=a18880ccf42366621089d2a2c7f0b40b Date=Fri, 20 Feb 2015 17:00:39 GMT nutch.crawl.score=3.6764707E-6 Content-Type=text/xml;charset=UTF-8 
+=============================================
+=============================================
+http://goes.gsfc.nasa.gov/text/goes.socc.txt
+------------------
+------------------
+Parsed Metadata: 
+Message-From=pcelone@nesdis.noaa.gov subject=SOCC Product Improvements Author=pcelone@nesdis.noaa.gov Message-Cc=pcelone@nesdis.noaa.gov meta:author=pcelone@nesdis.noaa.gov dc:title=SOCC Product Improvements Content-Type=message/rfc822 creator=pcelone@nesdis.noaa.gov dc:creator=pcelone@nesdis.noaa.gov 
+------------------
+Content Metadata: 
+ETag="1aa14ba-524-2ae08100" Content-Length=1316 Last-Modified=Sun, 23 Jul 2000 22:51:16 GMT _fst_=33 nutch.segment.name=20150220112053 Connection=close Server=Apache nutch.content.digest=40246c0fffd6b7082319f9329c06cf97 Date=Fri, 20 Feb 2015 19:23:51 GMT nutch.crawl.score=3.0906052E-11 Content-Type=text/plain; charset=UTF-8 Accept-Ranges=bytes 
+=============================================
+=============================================
+http://ngdc.noaa.gov/mgg/wcd/WCSDmovie.ogg
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150220112053 nutch.content.digest=fd8a1f85fa64328d129b78cc85f6e294 nutch.crawl.score=2.6016394E-5 
+=============================================
+=============================================
+http://ngdc.noaa.gov/mgg/wcd/WCSDmovie.wmv
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150220112053 nutch.content.digest=c275c4c7cac46a8f8db4f89cbe0c5a3d nutch.crawl.score=2.6016394E-5 
+=============================================
+=============================================
+http://ngdc.noaa.gov/mgg/image/images/Roch3d.eps
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150221144733 nutch.content.digest=e2d540956e461243001b3cc6f8471f96 nutch.crawl.score=1.1657261E-5 
+=============================================
+=============================================
+https://www.ngdc.noaa.gov/mgg/image/dives/marianas/marianas.mpg
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150222083008 nutch.content.digest=8c5423f12e1b70eb066b83f74e9fbb02 nutch.crawl.score=4.399262E-11 
+=============================================
+=============================================
+http://gis.ngdc.noaa.gov/arcgis/rest/services/bag_bathymetry/ImageServer?f=lyr&v=9.3
+------------------
+------------------
+Parsed Metadata: 
+Content-Type=application/x-tika-msoffice 
+------------------
+Content Metadata: 
+ETag=8af70b78 Content-Length=3072 _fst_=33 nutch.segment.name=20150222040517 Connection=close Server= Cache-Control=max-age=0,must-revalidate nutch.content.digest=6de3b6fd314a432279b819f3e46cb5da Access-Control-Allow-Headers=X-Requested-With, Content-Type Date=Sun, 22 Feb 2015 12:06:07 GMT Access-Control-Allow-Origin=* Content-Disposition=attachment; filename="bag_bathymetry.lyr" nutch.crawl.score=1.5328782E-8 Content-Type=application/octet-stream 
+=============================================
+=============================================
+http://sedac.ciesin.columbia.edu/data/set/acrp-sas-transport-1990/citation-download/enw
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150222040517 nutch.content.digest=65495cc5bfe5a0619f79a4ac77a7258d nutch.crawl.score=1.8527436E-8 
+=============================================
+=============================================
+http://gis.ngdc.noaa.gov/arcgis/rest/services/SampleWorldCities/MapServer?f=lyr&v=9.3
+------------------
+------------------
+Parsed Metadata: 
+Content-Type=application/x-tika-msoffice 
+------------------
+Content Metadata: 
+ETag=55d8d2a1 Content-Length=3072 _fst_=33 nutch.segment.name=20150220103120 Connection=close Server= Cache-Control=max-age=0,must-revalidate nutch.content.digest=44271e94eabd664af098c2a2b0a270a9 Access-Control-Allow-Headers=X-Requested-With, Content-Type Date=Fri, 20 Feb 2015 18:31:33 GMT Access-Control-Allow-Origin=* Content-Disposition=attachment; filename="SampleWorldCities.lyr" nutch.crawl.score=1.7244881E-8 Content-Type=application/octet-stream 
+=============================================
+=============================================
+http://rsd.gsfc.nasa.gov/rsd/movies/Andrew.qt
+------------------
+------------------
+Parsed Metadata: 
+tiff:ImageLength=256 Creation-Date=1994-10-25T19:45:17Z tiff:ImageWidth=256 date=1994-11-08T11:02:07Z meta:save-date=1994-11-08T11:02:07Z Last-Save-Date=1994-11-08T11:02:07Z meta:creation-date=1994-10-25T19:45:17Z Last-Modified=1994-11-08T11:02:07Z modified=1994-11-08T11:02:07Z Content-Type=video/quicktime dcterms:created=1994-10-25T19:45:17Z xmpDM:audioSampleRate=600 dcterms:modified=1994-11-08T11:02:07Z 
+------------------
+Content Metadata: 
+ETag="6fbd9-2859c4-eaf8d340" Content-Length=2644420 Last-Modified=Tue, 08 Nov 1994 18:53:25 GMT _fst_=33 nutch.segment.name=20150220103120 Connection=close Server=Apache nutch.content.digest=de0e9aa64c3f6523aaa7b16e7a472445 Date=Fri, 20 Feb 2015 18:31:32 GMT nutch.crawl.score=1.4479716E-9 Content-Type=video/quicktime Accept-Ranges=bytes 
+=============================================
+=============================================
+http://rsd.gsfc.nasa.gov/rsd/movies/Dennis/dennis_19990828_morning.qt
+------------------
+------------------
+Parsed Metadata: 
+tiff:ImageLength=488 Creation-Date=1999-09-03T15:58:40Z tiff:ImageWidth=640 date=1999-09-03T15:58:40Z meta:save-date=1999-09-03T15:58:40Z Last-Save-Date=1999-09-03T15:58:40Z meta:creation-date=1999-09-03T15:58:40Z Last-Modified=1999-09-03T15:58:40Z modified=1999-09-03T15:58:40Z Content-Type=video/quicktime dcterms:created=1999-09-03T15:58:40Z xmpDM:audioSampleRate=300 dcterms:modified=1999-09-03T15:58:40Z 
+------------------
+Content Metadata: 
+ETag="67af1-1ad402-d295ba80" Content-Length=1758210 Last-Modified=Fri, 03 Sep 1999 17:23:38 GMT _fst_=33 nutch.segment.name=20150220103120 Connection=close Server=Apache nutch.content.digest=1e537cd19389f33212d8ee82b1758b5a Date=Fri, 20 Feb 2015 18:31:21 GMT nutch.crawl.score=1.4479716E-9 Content-Type=video/quicktime Accept-Ranges=bytes 
+=============================================
+=============================================
+https://www.ngdc.noaa.gov/stp/satellite/anomaly/doc/anomalies.txt
+------------------
+------------------
+Parsed Metadata: 
+Content-Encoding=ISO-8859-1 Content-Type=text/plain; charset=ISO-8859-1 
+------------------
+Content Metadata: 
+Content-Length=3704 Last-Modified=Fri, 16 Apr 2010 18:21:12 GMT _fst_=33 nutch.segment.name=20150220103120 Connection=close Server=Apache nutch.content.digest=f9e77d8e563b355184024b227939b20b Date=Fri, 20 Feb 2015 18:31:46 GMT nutch.crawl.score=5.528527E-7 Content-Type=text/plain; charset=UTF-8 Accept-Ranges=bytes 
+=============================================
+=============================================
+http://acdisc.sci.gsfc.nasa.gov/daac-bin/wcsL3?request=getCoverage&version=1.0.0&service=WCS&bbox=-179.875,-89.875,179.875,89.875&CRS=EPSG:4326&resx=0.25&resy=0.25&format=netCDF&coverage=OMNO2d:ColumnAmountNO2&time=2014-10-01/2014-10-07
+------------------
+------------------
+Parsed Metadata: 
+references=See http://daac.gsfc.nasa.gov for NASA GES DISC data product references and http://www.opengeospatial.org for the OGC WCS service. wcsQuery=http://acdisc.sci.gsfc.nasa.gov/daac-bin/wcsL3?request=getCoverage&version=1.0.0&service=WCS&bbox=-179.875,-89.875,179.875,89.875&CRS=EPSG:4326&resx=0.25&resy=0.25&format=netCDF&coverage=OMNO2d:ColumnAmountNO2&time=2014-10-01/2014-10-07 contact_person_address=NASA/GSFC, 8800 Greenbelt Road, Mail Code 610.2, Greenbelt, MD 20771. WCSInputCoverageFileNames=ftp://acdisc.sci.gsfc.nasa.gov/data/s4pa/Aura_OMI_Level3/OMNO2d.003/2014/OMI-Aura_L3-OMNO2d_2014m1001_v003-2014m1124t084119.he5,ftp://acdisc.sci.gsfc.nasa.gov/data/s4pa/Aura_OMI_Level3/OMNO2d.003/2014/OMI-Aura_L3-OMNO2d_2014m1002_v003-2014m1124t083848.he5,ftp://acdisc.sci.gsfc.nasa.gov/data/s4pa/Aura_OMI_Level3/OMNO2d.003/2014/OMI-Aura_L3-OMNO2d_2014m1003_v003-2014m1124t084056.he5,ftp://acdisc.sci.gsfc.nasa.gov/data/s4pa/Aura_OMI_Level3/OMNO2d.003/2014/OMI-Aura_L3-OMNO2d_2014m1004_v003-2014m1124t084030.he5,ftp://acdisc.sci.gsfc.nasa.gov/data/s4pa/Aura_OMI_Level3/OMNO2d.003/2014/OMI-Aura_L3-OMNO2d_2014m1005_v003-2014m1124t084918.he5,ftp://acdisc.sci.gsfc.nasa.gov/data/s4pa/Aura_OMI_Level3/OMNO2d.003/2014/OMI-Aura_L3-OMNO2d_2014m1006_v003-2014m1124t084807.he5,ftp://acdisc.sci.gsfc.nasa.gov/data/s4pa/Aura_OMI_Level3/OMNO2d.003/2014/OMI-Aura_L3-OMNO2d_2014m1007_v003-2014m1124t085012.he5 contact_person_role=Help Desk history=Generated by the NASA GES DISC Web Coverage Service. See the WCS_Query and the wcsInputCoverageFileNames attributes for the WCS request and the input data used to generate the output coverage. contact_person_email=gsfc-help-disc@lists.nasa.gov spatial_ref=PROJCS=longlat +ellps=WGS84 +datum=WGS84 +no_defs institution=Goddard Earth Science Data and Information Services Center (GES DISC), Goddard Space Flight Center (GSFC), National Aeronautics and Space Administration (NASA), USA contact_person_name=GES DISC Help Desk source=EOS datasets archived in NASA GES DISC, see the WCSInputCoverageFileNames attribute for source file names in GES DISC. Conventions=CF-1.6 Content-Type=application/x-netcdf 
+------------------
+Content Metadata: 
+nutch.content.digest=8263060bffdbf79d180343503a630da5 Date=Fri, 20 Feb 2015 22:15:03 GMT Content-Length=29043060 Content-Disposition=attachment; filename=OMNO2d_ColumnAmountNO2_20141001_20141007.nc nutch.crawl.score=6.8508853E-6 _fst_=33 nutch.segment.name=20150220141038 Content-Type=application/x-netcdf Connection=close Accept-Ranges=bytes Server=Apache Content-Range=0-29043059 
+=============================================
+=============================================
+http://spdf.gsfc.nasa.gov/research/visualization/visbard/sample_data/Heliosphere.tar.gz
+------------------
+------------------
+Parsed Metadata: 
+Content-Type=application/gzip 
+------------------
+Content Metadata: 
+ETag="221107-2205e54-45781a9cc9f80" Content-Length=35675732 Last-Modified=Mon, 22 Sep 2008 20:11:58 GMT _fst_=33 nutch.segment.name=20150220141038 Connection=close Server=Apache nutch.content.digest=4ee1d45b89b1166ee5b89a412d7024c0 Date=Fri, 20 Feb 2015 22:19:17 GMT nutch.crawl.score=4.254011E-10 Content-Type=application/x-gzip Accept-Ranges=bytes 
+=============================================
+=============================================
+http://oceancolor.gsfc.nasa.gov/oceanforum/attach/14/24614/A2014064015500.L2_LAC_OC.x.rar
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150222050441 nutch.content.digest=84d28f96aff85c6db1f9d0c217d4957c nutch.crawl.score=5.257044E-10 
+=============================================
+=============================================
+http://oceancolor.gsfc.nasa.gov/oceanforum/attach/73/24673/Screenshotfrom2015-02-02085441.png
+------------------
+------------------
+Parsed Metadata: 
+tiff:BitsPerSample=8 8 8 8 tEXt tEXtEntry=keyword=Software, value=gnome-screenshot Compression NumProgressiveScans=1 Dimension PixelAspectRatio=1.0 height=586 Data BitsPerSample=8 8 8 8 width=709 Compression CompressionTypeName=deflate Transparency Alpha=nonpremultipled Dimension ImageOrientation=Normal Chroma NumChannels=4 Compression Lossless=true tiff:ImageLength=586 tiff:ImageWidth=709 Chroma BlackIsZero=true IHDR=width=709, height=586, bitDepth=8, colorType=RGBAlpha, compressionMethod=deflate, filterMethod=adaptive, interlaceMethod=none Data PlanarConfiguration=PixelInterleaved sBIT sBIT_RGBAlpha=red=8, green=8, blue=8, alpha=8 Data SampleFormat=UnsignedIntegral Chroma ColorSpaceType=RGB Data SignificantBitsPerSample=8 8 8 8 Text TextEntry=keyword=Software, value=gnome-screenshot, encoding=ISO-8859-1, compression=none X-Parsed-By=org.apache.tika.parser.image.ImageParser Content-Type=image/png 
+------------------
+Content Metadata: 
+Content-Length=48691 Expires=Thu, 01 Jan 1970 00:00:01 GMT _fst_=33 nutch.segment.name=20150222050441 Connection=close Cache-Control=public nutch.content.digest=abeca1cabe03d33577f20eea4bdf6af9 Content-Security-Policy-Report-Only=default-src oceancolor.gsfc.nasa.gov oceancolor.sci.gsfc.nasa.gov seabass.gsfc.nasa.gov seadas.gsfc.nasa.gov seawifs.gsfc.nasa.gov oceanproxy1.domain.pub oceanproxy1 'unsafe-inline' ; Date=Sun, 22 Feb 2015 13:09:51 GMT nutch.crawl.score=6.25162E-10 Content-Type=image/png 
+=============================================
+=============================================
+http://newsroom.gsfc.nasa.gov/sdptoolkit/scf5271.txt
+------------------
+------------------
+Parsed Metadata: 
+Message-To=SCF Toolkit Users Creation-Date=2001-01-24T22:39:29Z Message-From=The ECS Toolkit Team subject=SCF Toolkit 5.2.7.1 Author=The ECS Toolkit Team meta:author=The ECS Toolkit Team dc:title=SCF Toolkit 5.2.7.1 meta:creation-date=2001-01-24T22:39:29Z Content-Type=message/rfc822 dcterms:created=2001-01-24T22:39:29Z creator=The ECS Toolkit Team dc:creator=The ECS Toolkit Team 
+------------------
+Content Metadata: 
+ETag="a10173-cd8-37f54c9b20700" Content-Length=3288 Last-Modified=Mon, 12 Mar 2001 19:57:48 GMT _fst_=33 nutch.segment.name=20150220145345 Connection=close Server=Apache nutch.content.digest=f0c621a3334f18029a130a3b430e2a96 Date=Fri, 20 Feb 2015 23:05:34 GMT nutch.crawl.score=4.1726753E-10 Content-Type=text/plain Accept-Ranges=bytes 
+=============================================
+=============================================
+http://mcst.gsfc.nasa.gov/sites/mcst.gsfc/files/file_attachments/MOD02OBC_V5.0.6.fs
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150222012051 nutch.content.digest=328b612effb8981c11758a66fbf64b6f nutch.crawl.score=1.0804017E-9 
+=============================================
+=============================================
+http://oceancolor.gsfc.nasa.gov/staff/gene/IMAGES/afqueen_fast_toots.au
+------------------
+------------------
+Parsed Metadata: 
+xmpDM:audioSampleType=8Int xmpDM:audioSampleRate=8000 channels=1 encoding=ULAW samplerate=8000.0 Content-Type=audio/basic bits=8 
+------------------
+Content Metadata: 
+Content-Length=89866 Expires=Sun, 22 Feb 2015 15:29:07 GMT _fst_=33 nutch.segment.name=20150222012051 Connection=close Cache-Control=public nutch.content.digest=c5776dfbdf980a36b9a8d5733b23ece7 Content-Security-Policy-Report-Only=default-src oceancolor.gsfc.nasa.gov oceancolor.sci.gsfc.nasa.gov seabass.gsfc.nasa.gov seadas.gsfc.nasa.gov seawifs.gsfc.nasa.gov oceanproxy1.domain.pub oceanproxy1 'unsafe-inline' ; Date=Sun, 22 Feb 2015 09:29:07 GMT nutch.crawl.score=2.3076357E-8 Accept-Ranges=bytes Content-Type=audio/basic 
+=============================================
+=============================================
+http://seawifs.gsfc.nasa.gov/jason/SOUNDS/mbone_2.au
+------------------
+------------------
+Parsed Metadata: 
+xmpDM:audioSampleType=8Int xmpDM:audioSampleRate=8000 channels=1 encoding=ULAW samplerate=8000.0 Content-Type=audio/basic bits=8 
+------------------
+Content Metadata: 
+Content-Length=197548 Expires=Sun, 22 Feb 2015 16:17:25 GMT _fst_=33 nutch.segment.name=20150222012051 Connection=close Cache-Control=public nutch.content.digest=10e797fe9bcbde5bcc17ba2825892742 Content-Security-Policy-Report-Only=default-src oceancolor.gsfc.nasa.gov oceancolor.sci.gsfc.nasa.gov seabass.gsfc.nasa.gov seadas.gsfc.nasa.gov seawifs.gsfc.nasa.gov oceanproxy1.domain.pub oceanproxy1 'unsafe-inline' ; Date=Sun, 22 Feb 2015 10:17:25 GMT nutch.crawl.score=4.8075743E-10 Content-Type=audio/basic 
+=============================================
+=============================================
+https://www.ngdc.noaa.gov/stp/satellite/anomaly/doc/anom5j.xls
+------------------
+------------------
+Parsed Metadata: 
+Content-Type=application/vnd.ms-excel 
+------------------
+Content Metadata: 
+Content-Length=2718208 Last-Modified=Fri, 16 Apr 2010 18:21:11 GMT _fst_=33 nutch.segment.name=20150222012051 Connection=close Server=Apache nutch.content.digest=ed151450c6db1949cfa18d35db643445 Date=Sun, 22 Feb 2015 10:01:12 GMT nutch.crawl.score=5.528527E-7 Content-Type=application/vnd.ms-excel Accept-Ranges=bytes 
+=============================================
+=============================================
+ftp://ftp.ngdc.noaa.gov/DMSP/sample/F14200106100959.n.OIS
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.content.digest=82c7e5f43b302b23d54008b6e598cdee nutch.crawl.score=1.7376678E-6 nutch.segment.name=20150220094613 
+=============================================
+=============================================
+ftp://ftp.ngdc.noaa.gov/DMSP/sample/F14200106101141.n.OIS
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.content.digest=eda2b26b9d9fa2141e76cc0119d5dcfa nutch.crawl.score=1.7376678E-6 nutch.segment.name=20150220094613 
+=============================================
+=============================================
+ftp://ftp.ngdc.noaa.gov/geomag/Aeromag/nv073/0260-073.wpd
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.content.digest=3772b7fb854727ea312663d63019be87 nutch.crawl.score=1.2569131E-5 nutch.segment.name=20150220094613 
+=============================================
+=============================================
+http://www.ngdc.noaa.gov/hazard/json/tsunami-timeline.json
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150220094613 nutch.content.digest=62b7b47d55d69dfedf640e5a04a0578c nutch.crawl.score=1.2837769E-7 
+=============================================
+=============================================
+http://www.ngdc.noaa.gov/mgg/bathymetry/apb/data/files/basefiles/afr_c0.gz
+------------------
+------------------
+Parsed Metadata: 
+Content-Type=application/gzip 
+------------------
+Content Metadata: 
+Content-Length=2446 Last-Modified=Tue, 27 Jan 2009 19:16:41 GMT _fst_=33 nutch.segment.name=20150220094613 Connection=close Server=Apache nutch.content.digest=4ffed2c65098c3ae30ce12b75bbce1f0 Date=Fri, 20 Feb 2015 17:52:18 GMT nutch.crawl.score=8.290703E-8 Content-Type=application/x-gzip Accept-Ranges=bytes 
+=============================================
+=============================================
+http://www.ngdc.noaa.gov/mgg/bathymetry/apb/data/files/stage_pole/discovery_pole.d
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150220094613 nutch.content.digest=7c3bff574ba728156c2658038e9a3776 nutch.crawl.score=1.498704E-7 
+=============================================
+=============================================
+http://www.ngdc.noaa.gov/stp/space-weather/ionospheric-data/VIPIR_2015.wmv
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150220094613 nutch.content.digest=9fc1eaf7c1160a3c86af20459ae15b80 nutch.crawl.score=5.2521006E-7 
+=============================================
+=============================================
+https://www.ngdc.noaa.gov/geoportal/openSearchDescription
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150220094613 nutch.content.digest=dbc69365a19ab02d6efb5d2923d1e225 nutch.crawl.score=7.7670546E-7 
+=============================================
+=============================================
+http://ngdc.noaa.gov/mgg/coastal/gom/noaa_gulf_of_mexico_digital_elevation_models.kml
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150220081456 nutch.content.digest=ac9d47639ef5995215218ed56d0f3399 nutch.crawl.score=3.2320622E-4 
+=============================================
+=============================================
+http://cdaweb.gsfc.nasa.gov/pub/software/cdf/doc/papers/MR-CDF.ps.Z
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150220120735 nutch.content.digest=14172b082a7a5267106b1afd827c5674 nutch.crawl.score=3.5485278E-11 
+=============================================
+=============================================
+http://cdaweb.gsfc.nasa.gov/pub/software/cdf/doc/papers/compression.ps.Z
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150220120735 nutch.content.digest=6660554c2efef8385f059dfce828285e nutch.crawl.score=3.5485278E-11 
+=============================================
+=============================================
+http://seawifs.gsfc.nasa.gov/ocean_planet.html
+------------------
+------------------
+Parsed Metadata: 
+OriginalCharEncoding=utf-8 CharEncodingForConversion=utf-8 
+------------------
+Content Metadata: 
+Content-Length=1631 Expires=Sat, 21 Feb 2015 02:32:00 GMT _fst_=33 nutch.segment.name=20150220120735 Connection=close Cache-Control=public nutch.content.digest=01c8dc04eee5c0abaa52d2cebb979158 Date=Fri, 20 Feb 2015 20:32:00 GMT Vary=Accept-Encoding Content-Security-Policy-Report-Only=default-src oceancolor.gsfc.nasa.gov oceancolor.sci.gsfc.nasa.gov seabass.gsfc.nasa.gov seadas.gsfc.nasa.gov seawifs.gsfc.nasa.gov oceanproxy1.domain.pub oceanproxy1 'unsafe-inline' ; Content-Encoding=gzip nutch.crawl.score=4.6152714E-8 Content-Type=text/html; charset=utf-8 
+=============================================
+=============================================
+http://www.ngdc.noaa.gov/mgg/bathymetry/arctic/georeferenced_images/version3_0/source_identification_images/IBCAO_V3_SID.tif
+------------------
+------------------
+Parsed Metadata: 
+Unknown tag (0x0117)=261 280 247 265 268 273 271 269 263 277 238 265 269 305 287 278 288 250 308 286 286 255 280 263 299 316 324 301 297 313 301 277 266 284 308 343 361 342 378 323 329 312 316 327 336 299 326 318 352 373 388 340 351 323 312 339 330 341 327 315 301 310 280 278 291 276 288 288 291 283 249 251 272 269 288 287 290 285 299 303 260 281 311 306 326 338 336 346 317 314 319 292 293 274 274 272 305 277 283 281 285 294 298 307 291 305 305 321 309 315 311 318 312 307 356 331 324 310 314 288 269 262 231 235 235 236 226 212 215 199 196 218 229 209 221 205 192 177 190 166 158 159 159 216 235 226 220 226 259 244 210 239 247 239 215 207 207 204 194 201 196 198 213 206 224 214 196 201 186 207 190 202 198 189 194 200 190 214 236 255 253 239 254 239 216 215 219 218 213 177 165 180 186 162 170 178 183 211 203 230 264 266 261 244 232 220 213 196 192 195 215 236 231 204 220 202 207 223 243 238 240 234 243 244 217 207 200 203 200 224 208 198 193 185 178 182 195 185 217 180 188 184 185 177 172 171 154 166 173 163 155 165 150 169 155 175 177 173 191 177 171 181 167 161 183 167 185 161 186 173 189 186 185 192 184 175 164 160 149 149 143 156 166 148 168 158 163 160 156 149 154 168 183 179 190 183 176 174 171 163 164 152 169 168 154 174 171 178 183 248 215 219 197 211 193 186 201 185 192 183 188 193 214 221 177 213 200 195 208 206 214 223 228 233 250 262 246 254 215 243 242 229 228 244 259 251 255 250 244 259 260 282 277 279 265 274 300 310 308 300 322 336 320 296 302 312 293 306 309 287 304 305 333 329 323 301 335 322 320 285 325 332 324 324 308 334 306 335 300 338 323 339 335 343 355 362 347 348 340 340 357 338 316 327 325 328 332 307 309 304 307 309 315 303 316 320 330 341 335 323 318 330 330 339 340 345 338 330 338 331 338 329 338 350 358 362 344 370 367 384 373 332 329 330 343 325 304 300 304 309 311 315 331 335 333 323 328 330 308 306 297 297 291 288 290 303 277 288 289 294 298 319 325 286 287 297 314 298 302 292 295 302 306 313 287 304 303 326 323 304 305 295 266 285 296 301 283 301 318 338 338 336 327 352 316 371 383 367 342 348 363 353 349 360 373 374 373 392 343 353 362 362 360 375 386 358 374 390 372 353 362 357 342 350 378 406 398 378 357 368 369 370 336 397 402 404 395 389 347 347 347 346 364 366 313 333 325 307 320 315 305 335 319 277 273 242 293 271 265 264 283 278 301 304 294 310 298 304 306 333 310 306 328 326 355 325 339 330 319 297 286 319 335 362 334 374 336 363 393 348 369 360 360 378 360 370 407 398 408 395 410 378 351 381 376 375 405 434 471 454 451 452 490 473 463 496 444 399 457 435 458 426 413 450 422 449 484 461 459 484 455 437 470 419 458 467 467 473 477 435 404 423 481 467 476 482 444 468 415 441 443 441 436 452 434 459 438 434 413 428 412 424 453 424 445 455 400 414 432 428 443 427 395 433 432 461 426 463 478 492 474 474 504 495 515 542 495 513 505 486 486 488 540 522 516 519 504 548 516 511 511 503 524 550 536 519 535 527 521 519 506 514 541 521 535 557 553 538 546 553 559 511 520 574 549 507 508 508 516 525 580 575 574 559 559 596 638 637 625 652 656 651 608 634 645 607 592 643 609 619 634 627 639 637 597 628 609 605 642 658 681 683 706 667 683 704 646 627 646 604 636 604 713 688 671 699 717 683 723 669 737 658 673 662 691 719 690 718 643 683 602 632 652 670 721 653 634 629 668 662 684 620 606 530 588 570 580 651 667 657 687 671 663 647 680 671 684 651 616 626 651 656 663 636 664 629 632 654 666 694 656 605 670 672 632 669 696 683 715 691 700 658 680 735 688 679 705 650 674 656 687 661 648 667 680 637 674 649 659 626 621 641 634 685 621 705 683 706 675 662 676 680 628 631 606 633 595 597 612 657 613 631 640 621 689 621 644 648 622 612 601 626 594 638 650 606 639 648 600 627 668 636 607 597 640 602 648 710 659 649 630 648 655 680 668 624 655 652 637 617 635 653 628 668 687 676 680 682 726 730 707 668 725 685 647 663 670 683 665 708 688 692 656 646 641 616 623 582 608 593 623 611 619 677 648 638 654 627 639 640 622 615 567 605 595 612 593 622 643 616 616 622 678 655 601 682 610 650 643 616 635 637 652 636 651 638 656 638 593 612 577 605 614 605 574 584 612 621 675 690 671 655 654 672 686 650 694 706 678 660 670 710 662 676 666 666 626 640 632 628 613 646 627 644 619 570 582 572 590 598 595 593 601 634 587 572 565 585 607 568 556 590 608 621 573 573 626 631 648 632 639 636 678 655 671 681 674 668 680 679 715 724 702 645 628 646 644 631 671 654 685 680 663 694 700 796 760 720 757 766 764 761 781 765 715 743 699 736 743 824 825 808 805 792 796 757 775 779 755 771 780 795 772 804 732 711 721 726 724 725 800 758 747 815 755 785 745 785 773 744 758 738 722 737 722 721 712 749 777 741 756 824 827 811 816 761 744 778 763 738 749 763 773 768 733 731 681 727 620 688 721 671 660 696 692 651 725 675 687 720 684 643 672 675 690 710 712 718 696 689 687 672 697 692 689 679 649 720 741 654 731 699 739 704 654 667 668 739 676 680 695 691 701 720 696 719 702 698 696 707 729 747 774 836 815 818 830 864 891 860 856 878 868 846 912 876 846 870 892 901 873 921 903 935 889 857 854 866 895 858 882 799 840 864 884 858 844 848 826 837 832 875 857 806 793 825 837 787 834 853 897 883 890 863 892 884 825 801 810 825 808 761 736 708 751 759 784 736 709 716 782 832 780 809 824 828 773 786 751 790 688 747 720 732 755 719 718 729 711 734 729 713 745 769 776 773 759 689 673 696 704 678 705 710 723 776 757 766 762 772 749 836 787 807 796 825 853 902 875 851 812 827 789 833 816 809 850 853 806 818 802 823 814 771 801 825 783 809 861 822 884 896 812 838 814 815 825 866 908 810 851 892 892 858 860 839 856 854 802 847 809 854 814 818 824 801 792 775 798 778 754 780 776 815 807 825 801 814 871 789 723 869 850 866 842 866 894 864 813 814 848 815 848 898 839 838 864 863 873 877 791 888 933 913 931 931 897 908 875 871 841 860 873 803 838 830 791 820 827 854 815 811 808 838 850 855 863 950 923 974 890 923 901 870 931 876 822 892 924 814 907 941 1004 871 866 871 827 877 877 860 874 825 822 812 759 727 782 777 818 806 775 753 767 770 750 719 794 755 766 803 771 725 771 733 771 780 763 769 822 832 780 797 791 840 805 823 790 814 796 777 791 779 828 813 829 846 863 870 850 849 812 837 792 816 851 845 850 919 873 844 830 861 872 893 920 880 902 858 867 880 881 859 836 919 890 803 883 857 834 890 861 865 885 798 769 753 757 737 737 743 730 709 758 753 741 723 708 735 746 789 750 761 769 763 727 739 748 746 802 734 721 748 684 698 736 727 737 696 713 745 701 716 758 695 706 710 743 752 729 734 721 748 720 753 721 787 754 719 701 712 744 694 731 770 816 846 872 852 874 901 885 819 857 894 886 877 906 887 895 857 865 926 893 921 897 922 899 873 892 905 908 924 882 904 914 924 961 955 992 964 1002 976 1009 1054 1040 966 985 1007 1009 1049 1016 994 991 1008 979 1037 953 981 1003 954 954 959 968 961 999 1004 1022 977 985 954 974 969 950 958 995 1015 936 929 962 938 910 936 946 927 962 944 960 904 955 934 916 934 985 947 976 936 931 921 934 925 880 876 900 891 874 909 877 866 827 793 803 781 829 854 876 855 848 857 880 876 867 872 845 883 885 924 866 884 847 864 853 838 885 805 813 820 884 819 841 831 874 882 858 894 890 890 944 924 968 952 939 915 907 848 851 866 820 825 855 852 878 856 897 803 846 848 835 819 814 790 774 830 839 883 842 826 873 845 827 790 813 812 827 830 789 827 825 824 821 835 862 880 828 835 815 806 822 854 787 798 809 810 819 765 761 791 745 800 784 838 784 744 764 778 767 801 796 802 779 775 833 815 776 787 776 757 776 744 768 761 783 796 784 781 814 821 830 810 819 868 849 824 853 852 855 882 894 839 816 831 804 811 796 786 789 796 837 864 824 793 850 860 856 844 832 858 834 872 874 848 849 854 865 864 858 837 853 830 815 843 862 820 831 872 841 846 864 864 858 891 871 870 866 899 909 888 905 858 867 849 861 889 875 869 865 855 877 878 845 837 856 845 854 882 929 926 911 900 896 872 872 876 873 876 852 893 941 923 874 891 883 915 895 889 945 948 880 863 868 873 825 858 880 855 837 842 831 859 850 843 856 841 801 848 825 835 898 854 862 863 842 860 860 874 885 888 865 849 882 874 860 863 835 882 905 931 905 915 865 905 882 916 872 924 875 881 905 886 861 867 832 855 895 890 853 853 888 870 921 875 877 875 870 876 886 887 837 882 845 863 825 794 818 795 807 793 795 848 844 848 811 854 833 805 846 825 769 765 784 791 826 784 757 737 785 782 766 789 776 810 781 800 828 774 817 775 779 776 795 815 857 823 865 892 876 838 852 871 860 827 844 827 831 848 898 906 851 848 861 856 863 902 907 893 923 911 839 903 917 917 932 928 929 892 912 893 910 905 866 865 857 865 876 861 837 855 897 841 856 859 870 915 844 860 870 889 884 904 866 846 888 891 881 913 933 972 934 906 933 921 926 899 929 920 913 930 922 916 936 954 947 939 941 983 935 969 915 965 1003 1004 1014 957 973 991 1003 980 946 939 938 960 1012 1024 1059 1075 1057 1036 1059 1051 1008 1053 1086 1034 1064 1124 1089 1092 1113 1096 1071 1075 1084 1133 1080 1110 1112 1109 1114 1108 1139 1120 1050 1121 1109 1112 1118 1093 1163 1074 1122 1124 1099 1061 1028 1058 1097 1073 1082 1093 1084 1078 1140 1113 1149 1115 1131 1125 1143 1099 1108 1032 1077 1056 1045 1039 1065 1067 1059 1087 1138 1121 1130 1074 1085 1105 1064 1012 1043 976 971 1000 1011 1015 990 993 989 969 987 926 906 931 939 948 948 889 905 914 876 875 896 860 869 862 884 863 895 886 927 903 851 898 892 942 866 861 888 866 883 880 871 874 849 862 851 889 897 863 861 873 855 891 873 892 891 867 798 825 845 809 879 848 933 916 854 869 857 888 894 850 858 878 848 842 789 863 822 814 840 813 862 832 814 845 824 843 868 848 882 854 921 905 922 876 865 889 929 879 845 873 877 859 868 841 864 887 866 844 854 866 838 872 933 948 901 891 885 874 903 957 921 921 906 903 845 865 887 860 896 900 891 870 914 865 831 833 818 834 780 712 723 756 732 704 691 676 662 692 711 747 731 810 742 755 754 739 754 790 766 752 779 734 716 757 738 720 740 749 715 694 723 702 699 734 749 693 747 729 749 730 717 738 701 693 653 602 607 594 621 600 622 612 577 590 577 587 572 576 589 575 605 617 602 548 568 532 541 571 549 538 562 548 520 541 558 544 527 518 513 558 554 579 574 566 561 593 602 599 604 609 610 598 607 602 598 617 605 611 600 580 569 584 574 578 587 577 586 591 621 625 633 612 633 606 614 634 599 646 695 685 699 716 693 724 734 744 746 745 743 723 740 745 751 798 776 823 806 823 819 833 828 796 840 815 835 853 819 860 835 877 810 843 850 820 790 837 838 853 813 833 870 879 863 870 873 866 881 863 908 859 889 844 833 812 810 836 866 838 858 834 847 849 838 839 865 846 864 843 888 893 865 885 870 929 893 892 906 918 923 926 943 900 959 978 954 1016 999 975 958 965 978 948 960 972 947 998 996 980 943 975 973 969 997 995 1038 1011 989 940 926 946 927 950 951 917 937 956 967 980 1003 995 1000 1025 1033 1065 1032 1002 1018 1039 1042 993 963 968 977 918 923 946 941 904 965 946 958 975 961 984 1007 976 949 942 933 936 935 910 970 977 956 953 976 982 1028 1033 1005 968 947 938 929 965 970 952 956 981 1007 963 990 951 955 950 949 933 957 941 945 949 997 995 992 984 980 993 939 991 944 975 970 953 963 962 953 938 890 907 923 957 997 972 980 1006 988 999 1001 970 956 966 953 932 930 904 896 973 922 964 975 1005 978 929 904 945 943 888 866 850 869 909 891 878 894 941 919 914 898 897 895 874 910 843 882 849 843 768 746 735 739 832 805 835 849 893 869 832 862 874 850 879 876 845 878 822 833 860 861 850 843 837 802 816 810 790 837 846 851 836 813 833 833 840 829 873 821 848 848 853 865 861 825 898 869 873 837 873 877 911 826 851 843 847 817 806 820 844 806 807 784 758 837 793 836 794 802 778 693 684 674 702 701 713 788 812 837 840 849 891 882 878 899 870 871 850 866 876 874 884 908 880 864 914 916 905 885 895 904 889 902 946 913 950 948 950 936 926 887 910 916 962 959 935 981 979 1007 973 957 1004 996 1013 972 992 1003 1039 1041 1047 1007 1052 1021 1065 1039 1089 1022 1039 1076 1053 1054 1049 1029 1049 1055 1063 1121 1114 1040 1105 1131 1121 1115 1162 1111 1135 1147 1130 1131 1154 1127 1166 1187 1130 1157 1231 1231 1259 1231 tiff:ImageLength=2905 tiff:ImageWidth=2905 Unknown tag (0x0140)=0 31488 31744 32000 41728 41984 42240 42496 0 23552 0 23808 0 24064 18432 18688 18688 18944 18944 65280 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41728 41984 42240 42496 23552 23552 23808 23808 24064 24064 30464 30720 30976 30976 31232 65280 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23552 23552 23808 23808 24064 24064 32512 32768 33024 33024 33280 65280 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Unknown tag (0x0116)=1 Unknown tag (0x0111)=8 269 549 796 1061 1329 1602 1873 2142 2405 2682 2920 3185 3454 3759 4046 4324 4612 4862 5170 5456 5742 5997 6277 6540 6839 7155 7479 7780 8077 8390 8691 8968 9234 9518 9826 10169 10530 10872 11250 11573 11902 12214 12530 12857 13193 13492 13818 14136 14488 14861 15249 15589 15940 16263 16575 16914 17244 17585 17912 18227 18528 18838 19118 19396 19687 19963 20251 20539 20830 21113 21362 21613 21885 22154 22442 22729 23019 23304 23603 23906 24166 24447 24758 25064 25390 25728 26064 26410 26727 27041 27360 27652 27945 28219 28493 28765 29070 29347 29630 29911 30196 30490 30788 31095 31386 31691 31996 32317 32626 32941 33252 33570 33882 34189 34545 34876 35200 35510 35824 36112 36381 36643 36874 37109 37344 37580 37806 38018 38233 38432 38628 38846 39075 39284 39505 39710 39902 40079 40269 40435 40593 40752 40911 41127 41362 41588 41808 42034 42293 42537 42747 42986 43233 43472 43687 43894 44101 44305 44499 44700 44896 45094 45307 45513 45737 45951 46147 46348 46534 46741 46931 47133 47331 47520 47714 47914 48104 48318 48554 48809 49062 49301 49555 49794 50010 50225 50444 50662 50875 51052 51217 51397 51583 51745 51915 52093 52276 52487 52690 52920 53184 53450 53711 53955 54187 54407 54620 54816 55008 55203 55418 55654 55885 56089 56309 56511 56718 56941 57184 57422 57662 57896 58139 58383 58600 58807 59007 59210 59410 59634 59842 60040 60233 60418 60596 60778 60973 61158 61375 61555 61743 61927 62112 62289 62461 62632 62786 62952 63125 63288 63443 63608 63758 63927 64082 64257 64434 64607 64798 64975 65146 65327 65494 65655 65838 66005 66190 66351 66537 66710 66899 67085 67270 67462 67646 67821 67985 68145 68294 68443 68586 68742 68908 69056 69224 69382 69545 69705 69861 70010 70164 70332 70515 70694 70884 71067 71243 71417 71588 71751 71915 72067 72236 72404 72558 72732 72903 73081 73264 73512 73727 73946 74143 74354 74547 74733 74934 75119 75311 75494 75682 75875 76089 76310 76487 76700 76900 77095 77303 77509 77723 77946 78174 78407 78657 78919 79165 79419 79634 79877 80119 80348 80576 80820 81079 81330 81585 81835 82079 82338 82598 82880 83157 83436 83701 83975 84275 84585 84893 85193 85515 85851 86171 86467 86769 87081 87374 87680 87989 88276 88580 88885 89218 89547 89870 90171 90506 90828 91148 91433 91758 92090 92414 92738 93046 93380 93686 94021 94321 94659 94982 95321 95656 95999 96354 96716 97063 97411 97751 98091 98448 98786 99102 99429 99754 100082 100414 100721 101030 101334 101641 101950 102265 102568 102884 103204 103534 103875 104210 104533 104851 105181 105511 105850 106190 106535 106873 107203 107541 107872 108210 108539 108877 109227 109585 109947 110291 110661 111028 111412 111785 112117 112446 112776 113119 113444 113748 114048 114352 114661 114972 115287 115618 115953 116286 116609 116937 117267 117575 117881 118178 118475 118766 119054 119344 119647 119924 120212 120501 120795 121093 121412 121737 122023 122310 122607 122921 123219 123521 123813 124108 124410 124716 125029 125316 125620 125923 126249 126572 126876 127181 127476 127742 128027 128323 128624 128907 129208 129526 129864 130202 130538 130865 131217 131533 131904 132287 132654 132996 133344 133707 134060 134409 134769 135142 135516 135889 136281 136624 136977 137339 137701 138061 138436 138822 139180 139554 139944 140316 140669 141031 141388 141730 142080 142458 142864 143262 143640 143997 144365 144734 145104 145440 145837 146239 146643 147038 147427 147774 148121 148468 148814 149178 149544 149857 150190 150515 150822 151142 151457 151762 152097 152416 152693 152966 153208 153501 153772 154037 154301 154584 154862 155163 155467 155761 156071 156369 156673 156979 157312 157622 157928 158256 158582 158937 159262 159601 159931 160250 160547 160833 161152 161487 161849 162183 162557 162893 163256 163649 163997 164366 164726 165086 165464 165824 166194 166601 166999 167407 167802 168212 168590 168941 169322 169698 170073 170478 170912 171383 171837 172288 172740 173230 173703 174166 174662 175106 175505 175962 176397 176855 177281 177694 178144 178566 179015 179499 179960 180419 180903 181358 181795 182265 182684 183142 183609 184076 184549 185026 185461 185865 186288 186769 187236 187712 188194 188638 189106 189521 189962 190405 190846 191282 191734 192168 192627 193065 193499 193912 194340 194752 195176 195629 196053 196498 196953 197353 197767 198199 198627 199070 199497 199892 200325 200757 201218 201644 202107 202585 203077 203551 204025 204529 205024 205539 206081 206576 207089 207594 208080 208566 209054 209594 210116 210632 211151 211655 212203 212719 213230 213741 214244 214768 215318 215854 216373 216908 217435 217956 218475 218981 219495 220036 220557 221092 221649 222202 222740 223286 223839 224398 224909 225429 226003 226552 227059 227567 228075 228591 229116 229696 230271 230845 231404 231963 232559 233197 233834 234459 235111 235767 236418 237026 237660 238305 238912 239504 240147 240756 241375 242009 242636 243275 243912 244509 245137 245746 246351 246993 247651 248332 249015 249721 250388 251071 251775 252421 253048 253694 254298 254934 255538 256251 256939 257610 258309 259026 259709 260432 261101 261838 262496 263169 263831 264522 265241 265931 266649 267292 267975 268577 269209 269861 270531 271252 271905 272539 273168 273836 274498 275182 275802 276408 276938 277526 278096 278676 279327 279994 280651 281338 282009 282672 283319 283999 284670 285354 286005 286621 287247 287898 288554 289217 289853 290517 291146 291778 292432 293098 293792 294448 295053 295723 296395 297027 297696 298392 299075 299790 300481 301181 301839 302519 303254 303942 304621 305326 305976 306650 307306 307993 308654 309302 309969 310649 311286 311960 312609 313268 313894 314515 315156 315790 316475 317096 317801 318484 319190 319865 320527 321203 321883 322511 323142 323748 324381 324976 325573 326185 326842 327455 328086 328726 329347 330036 330657 331301 331949 332571 333183 333784 334410 335004 335642 336292 336898 337537 338185 338785 339412 340080 340716 341323 341920 342560 343162 343810 344520 345179 345828 346458 347106 347761 348441 349109 349733 350388 351040 351677 352294 352929 353582 354210 354878 355565 356241 356921 357603 358329 359059 359766 360434 361159 361844 362491 363154 363824 364507 365172 365880 366568 367260 367916 368562 369203 369819 370442 371024 371632 372225 372848 373459 374078 374755 375403 376041 376695 377322 377961 378601 379223 379838 380405 381010 381605 382217 382810 383432 384075 384691 385307 385929 386607 387262 387863 388545 389155 389805 390448 391064 391699 392336 392988 393624 394275 394913 395569 396207 396800 397412 397989 398594 399208 399813 400387 400971 401583 402204 402879 403569 404240 404895 405549 406221 406907 407557 408251 408957 409635 410295 410965 411675 412337 413013 413679 414345 414971 415611 416243 416871 417484 418130 418757 419401 420020 420590 421172 421744 422334 422932 423527 424120 424721 425355 425942 426514 427079 427664 428271 428839 429395 429985 430593 431214 431787 432360 432986 433617 434265 434897 435536 436172 436850 437505 438176 438857 439531 440199 440879 441558 442273 442997 443699 444344 444972 445618 446262 446893 447564 448218 448903 449583 450246 450940 451640 452436 453196 453916 454673 455439 456203 456964 457745 458510 459225 459968 460667 461403 462146 462970 463795 464603 465408 466200 466996 467753 468528 469307 470062 470833 471613 472408 473180 473984 474716 475427 476148 476874 477598 478323 479123 479881 480628 481443 482198 482983 483728 484513 485286 486030 486788 487526 488248 488985 489707 490428 491140 491889 492666 493407 494163 494987 495814 496625 497441 498202 498946 499724 500487 501225 501974 502737 503510 504278 505011 505742 506423 507150 507770 508458 509179 509850 510510 511206 511898 512549 513274 513949 514636 515356 516040 516683 517355 518030 518720 519430 520142 520860 521556 522245 522932 523604 524301 524993 525682 526361 527010 527730 528471 529125 529856 530555 531294 531998 532652 533319 533987 534726 535402 536082 536777 537468 538169 538889 539585 540304 541006 541704 542400 543107 543836 544583 545357 546193 547008 547826 548656 549520 550411 551271 552127 553005 553873 554719 555631 556507 557353 558223 559115 560016 560889 561810 562713 563648 564537 565394 566248 567114 568009 568867 569749 570548 571388 572252 573136 573994 574838 575686 576512 577349 578181 579056 579913 580719 581512 582337 583174 583961 584795 585648 586545 587428 588318 589181 590073 590957 591782 592583 593393 594218 595026 595787 596523 597231 597982 598741 599525 600261 600970 601686 602468 603300 604080 604889 605713 606541 607314 608100 608851 609641 610329 611076 611796 612528 613283 614002 614720 615449 616160 616894 617623 618336 619081 619850 620626 621399 622158 622847 623520 624216 624920 625598 626303 627013 627736 628512 629269 630035 630797 631569 632318 633154 633941 634748 635544 636369 637222 638124 638999 639850 640662 641489 642278 643111 643927 644736 645586 646439 647245 648063 648865 649688 650502 651273 652074 652899 653682 654491 655352 656174 657058 657954 658766 659604 660418 661233 662058 662924 663832 664642 665493 666385 667277 668135 668995 669834 670690 671544 672346 673193 674002 674856 675670 676488 677312 678113 678905 679680 680478 681256 682010 682790 683566 684381 685188 686013 686814 687628 688499 689288 690011 690880 691730 692596 693438 694304 695198 696062 696875 697689 698537 699352 700200 701098 701937 702775 703639 704502 705375 706252 707043 707931 708864 709777 710708 711639 712536 713444 714319 715190 716031 716891 717764 718567 719405 720235 721026 721846 722673 723527 724342 725153 725961 726799 727649 728504 729367 730317 731240 732214 733104 734027 734928 735798 736729 737605 738427 739319 740243 741057 741964 742905 743909 744780 745646 746517 747344 748221 749098 749958 750832 751657 752479 753291 754050 754777 755559 756336 757154 757960 758735 759488 760255 761025 761775 762494 763288 764043 764809 765612 766383 767108 767879 768612 769383 770163 770926 771695 772517 773349 774129 774926 775717 776557 777362 778185 778975 779789 780585 781362 782153 782932 783760 784573 785402 786248 787111 787981 788831 789680 790492 791329 792121 792937 793788 794633 795483 796402 797275 798119 798949 799810 800682 801575 802495 803375 804277 805135 806002 806882 807763 808622 809458 810377 811267 812070 812953 813810 814644 815534 816395 817260 818145 818943 819712 820465 821222 821959 822696 823439 824169 824878 825636 826389 827130 827853 828561 829296 830042 830831 831581 832342 833111 833874 834601 835340 836088 836834 837636 838370 839091 839839 840523 841221 841957 842684 843421 844117 844830 845575 846276 846992 847750 848445 849151 849861 850604 851356 852085 852819 853540 854288 855008 855761 856482 857269 858023 858742 859443 860155 860899 861593 862324 863094 863910 864756 865628 866480 867354 868255 869140 869959 870816 871710 872596 873473 874379 875266 876161 877018 877883 878809 879702 880623 881520 882442 883341 884214 885106 886011 886919 887843 888725 889629 890543 891467 892428 893383 894375 895339 896341 897317 898326 899380 900420 901386 902371 903378 904387 905436 906452 907446 908437 909445 910424 911461 912414 913395 914398 915352 916306 917265 918233 919194 920193 921197 922219 923196 924181 925135 926109 927078 928028 928986 929981 930996 931932 932861 933823 934761 935671 936607 937553 938480 939442 940386 941346 942250 943205 944139 945055 945989 946974 947921 948897 949833 950764 951685 952619 953544 954424 955300 956200 957091 957965 958874 959751 960617 961444 962237 963040 963821 964650 965504 966380 967235 968083 968940 969820 970696 971563 972435 973280 974163 975048 975972 976838 977722 978569 979433 980286 981124 982009 982814 983627 984447 985331 986150 986991 987822 988696 989578 990436 991330 992220 993110 994054 994978 995946 996898 997837 998752 999659 1000507 1001358 1002224 1003044 1003869 1004724 1005576 1006454 1007310 1008207 1009010 1009856 1010704 1011539 1012358 1013172 1013962 1014736 1015566 1016405 1017288 1018130 1018956 1019829 1020674 1021501 1022291 1023104 1023916 1024743 1025573 1026362 1027189 1028014 1028838 1029659 1030494 1031356 1032236 1033064 1033899 1034714 1035520 1036342 1037196 1037983 1038781 1039590 1040400 1041219 1041984 1042745 1043536 1044281 1045081 1045865 1046703 1047487 1048231 1048995 1049773 1050540 1051341 1052137 1052939 1053718 1054493 1055326 1056141 1056917 1057704 1058480 1059237 1060013 1060757 1061525 1062286 1063069 1063865 1064649 1065430 1066244 1067065 1067895 1068705 1069524 1070392 1071241 1072065 1072918 1073770 1074625 1075507 1076401 1077240 1078056 1078887 1079691 1080502 1081298 1082084 1082873 1083669 1084506 1085370 1086194 1086987 1087837 1088697 1089553 1090397 1091229 1092087 1092921 1093793 1094667 1095515 1096364 1097218 1098083 1098947 1099805 1100642 1101495 1102325 1103140 1103983 1104845 1105665 1106496 1107368 1108209 1109055 1109919 1110783 1111641 1112532 1113403 1114273 1115139 1116038 1116947 1117835 1118740 1119598 1120465 1121314 1122175 1123064 1123939 1124808 1125673 1126528 1127405 1128283 1129128 1129965 1130821 1131666 1132520 1133402 1134331 1135257 1136168 1137068 1137964 1138836 1139708 1140584 1141457 1142333 1143185 1144078 1145019 1145942 1146816 1147707 1148590 1149505 1150400 1151289 1152234 1153182 1154062 1154925 1155793 1156666 1157491 1158349 1159229 1160084 1160921 1161763 1162594 1163453 1164303 1165146 1166002 1166843 1167644 1168492 1169317 1170152 1171050 1171904 1172766 1173629 1174471 1175331 1176191 1177065 1177950 1178838 1179703 1180552 1181434 1182308 1183168 1184031 1184866 1185748 1186653 1187584 1188489 1189404 1190269 1191174 1192056 1192972 1193844 1194768 1195643 1196524 1197429 1198315 1199176 1200043 1200875 1201730 1202625 1203515 1204368 1205221 1206109 1206979 1207900 1208775 1209652 1210527 1211397 1212273 1213159 1214046 1214883 1215765 1216610 1217473 1218298 1219092 1219910 1220705 1221512 1222305 1223100 1223948 1224792 1225640 1226451 1227305 1228138 1228943 1229789 1230614 1231383 1232148 1232932 1233723 1234549 1235333 1236090 1236827 1237612 1238394 1239160 1239949 1240725 1241535 1242316 1243116 1243944 1244718 1245535 1246310 1247089 1247865 1248660 1249475 1250332 1251155 1252020 1252912 1253788 1254626 1255478 1256349 1257209 1258036 1258880 1259707 1260538 1261386 1262284 1263190 1264041 1264889 1265750 1266606 1267469 1268371 1269278 1270171 1271094 1272005 1272844 1273747 1274664 1275581 1276513 1277441 1278370 1279262 1280174 1281067 1281977 1282882 1283748 1284613 1285470 1286335 1287211 1288072 1288909 1289764 1290661 1291502 1292358 1293217 1294087 1295002 1295846 1296706 1297576 1298465 1299349 1300253 1301119 1301965 1302853 1303744 1304625 1305538 1306471 1307443 1308377 1309283 1310216 1311137 1312063 1312962 1313891 1314811 1315724 1316654 1317576 1318492 1319428 1320382 1321329 1322268 1323209 1324192 1325127 1326096 1327011 1327976 1328979 1329983 1330997 1331954 1332927 1333918 1334921 1335901 1336847 1337786 1338724 1339684 1340696 1341720 1342779 1343854 1344911 1345947 1347006 1348057 1349065 1350118 1351204 1352238 1353302 1354426 1355515 1356607 1357720 1358816 1359887 1360962 1362046 1363179 1364259 1365369 1366481 1367590 1368704 1369812 1370951 1372071 1373121 1374242 1375351 1376463 1377581 1378674 1379837 1380911 1382033 1383157 1384256 1385317 1386345 1387403 1388500 1389573 1390655 1391748 1392832 1393910 1395050 1396163 1397312 1398427 1399558 1400683 1401826 1402925 1404033 1405065 1406142 1407198 1408243 1409282 1410347 1411414 1412473 1413560 1414698 1415819 1416949 1418023 1419108 1420213 1421277 1422289 1423332 1424308 1425279 1426279 1427290 1428305 1429295 1430288 1431277 1432246 1433233 1434159 1435065 1435996 1436935 1437883 1438831 1439720 1440625 1441539 1442415 1443290 1444186 1445046 1445915 1446777 1447661 1448524 1449419 1450305 1451232 1452135 1452986 1453884 1454776 1455718 1456584 1457445 1458333 1459199 1460082 1460962 1461833 1462707 1463556 1464418 1465269 1466158 1467055 1467918 1468779 1469652 1470507 1471398 1472271 1473163 1474054 1474921 1475719 1476544 1477389 1478198 1479077 1479925 1480858 1481774 1482628 1483497 1484354 1485242 1486136 1486986 1487844 1488722 1489570 1490412 1491201 1492064 1492886 1493700 1494540 1495353 1496215 1497047 1497861 1498706 1499530 1500373 1501241 1502089 1502971 1503825 1504746 1505651 1506573 1507449 1508314 1509203 1510132 1511011 1511856 1512729 1513606 1514465 1515333 1516174 1517038 1517925 1518791 1519635 1520489 1521355 1522193 1523065 1523998 1524946 1525847 1526738 1527623 1528497 1529400 1530357 1531278 1532199 1533105 1534008 1534853 1535718 1536605 1537465 1538361 1539261 1540152 1541022 1541936 1542801 1543632 1544465 1545283 1546117 1546897 1547609 1548332 1549088 1549820 1550524 1551215 1551891 1552553 1553245 1553956 1554703 1555434 1556244 1556986 1557741 1558495 1559234 1559988 1560778 1561544 1562296 1563075 1563809 1564525 1565282 1566020 1566740 1567480 1568229 1568944 1569638 1570361 1571063 1571762 1572496 1573245 1573938 1574685 1575414 1576163 1576893 1577610 1578348 1579049 1579742 1580395 1580997 1581604 1582198 1582819 1583419 1584041 1584653 1585230 1585820 1586397 1586984 1587556 1588132 1588721 1589296 1589901 1590518 1591120 1591668 1592236 1592768 1593309 1593880 1594429 1594967 1595529 1596077 1596597 1597138 1597696 1598240 1598767 1599285 1599798 1600356 1600910 1601489 1602063 1602629 1603190 1603783 1604385 1604984 1605588 1606197 1606807 1607405 1608012 1608614 1609212 1609829 1610434 1611045 1611645 1612225 1612794 1613378 1613952 1614530 1615117 1615694 1616280 1616871 1617492 1618117 1618750 1619362 1619995 1620601 1621215 1621849 1622448 1623094 1623789 1624474 1625173 1625889 1626582 1627306 1628040 1628784 1629530 1630275 1631018 1631741 1632481 1633226 1633977 1634775 1635551 1636374 1637180 1638003 1638822 1639655 1640483 1641279 1642119 1642934 1643769 1644622 1645441 1646301 1647136 1648013 1648823 1649666 1650516 1651336 1652126 1652963 1653801 1654654 1655467 1656300 1657170 1658049 1658912 1659782 1660655 1661521 1662402 1663265 1664173 1665032 1665921 1666765 1667598 1668410 1669220 1670056 1670922 1671760 1672618 1673452 1674299 1675148 1675986 1676825 1677690 1678536 1679400 1680243 1681131 1682024 1682889 1683774 1684644 1685573 1686466 1687358 1688264 1689182 1690105 1691031 1691974 1692874 1693833 1694811 1695765 1696781 1697780 1698755 1699713 1700678 1701656 1702604 1703564 1704536 1705483 1706481 1707477 1708457 1709400 1710375 1711348 1712317 1713314 1714309 1715347 1716358 1717347 1718287 1719213 1720159 1721086 1722036 1722987 1723904 1724841 1725797 1726764 1727744 1728747 1729742 1730742 1731767 1732800 1733865 1734897 1735899 1736917 1737956 1738998 1739991 1740954 1741922 1742899 1743817 1744740 1745686 1746627 1747531 1748496 1749442 1750400 1751375 1752336 1753320 1754327 1755303 1756252 1757194 1758127 1759063 1759998 1760908 1761878 1762855 1763811 1764764 1765740 1766722 1767750 1768783 1769788 1770756 1771703 1772641 1773570 1774535 1775505 1776457 1777413 1778394 1779401 1780364 1781354 1782305 1783260 1784210 1785159 1786092 1787049 1787990 1788935 1789884 1790881 1791876 1792868 1793852 1794832 1795825 1796764 1797755 1798699 1799674 1800644 1801597 1802560 1803522 1804475 1805413 1806303 1807210 1808133 1809090 1810087 1811059 1812039 1813045 1814033 1815032 1816033 1817003 1817959 1818925 1819878 1820810 1821740 1822644 1823540 1824513 1825435 1826399 1827374 1828379 1829357 1830286 1831190 1832135 1833078 1833966 1834832 1835682 1836551 1837460 1838351 1839229 1840123 1841064 1841983 1842897 1843795 1844692 1845587 1846461 1847371 1848214 1849096 1849945 1850788 1851556 1852302 1853037 1853776 1854608 1855413 1856248 1857097 1857990 1858859 1859691 1860553 1861427 1862277 1863156 1864032 1864877 1865755 1866577 1867410 1868270 1869131 1869981 1870824 1871661 1872463 1873279 1874089 1874879 1875716 1876562 1877413 1878249 1879062 1879895 1880728 1881568 1882397 1883270 1884091 1884939 1885787 1886640 1887505 1888366 1889191 1890089 1890958 1891831 1892668 1893541 1894418 1895329 1896155 1897006 1897849 1898696 1899513 1900319 1901139 1901983 1902789 1903596 1904380 1905138 1905975 1906768 1907604 1908398 1909200 1909978 1910671 1911355 1912029 1912731 1913432 1914145 1914933 1915745 1916582 1917422 1918271 1919162 1920044 1920922 1921821 1922691 1923562 1924412 1925278 1926154 1927028 1927912 1928820 1929700 1930564 1931478 1932394 1933299 1934184 1935079 1935983 1936872 1937774 1938720 1939633 1940583 1941531 1942481 1943417 1944343 1945230 1946140 1947056 1948018 1948977 1949912 1950893 1951872 1952879 1953852 1954809 1955813 1956809 1957822 1958794 1959786 1960789 1961828 1962869 1963916 1964923 1965975 1966996 1968061 1969100 1970189 1971211 1972250 1973326 1974379 1975433 1976482 1977511 1978560 1979615 1980678 1981799 1982913 1983953 1985058 1986189 1987310 1988425 1989587 1990698 1991833 1992980 1994110 1995241 1996395 1997522 1998688 1999875 2001005 2002162 2003393 2004624 2005883 tiff:BitsPerSample=8 Unknown tag (0x0106)=3 Unknown tag (0x87b0)=6378137.0 8.492555213226572E-212 6356752.314245 -1.613011411345354E-200 298.257223560493 5.342109207E-315 0.0 0.0 0.0 0.0 0.0 0.0 75.0 5.33178317E-315 0.0 0.0 0.0 0.0 0.0 0.0 tiff:Orientation=1 Unknown tag (0x011c)=1 Orientation=Top, left side (Horizontal / normal) Unknown tag (0x8482)=0.0 0.0 0.0 0.0 0.0 0.0 Unknown tag (0x87af)=1 1 0 28 1024 0 1 1 1025 0 1 1 2048 0 1 4326 2054 0 1 9102 2057 34736 1 0 2058 34736 1 1 2059 34736 1 2 3072 0 1 32767 3074 0 1 32767 3075 0 1 15 3076 0 1 9001 3078 34736 1 3 3079 34736 1 4 3080 34736 1 5 3081 34736 1 6 3082 34736 1 7 3083 34736 1 8 3084 34736 1 9 3085 34736 1 10 3086 34736 1 11 3087 34736 1 12 3088 34736 1 13 3089 34736 1 14 3090 34736 1 15 3091 34736 1 16 3092 34736 1 17 3094 34736 1 18 3095 34736 1 19 Unknown tag (0x830e)=2000.0 5.35655317E-315 2000.0 Unknown tag (0x0103)=32773 X-Parsed-By=org.apache.tika.parser.image.TiffParser Unknown tag (0x0102)=8 Content-Type=image/tiff Unknown tag (0x0115)=1 Unknown tag (0x0101)=2905 tiff:SamplesPerPixel=1 Unknown tag (0x0100)=2905 
+------------------
+Content Metadata: 
+Content-Length=2032552 Last-Modified=Mon, 18 Jun 2012 15:21:40 GMT _fst_=33 nutch.segment.name=20150220120735 Connection=close Server=Apache nutch.content.digest=3303187e1ce3c3b0054d415d56695bc3 Date=Fri, 20 Feb 2015 20:20:16 GMT nutch.crawl.score=8.281072E-8 Content-Type=image/tiff Accept-Ranges=bytes 
+=============================================
+=============================================
+https://www.ngdc.noaa.gov/mgg/wcd/WCSDmovie.wmv
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150220120735 nutch.content.digest=c275c4c7cac46a8f8db4f89cbe0c5a3d nutch.crawl.score=1.4559789E-8 
+=============================================
+=============================================
+ftp://acdisc.gsfc.nasa.gov/ftp/data/s4pa/Aqua_AIRS_Level3/AIRH3STD.005/2002/AIRS.2002.10.06.L3.RetStd_H001.v5.0.14.0.G07227164103.hdf
+------------------
+------------------
+Parsed Metadata: 
+_FV_TropTemp_D_ct=0 COTrapLyrNum=7 _FV_RelHumid_D_sdev=-9999.0 _FV_EmisMW_MW_A_sdev=-9999.0 _FV_CH4_dof_D_ct=0 _FV_CoarseCloudTemp_D_ct=0 _FV_Temperature_MW_D=-9999.0 _FV_CO_total_column_A_ct=0 _FV_CH4_Eff_Press_A_ct=0 _FV_SurfSkinTemp_A_sdev=-9999.0 _FV_Temperature_MW_A=-9999.0 _FV_SurfPres_D_ct=0 _FV_ClrOLR_D_ct=0 _FV_CO_dof_D_sdev=-9999.0 _FV_CoarseCloudFrc_D_sdev=-9999.0 _FV_Temperature_D_ct=0 _FV_CO_total_column_D_ct=0 _FV_CloudTopTemp_D_sdev=-9999.0 _FV_TropPres_A_sdev=-9999.0 _FV_SurfAirTemp_A_ct=0 _FV_CH4_VMR_eff_A_ct=0 Title-1=L3 Daily products are a grided output from L2 retrievals. _FV_CO_VMR_eff_A_sdev=-9999.0 _FV_RelHumidLiq_D_ct=0 _FV_CH4_dof_A_ct=0 _FV_OLR_A_ct=0 _FV_TotO3_D_ct=0 _FV_CH4_Eff_Press_D_sdev=-9999.0 _FV_Temperature_D_err=-9999.0 _FV_CO_VMR_eff_D_sdev=-9999.0 _FV_EmisMW_MW_A_ct=0 _FV_CH4_Eff_Press_A_sdev=-9999.0 _FV_SurfAirTemp_A=-9999.0 _FV_SurfAirTemp_D=-9999.0 _FV_CO_Verticality_A_sdev=-9999.0 _FV_ClrOLR_A=-9999.0 _FV_TotH2OVap_D_ct=0 _FV_CoarseCloudPres_D=-9999.0 DescendingGridEndTimeUTC=2002-10-06T13:29:59.999999Z _FV_CoarseCloudPres_A=-9999.0 _FV_EmisIR_D=-9999.0 _FV_CO_Eff_Press_D=-9999.0 _FV_CO_Eff_Press_A=-9999.0 _FV_TotalCounts_D=0 _FV_TotalCounts_A=0 _FV_FineCloudFrc_A_ct=0 CH4TrapLyrNum=3 IREmisFreqs=832.0 _FV_H2OVapMMR_D_sdev=-9999.0 _FV_ClrOLR_A_ct=0 _History=Direct read of HDF4 file through CDM library; HDF-EOS StructMetadata information was read _FV_GPHeight_MW_A_ct=0 _FV_EmisIR_A=-9999.0 _FV_CloudFrc_A_err=-9999.0 _FV_EmisIR_A_sdev=-9999.0 _FV_TotH2OVap_A_err=-9999.0 _FV_EmisIR_D_err=-9999.0 DescendingGridStartTimeUTC=2002-10-05T13:30:00.000000Z _FV_SurfPres_D=-9999.0 Month=10 _FV_SurfPres_A=-9999.0 _FV_EmisIR_D_ct=0 _FV_CH4_dof_D_sdev=-9999.0 _FV_CloudFrc_A_sdev=-9999.0 _FV_SurfAirTemp_D_sdev=-9999.0 _FV_CoarseCloudFrc_A_sdev=-9999.0 _FV_CloudTopPres_D_ct=0 _FV_EmisMW_MW_D_ct=0 _FV_TotH2OVap_D=-9999.0 _FV_RelHumidLiq_A_sdev=-9999.0 _FV_CO_total_column_A_sdev=-9999.0 _FV_CloudFrc_D_sdev=-9999.0 _FV_CoarseCloudTemp_A=-9999.0 _FV_SurfSkinTemp_A_err=-9999.0 _FV_TotH2OVap_A=-9999.0 _FV_CoarseCloudTemp_D=-9999.0 _FV_SurfSkinTemp_D_sdev=-9999.0 _FV_EmisIR_D_sdev=-9999.0 _FV_RelHumidLiq_A_ct=0 _FV_TotCldLiqH2O_A_sdev=-9999.0 _FV_RelHumid_D_ct=0 _FV_TropHeight_A_ct=0 _FV_CO_Eff_Press_A_sdev=-9999.0 _FV_CO_total_column_D_sdev=-9999.0 _FV_TotO3_D_err=-9999.0 _FV_OLR_A=-9999.0 _FV_TropTemp_A_sdev=-9999.0 _FV_OLR_D=-9999.0 _FV_Latitude=-9999.0 _FV_CO_VMR_eff_A_ct=0 _FV_CloudFrc_D_err=-9999.0 _FV_TotO3_A_ct=0 _FV_CloudTopTemp_A_ct=0 _FV_TotCldLiqH2O_D_sdev=-9999.0 _FV_CloudTopTemp_A_sdev=-9999.0 TempPresLvls=1000.0 _FV_TotCldLiqH2O_D_ct=0 _FV_CoarseCloudTemp_D_sdev=-9999.0 Year=2002 AscendingGridStartTimeUTC=2002-10-06T01:30:00.000000Z _FV_SurfSkinTemp_D_err=-9999.0 _FV_TotH2OVap_MW_A_sdev=-9999.0 _FV_CO_Eff_Press_D_sdev=-9999.0 _FV_SurfAirTemp_A_err=-9999.0 _FV_CH4_VMR_eff_D_err=-9999.0 _FV_EmisIR_A_ct=0 _FV_SurfSkinTemp_D_ct=0 _FV_CoarseCloudTemp_A_ct=0 _FV_TotCldLiqH2O_A_err=-9999.0 HDFEOSVersion=HDFEOS_V2.12 _FV_GPHeight_MW_D_sdev=-9999.0 _FV_SurfPres_A_ct=0 _FV_EmisIR_A_err=-9999.0 _FV_SurfPres_D_sdev=-9999.0 _FV_FineCloudFrc_A=-9999.0 _FV_SurfPres_A_sdev=-9999.0 _FV_CoarseCloudPres_D_sdev=-9999.0 _FV_CloudTopPres_D_err=-9999.0 _FV_ClrOLR_D_sdev=-9999.0 _FV_TropHeight_A=-9999.0 _FV_Topography=-9999.0 _FV_CH4_VMR_eff_D_sdev=-9999.0 _FV_TropTemp_D_sdev=-9999.0 _FV_TropHeight_D=-9999.0 _FV_Temperature_A=-9999.0 _FV_OLR_A_sdev=-9999.0 _FV_Temperature_D=-9999.0 _FV_FineCloudFrc_D=-9999.0 _FV_TotCldLiqH2O_A_ct=0 _FV_CO_Verticality_D_sdev=-9999.0 _FV_SurfSkinTemp_A_ct=0 _FV_TropHeight_A_sdev=-9999.0 HDF4_Version=4.2.1 (NCSA HDF Version 4.2 Release 1, February 17, 2005) _FV_EmisMW_MW_A=-9999.0 _FV_GPHeight_A_ct=0 _FV_OLR_D_ct=0 _FV_CO_Verticality_A=-9999.0 _FV_SurfAirTemp_A_sdev=-9999.0 _FV_Longitude=-9999.0 _FV_FineCloudFrc_D_sdev=-9999.0 _FV_GPHeight_A_sdev=-9999.0 AscendingGridEndTimeUTC=2002-10-07T01:29:59.999999Z _FV_CO_Verticality_D=-9999.0 _FV_TotO3_D_sdev=-9999.0 _FV_TotH2OVap_D_err=-9999.0 _FV_Temperature_D_sdev=-9999.0 _FV_CoarseCloudPres_A_sdev=-9999.0 _FV_CO_VMR_eff_A=-9999.0 _FV_TotO3_A_err=-9999.0 _FV_CO_Verticality_A_ct=0 _FV_CO_VMR_eff_D=-9999.0 _FV_ClrOLR_A_sdev=-9999.0 _FV_TotH2OVap_MW_D_sdev=-9999.0 _FV_CloudTopPres_D_sdev=-9999.0 _FV_Temperature_A_sdev=-9999.0 _FV_TropPres_A=-9999.0 _FV_TropPres_D=-9999.0 _FV_H2OVapMMR_D_err=-9999.0 NumOfDays=1 _FV_CloudTopTemp_A_err=-9999.0 _FV_TropTemp_A=-9999.0 _FV_Temperature_MW_A_sdev=-9999.0 _FV_H2OVapMMR_A_sdev=-9999.0 MWEmisFreqs=23.8 _FV_TropPres_D_sdev=-9999.0 _FV_CloudTopPres_A_sdev=-9999.0 _FV_FineCloudFrc_A_sdev=-9999.0 _FV_RelHumid_D=-9999.0 _FV_RelHumid_A=-9999.0 _FV_CO_dof_A=-9999.0 _FV_CO_dof_D=-9999.0 _FV_TropTemp_D=-9999.0 _FV_CO_VMR_eff_A_err=-9999.0 CH4_TrapezoidLayers=51 _FV_EmisMW_MW_D=-9999.0 _FV_CO_Eff_Press_A_ct=0 _FV_GPHeight_D_sdev=-9999.0 _FV_CO_Verticality_D_ct=0 _FV_Temperature_A_err=-9999.0 _FV_CoarseCloudTemp_A_sdev=-9999.0 _FV_CoarseCloudFrc_A_ct=0 _FV_CoarseCloudPres_D_ct=0 _FV_H2OVapMMR_D=-9999.0 _FV_H2OVapMMR_A=-9999.0 _FV_CoarseCloudPres_A_ct=0 _FV_CloudFrc_A_ct=0 H2OPresLvlNum=12 _FV_RelHumid_A_sdev=-9999.0 _FV_CH4_dof_A=-9999.0 _FV_CloudFrc_A=-9999.0 _FV_CH4_dof_D=-9999.0 _FV_CloudFrc_D=-9999.0 _FV_TotH2OVap_MW_A_ct=0 _FV_TropPres_D_ct=0 _FV_CloudFrc_D_ct=0 _FV_CloudTopPres_A=-9999.0 _FV_RelHumid_A_ct=0 _FV_CloudTopPres_D=-9999.0 _FV_TotO3_D=-9999.0 _FV_Temperature_A_ct=0 _FV_TotO3_A=-9999.0 _FV_H2OVapMMR_A_ct=0 _FV_RelHumidLiq_A=-9999.0 _FV_RelHumidLiq_D=-9999.0 _FV_TotH2OVap_MW_D_ct=0 _FV_H2OVapMMR_A_err=-9999.0 _FV_GPHeight_D=-9999.0 _FV_CoarseCloudFrc_D_ct=0 _FV_CH4_Eff_Press_D_ct=0 _FV_CH4_dof_A_sdev=-9999.0 CO_TrapezoidLayers=45 _FV_OLR_D_sdev=-9999.0 _FV_H2OVapMMR_D_ct=0 _FV_GPHeight_A=-9999.0 _FV_CloudTopTemp_D=-9999.0 _FV_CoarseCloudFrc_D=-9999.0 _FV_CloudTopTemp_A=-9999.0 _FV_CH4_VMR_eff_A_sdev=-9999.0 _FV_CO_VMR_eff_D_err=-9999.0 _FV_CoarseCloudFrc_A=-9999.0 _FV_GPHeight_MW_D_ct=0 _FV_CH4_VMR_eff_D_ct=0 _FV_TotH2OVap_A_sdev=-9999.0 _FV_GPHeight_D_ct=0 _FV_CloudTopTemp_D_err=-9999.0 _FV_TropHeight_D_ct=0 _FV_GPHeight_MW_A=-9999.0 _FV_CH4_VMR_eff_A_err=-9999.0 _FV_TropTemp_A_ct=0 _FV_TotO3_A_sdev=-9999.0 _FV_ClrOLR_D=-9999.0 _FV_GPHeight_MW_D=-9999.0 _FV_TotH2OVap_A_ct=0 _FV_Temperature_MW_D_sdev=-9999.0 _FV_SurfAirTemp_D_ct=0 _FV_CloudTopPres_A_err=-9999.0 _FV_TotCldLiqH2O_D_err=-9999.0 _FV_CloudTopTemp_D_ct=0 Description-3=Processing Level3_Daily PGE with ( 521 ) L2 files. Description-2=Starting date is 10-6-2002  Description-1=(Data starts the day before the one of interest.) _FV_RelHumidLiq_D_sdev=-9999.0 Content-Type=application/x-hdf _FV_EmisMW_MW_D_sdev=-9999.0 TempPresLvlNum=24 _FV_Temperature_MW_D_ct=0 _FV_SurfSkinTemp_D=-9999.0 _FV_SurfSkinTemp_A=-9999.0 Day=6 _FV_SurfAirTemp_D_err=-9999.0 _FV_Temperature_MW_A_ct=0 _FV_CO_Eff_Press_D_ct=0 H2OPresLvls=1000.0 _FV_CH4_Eff_Press_D=-9999.0 _FV_GPHeight_MW_A_sdev=-9999.0 _FV_CO_dof_D_ct=0 _FV_CO_VMR_eff_D_ct=0 _FV_CH4_Eff_Press_A=-9999.0 _FV_TropHeight_D_sdev=-9999.0 _FV_TotH2OVap_D_sdev=-9999.0 _FV_CH4_VMR_eff_D=-9999.0 _FV_CloudTopPres_A_ct=0 _FV_CH4_VMR_eff_A=-9999.0 _FV_TotalCounts_MW_A=0 cdm_data_type=GRID _FV_TropPres_A_ct=0 _FV_TotCldLiqH2O_A=-9999.0 _FV_FineCloudFrc_D_ct=0 _FV_CO_total_column_D=-9999.0 _FV_CO_dof_A_sdev=-9999.0 _FV_TotalCounts_MW_D=0 _FV_TotCldLiqH2O_D=-9999.0 _FV_LandSeaMask=0 _FV_CO_total_column_A=-9999.0 _FV_TotH2OVap_MW_A=-9999.0 _FV_CO_dof_A_ct=0 _FV_TotH2OVap_MW_D=-9999.0 
+------------------
+Content Metadata: 
+nutch.content.digest=d9af061f37070feaff32b4deebbf296a Content-Length=78960917 nutch.crawl.score=6.6571915E-10 Last-Modified=Wed, 15 Aug 2007 07:00:00 GMT _fst_=33 nutch.segment.name=20150222065632 
+=============================================
+=============================================
+http://acdisc.gsfc.nasa.gov/opendap/HDF-EOS5/Aura_OMI_Level3/OMAEROe.003/2004/OMI-Aura_L3-OMAEROe_2004m1004_v003-2011m1109t080433.he5
+------------------
+------------------
+Parsed Metadata: 
+NumberOfLongitudesInGrid=1440 GCTPProjectionCode=0 Period=Daily Projection=Geographic PGEVersion="1.1.0.1" StartUTC=2004-10-03T12:15:00.000000Z GridSpan=(-180,180,-90,90) GridSpacing=(0.25,0.25) TAI93At0zOfGranule=3.71001605E8 HDFEOSVersion=HDFEOS_5.1.11 ProcessLevel=3e GranuleDayOfYear=278 WavelDiagnostic=342.5, 388.0, 442.0, 463.0, 483.5 OrbitNumber=1161 GridOrigin=Center GranuleMonth=10 InstrumentName=OMI OrbitPeriod=5932.0 NumberOfLatitudesInGrid=720 GridSpanUnit=deg Content-Type=application/x-hdf GridSpacingUnit=deg EndUTC=2004-10-05T11:45:00.000000Z GranuleDay=4 GranuleYear=2004 cdm_data_type=GRID 
+------------------
+Content Metadata: 
+nutch.content.digest=4f62cf2ee827d8394a604ff3889503cf Date=Sun, 22 Feb 2015 15:34:59 GMT nutch.crawl.score=4.391941E-9 Last-Modified=Sat, 24 Mar 2012 19:05:50 GMT _fst_=33 nutch.segment.name=20150222065632 Content-Type=application/hdf-5 Connection=close Server=Apache 
+=============================================
+=============================================
+http://nssdc.gsfc.nasa.gov/archive/pdmp/APSD_V3_07_2004.doc
+------------------
+------------------
+Parsed Metadata: 
+metatag.keywords= metatag.keywords= cp:revision=3 meta:last-author=* * meta:save-date=2005-12-14T21:25:00Z Last-Author=* * dc:subject= subject= Application-Name=Microsoft Word 11.1 dcterms:created=2005-12-14T21:22:00Z Author=Diane Conner date=2005-12-14T21:25:00Z extended-properties:Template=Normal creator=Diane Conner Edit-Time=1200000000 Word-Count=13924 Creation-Date=2005-12-14T21:22:00Z meta:author=Diane Conner meta:keyword= cp:subject= extended-properties:Application=Microsoft Word 11.1 Company=jpl Keywords= Last-Save-Date=2005-12-14T21:25:00Z dc:title=Cassini / Huygens Program Last-Printed=2004-07-23T23:02:00Z Revision-Number=3 meta:print-date=2004-07-23T23:02:00Z dcterms:modified=2005-12-14T21:25:00Z meta:creation-date=2005-12-14T21:22:00Z Template=Normal Page-Count=43 dc:creator=Diane Conner meta:character-count=79371 Last-Modified=2005-12-14T21:25:00Z meta:word-count=13924 extended-properties:Company=jpl modified=2005-12-14T21:25:00Z xmpTPg:NPages=43 Character Count=79371 meta:page-count=43 Content-Type=application/msword 
+------------------
+Content Metadata: 
+ETag="c0b13-b9000-40ff9ce85ef40" Content-Length=757760 Last-Modified=Mon, 27 Mar 2006 13:18:13 GMT _fst_=33 nutch.segment.name=20150220214408 Connection=close Server=Apache nutch.content.digest=8ca1d206d61fad674ffd536cdcbe8824 Date=Sat, 21 Feb 2015 05:44:40 GMT nutch.crawl.score=1.6172358E-10 Content-Type=application/msword Accept-Ranges=bytes 
+=============================================
+=============================================
+http://sedac.ciesin.columbia.edu/es/esi/ESI_01a.pdf
+------------------
+------------------
+Parsed Metadata: 
+meta:save-date=2001-04-30T16:25:35Z Creation-Date=2001-04-30T12:25:34Z created=Mon Apr 30 05:25:34 PDT 2001 Last-Save-Date=2001-04-30T16:25:35Z meta:creation-date=2001-04-30T12:25:34Z Last-Modified=2001-04-30T16:25:35Z modified=2001-04-30T16:25:35Z xmpTPg:NPages=62 pdf:encrypted=false Content-Type=application/pdf dcterms:created=2001-04-30T12:25:34Z date=2001-04-30T16:25:35Z dc:format=application/pdf; version=1.2 dcterms:modified=2001-04-30T16:25:35Z pdf:PDFVersion=1.2 producer=Acrobat Distiller 4.05 for Windows 
+------------------
+Content Metadata: 
+ETag="1a3c08-5d8f9-3aac786264200" Content-Length=383225 Last-Modified=Mon, 16 Sep 2002 17:54:16 GMT _fst_=33 nutch.segment.name=20150220214408 Connection=close Server=Apache nutch.content.digest=703e024aac5093d70e645bcecd83ba49 Date=Sat, 21 Feb 2015 05:34:39 GMT nutch.crawl.score=1.8189985E-8 Content-Type=application/pdf Accept-Ranges=bytes 
+=============================================
+=============================================
+http://disc.sci.gsfc.nasa.gov/precipitation/images/TRMM_process_clr1_1_000_v7.JPG/image
+------------------
+------------------
+Parsed Metadata: 
+Data Precision=8 bits tiff:BitsPerSample=8 Y Resolution=96 dots X Resolution=96 dots Resolution Units=inch Number of Components=3 Image Height=701 pixels tiff:ImageLength=701 tiff:ImageWidth=526 Image Width=526 pixels Compression Type=Baseline X-Parsed-By=org.apache.tika.parser.jpeg.JpegParser Content-Type=image/jpeg Component 1=Y component: Quantization table 0, Sampling factors 2 horiz/2 vert Component 2=Cb component: Quantization table 1, Sampling factors 1 horiz/1 vert Component 3=Cr component: Quantization table 1, Sampling factors 1 horiz/1 vert 
+------------------
+Content Metadata: 
+Age=0 X-Caching-Rule-Id=downloads Content-Length=62106 Expires=Thu, 24 Feb 2005 11:08:04 GMT Last-Modified=Fri, 29 Jun 2012 13:17:29 GMT _fst_=33 nutch.segment.name=20150222023857 X-Cache-Headers-Set-By=CachingPolicyManager: /disc/caching_policy_manager Connection=close Server=Apache Cache-Control=max-age=0, private, must-revalidate X-Varnish=996122636 nutch.content.digest=4595a0be3b00bada26d012eeb2e36e6a X-Header-Set-Id=cache-with-last-modified Date=Sun, 22 Feb 2015 11:08:04 GMT nutch.crawl.score=1.084622E-8 Via=1.0 disc.sci.gsfc.nasa.gov Content-Type=image/jpeg 
+=============================================
+=============================================
+http://nssdc.gsfc.nasa.gov/nssdc/pdmp_guidelines_march93.rtf
+------------------
+------------------
+Parsed Metadata: 
+Author=CODE ST meta:author=CODE ST meta:word-count=0 meta:page-count=0 creator=CODE ST dc:creator=CODE ST meta:character-count=0 dc:title=DRAFT Content-Type=application/rtf Content-Type=application/rtf 
+------------------
+Content Metadata: 
+ETag="e1e4c-4e521-33aca316a8040" Content-Length=320801 Last-Modified=Thu, 22 Oct 1998 14:03:37 GMT _fst_=33 nutch.segment.name=20150222023857 Connection=close Server=Apache nutch.content.digest=c29bde9bb89d584fccfd8795b448b3a0 Date=Sun, 22 Feb 2015 11:20:51 GMT nutch.crawl.score=6.7272663E-9 Content-Type=application/rtf Accept-Ranges=bytes 
+=============================================
+=============================================
+http://oceancolor.gsfc.nasa.gov/oceanforum/attach/7/24407/LogReport.A20130402.GEO
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150222023857 nutch.content.digest=bb7c1b1cb54a333901b3df3963e1c57f nutch.crawl.score=6.5952227E-10 
+=============================================
+=============================================
+http://oceancolor.gsfc.nasa.gov/oceanforum/attach/7/24407/LogStatus.A20130402.GEO
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150222023857 nutch.content.digest=c7b63e35ade53fa5a7c3b700e1141b6b nutch.crawl.score=6.5952227E-10 
+=============================================
+=============================================
+http://sedac.ciesin.columbia.edu/data/set/acrp-boundary-1992/citation-download/ris
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150222023857 nutch.content.digest=a22cf9c49a95257b54a026b45b6cf519 nutch.crawl.score=5.5794356E-8 
+=============================================
+=============================================
+http://sedac.ciesin.columbia.edu/data/set/aglands-croplands-2000/original-publication-download/enw
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150222023857 nutch.content.digest=d21bd622dcccbf64e63b003d59ed1735 nutch.crawl.score=3.450767E-6 
+=============================================
+=============================================
+http://www.ngdc.noaa.gov/mgg/bathymetry/apb/data/files/basefiles/all_discovery_0.dg.gz
+------------------
+------------------
+Parsed Metadata: 
+Content-Type=application/gzip 
+------------------
+Content Metadata: 
+Content-Length=1144 Last-Modified=Tue, 17 Feb 2009 21:03:16 GMT _fst_=33 nutch.segment.name=20150222023857 Connection=close Server=Apache nutch.content.digest=129b3d3be1ce93b6d1827a97533d4cc8 Date=Sun, 22 Feb 2015 11:04:36 GMT nutch.crawl.score=8.3798405E-8 Content-Type=application/x-gzip Accept-Ranges=bytes 
+=============================================
+=============================================
+ftp://ftp.ngdc.noaa.gov/DMSP/isa.bt/usa_usgs_isa_float_agg1km_subset.hdr
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.content.digest=dac95310a37033b476fa870cefdf9629 nutch.crawl.score=8.688339E-7 nutch.segment.name=20150221160518 
+=============================================
+=============================================
+http://nssdcftp.gsfc.nasa.gov/miscellaneous/documents/b46429.rtf
+------------------
+------------------
+Parsed Metadata: 
+Creation-Date=1998-09-22T17:43:00Z meta:character-count=0 Author=**** meta:author=**** dc:title=PDMP Document (Feb 94) meta:creation-date=1998-09-22T17:43:00Z meta:word-count=0 meta:page-count=0 Content-Type=application/rtf Content-Type=application/rtf dcterms:created=1998-09-22T17:43:00Z creator=**** dc:creator=**** 
+------------------
+Content Metadata: 
+ETag="4b2035a-146b7f-393be5a870780" Content-Length=1338239 Last-Modified=Tue, 27 Nov 2001 14:18:22 GMT _fst_=33 nutch.segment.name=20150221030022 Connection=close Server=Apache/2.2.15 (Red Hat) nutch.content.digest=b71774a7ff6e4bea754c3061d7f03f47 Date=Sat, 21 Feb 2015 11:14:18 GMT nutch.crawl.score=1.6172358E-10 Content-Type=application/rtf Accept-Ranges=bytes 
+=============================================
+=============================================
+http://seawifs.gsfc.nasa.gov/OCEAN_PLANET/VRML/new_zealand.vrml
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150221030022 nutch.content.digest=0b5d2e59f9f179e805f10587089a72bf nutch.crawl.score=4.6152714E-11 
+=============================================
+=============================================
+http://seawifs.gsfc.nasa.gov/jason/SOUNDS/mbone_3.au
+------------------
+------------------
+Parsed Metadata: 
+xmpDM:audioSampleType=8Int channels=1 encoding=ULAW samplerate=8000.0 Content-Type=audio/basic xmpDM:audioSampleRate=8000 bits=8 
+------------------
+Content Metadata: 
+Content-Length=123340 Expires=Sat, 21 Feb 2015 17:22:39 GMT _fst_=33 nutch.segment.name=20150221030022 Connection=close Cache-Control=public nutch.content.digest=357004ff76229d192b6b44441af2dff7 Content-Security-Policy-Report-Only=default-src oceancolor.gsfc.nasa.gov oceancolor.sci.gsfc.nasa.gov seabass.gsfc.nasa.gov seadas.gsfc.nasa.gov seawifs.gsfc.nasa.gov oceanproxy1.domain.pub oceanproxy1 'unsafe-inline' ; Date=Sat, 21 Feb 2015 11:22:39 GMT nutch.crawl.score=4.8075743E-10 Accept-Ranges=bytes Content-Type=audio/basic 
+=============================================
+=============================================
+http://www.ngdc.noaa.gov/mgg/image/walter/AtlCarib.tif
+------------------
+------------------
+Parsed Metadata: 
+Unknown tag (0x0117)=12830400 dc:description=Image generated by Aladdin Ghostscript (device=ppmraw)
+------------------
+Content Metadata: 
+Content-Length=12830672 Last-Modified=Mon, 20 Jun 2005 19:04:32 GMT _fst_=33 nutch.segment.name=20150221030022 Connection=close Server=Apache nutch.content.digest=c2304dcd2f1c09473b386f7b4e3f5dcd Date=Sat, 21 Feb 2015 11:05:54 GMT nutch.crawl.score=7.243141E-9 Content-Type=image/tiff Accept-Ranges=bytes 
+=============================================
+=============================================
+https://www.ngdc.noaa.gov/mgg/wcd/WCSDmovie.ogg
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150221030022 nutch.content.digest=fd8a1f85fa64328d129b78cc85f6e294 nutch.crawl.score=1.4964227E-8 
+=============================================
+=============================================
+https://www.ngdc.noaa.gov/mgg/wcd/WCSDmovie.swf
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150221030022 nutch.content.digest=0ed68e588b444aa953f818f522d9c5a6 nutch.crawl.score=2.9928454E-8 
+=============================================
+=============================================
+https://www.ngdc.noaa.gov/ugc/unstructuredGrid/feed.atom
+------------------
+------------------
+Parsed Metadata: 
+dc:description=A news feed powered by Grails metatag.description=A news feed powered by Grails metatag.description=A news feed powered by Grails description=A news feed powered by Grails dc:title=Unstructured Grid Atom Feed Content-Type=application/atom+xml 
+------------------
+Content Metadata: 
+_fst_=33 nutch.segment.name=20150221030022 Connection=close nutch.content.digest=032c707848d31ba46381893799ab1eaa Date=Sat, 21 Feb 2015 11:07:02 GMT nutch.crawl.score=3.3970622E-7 Content-Type=application/atom+xml;charset=UTF-8 
+=============================================
+=============================================
+http://disc.sci.gsfc.nasa.gov/googleearth/kmz-kml/examples/TRMM-3B43-2004-03-01.kml
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150221034808 nutch.content.digest=adc2b4a2693e26ec8bb39c84c37acb9a nutch.crawl.score=1.0895012E-6 
+=============================================
+=============================================
+http://mcst.gsfc.nasa.gov/sites/mcst.gsfc/files/file_attachments/MOD021KM_V4.3.0.ch
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150221034808 nutch.content.digest=4639d462b0563dffdb5fb9a734a424b1 nutch.crawl.score=1.0804017E-9 
+=============================================
+=============================================
+http://mcst.gsfc.nasa.gov/sites/mcst.gsfc/files/file_attachments/MOD021KM_V5.0.6.ch
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150221034808 nutch.content.digest=6bedb02cc790fe366f40781e04eed0b0 nutch.crawl.score=1.0804017E-9 
+=============================================
+=============================================
+http://mcst.gsfc.nasa.gov/sites/mcst.gsfc/files/file_attachments/MOD021KM_V5.0.6.fs
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.segment.name=20150221034808 nutch.content.digest=15c2029ebd9de0854a51f992615b3fdd nutch.crawl.score=1.0804017E-9 
+=============================================
