@@ -1,0 +1,42 @@
+Input dir is " aoncadis-http
+Output file is " teststststsfsdsff
+=============================================
+http://www.eol.ucar.edu/projects/vocals/meetings/2011/miami/presentations/monday/110320Yuteretalfinal_celltracks.ppsx
+------------------
+------------------
+Parsed Metadata: 
+meta:last-author=echohawk meta:save-date=2011-04-15T20:17:55Z Slide-Count=14 Total-Time=49860 Creation-Date=2003-10-19T20:15:51Z extended-properties:Notes=14 extended-properties:Application=Microsoft Office PowerPoint Paragraph-Count=92 dc:title=Evaluating Uncertainties in GPM Oceanic Precipitation Retrievals Last-Save-Date=2011-04-15T20:17:55Z Revision-Number=596 Last-Printed=2011-03-17T18:49:50Z meta:creation-date=2003-10-19T20:15:51Z Last-Modified=2011-04-15T20:17:55Z meta:word-count=404 modified=2011-04-15T20:17:55Z xmpTPg:NPages=14 Notes=14 dc:publisher=University of Washington Content-Type=application/vnd.openxmlformats-officedocument.presentationml.slideshow Presentation-Format=On-screen Show (4:3) meta:slide-count=14 cp:revision=596 Last-Author=echohawk Application-Name=Microsoft Office PowerPoint dcterms:created=2003-10-19T20:15:51Z Author=Sandra Yuter Application-Version=12.0000 date=2011-04-15T20:17:55Z extended-properties:Template=031020oceangv creator=Sandra Yuter publisher=University of Washington meta:paragraph-count=92 Word-Count=404 extended-properties:AppVersion=12.0000 meta:author=Sandra Yuter meta:print-date=2011-03-17T18:49:50Z dcterms:modified=2011-04-15T20:17:55Z Template=031020oceangv dc:creator=Sandra Yuter extended-properties:Company=University of Washington extended-properties:PresentationFormat=On-screen Show (4:3) extended-properties:TotalTime=49860 
+------------------
+Content Metadata: 
+ETag="5da6b4-3c3a2d-4a0fabcc2e500" Content-Length=3947053 Expires=Sun, 08 Mar 2015 19:48:39 GMT Last-Modified=Fri, 15 Apr 2011 20:17:56 GMT _fst_=33 nutch.segment.name=20150222104205 Connection=close Server=Apache/2.2.15 (Scientific Linux) Cache-Control=max-age=1209600 nutch.content.digest=1d44744ff3554480aa7830691c192746 Date=Sun, 22 Feb 2015 19:48:39 GMT nutch.crawl.score=1.3959928E-9 Content-Type=application/vnd.openxmlformats-officedocument.presentationml.slideshow Accept-Ranges=bytes 
+=============================================
+=============================================
+ftp://ftp.eol.ucar.edu/pub/archive/iss/asp/corrected_soundings/skew-ts/D20090605_150929_P.svg
+------------------
+------------------
+Parsed Metadata: 
+Content-Type=image/svg+xml 
+------------------
+Content Metadata: 
+nutch.content.digest=efb974f329ef01fd722a44696c4d5bdf Content-Length=471749 nutch.crawl.score=2.7777778E-8 Last-Modified=Mon, 08 Jun 2009 07:00:00 GMT _fst_=33 nutch.segment.name=20150222033701 
+=============================================
+=============================================
+ftp://ftp.eol.ucar.edu/pub/archive/iss/asp/corrected_soundings/skew-ts/D20090605_173029_P.svg
+------------------
+------------------
+Parsed Metadata: 
+Content-Type=image/svg+xml 
+------------------
+Content Metadata: 
+nutch.content.digest=3ab5d2f954b2df3b93bb1bc155da391a Content-Length=436414 nutch.crawl.score=2.7777778E-8 Last-Modified=Mon, 08 Jun 2009 07:00:00 GMT _fst_=33 nutch.segment.name=20150222174939 
+=============================================
+=============================================
+http://catalog.eol.ucar.edu/best/stations/Eventlog_final_ed_H10701.csv
+------------------
+------------------
+Parsed Metadata: 
+
+------------------
+Content Metadata: 
+nutch.content.digest=2a72fa46f0654194c1c63ad427321cba nutch.crawl.score=2.6966156E-8 nutch.segment.name=20150222174939 
+=============================================
