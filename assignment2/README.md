@@ -1,5 +1,21 @@
 # Assignment 2 Solr Indexing and Ranking
 
+### Install gdal, ocr, ffmpeg on Ubuntu 14.10 (may works on 14.04)
+* Install GDAL
+```
+sudo apt-get install gdal-bin
+```
+* Install OCR support
+```
+sudo apt-get install tesseract-ocr
+```
+* Install ffmpeg
+```
+sudo add-apt-repository ppa:kirillshkrogalev/ffmpeg-next
+sudo apt-get update
+sudo apt-get install ffmpeg
+```
+
 ### Install Solr with Tika 1.8-SNAPSHOT
 * Pull tika truck and build:
 ```
@@ -33,22 +49,6 @@ svn co http://svn.apache.org/repos/asf/lucene/dev/branches/lucene_solr_4_10/
 ```
 cd lucene_solr_4_10
 ant compile
-```
-
-### Install gdal, ocr, ffmpeg on Ubuntu 14.10 (may works on 14.04)
-* Install GDAL
-```
-sudo apt-get install gdal-bin
-```
-* Install OCR support
-```
-sudo apt-get install tesseract-ocr
-```
-* Install ffmpeg
-```
-sudo add-apt-repository ppa:kirillshkrogalev/ffmpeg-next
-sudo apt-get update
-sudo apt-get install ffmpeg
 ```
 
 ### Verify all tools are working
