@@ -1,7 +1,7 @@
 import os
 import csv
 
-os.environ['CLASSPATH'] = "/home/renxia/apache/nutch/runtime/local/tika-app-1.8-SNAPSHOT.jar"
+os.environ['CLASSPATH'] = "/home/renxia/tika/tika-core/target/tika-core-1.8-SNAPSHOT.jar:/home/renxia/tika/tika-app/target/tika-app-1.8-SNAPSHOT.jar:/home/renxia/tika/tika-parsers/target/tika-parsers-1.8-SNAPSHOT.jar"
 
 from jnius import autoclass
 
@@ -116,7 +116,12 @@ for root, dirnames, filenames in os.walk('all'):
         filepath = os.path.join(root, filename)
 
         meta = Metadata()
-        tika.parseToString(FileInputStream(filepath), meta)
+        try:
+            print 'processing: ', filepath
+            tika.parseToString(FileInputStream(filepath), meta)
+        except:
+            print 'failed: ', filepath
+
         values = []
         for field in fields:
             value = meta.get(field) if meta.get(field) else ''
