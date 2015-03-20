@@ -1,0 +1,1 @@
+http://www.hackzine.org/using-apache-tika-from-python-with-jnius.html
