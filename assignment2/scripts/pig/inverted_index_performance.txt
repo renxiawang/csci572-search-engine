@@ -1,0 +1,29 @@
+--------------------
+---- 03/20/2015 ----
+--------------------
+
+HadoopVersion	PigVersion	UserId	StartedAt	FinishedAt	Features
+2.3.0-cdh5.0.2	0.12.0-cdh5.0.2	rwang	2015-03-20 15:18:53	2015-03-20 15:19:34	GROUP_BY
+
+Success!
+
+Job Stats (time in seconds):
+JobId	Maps	Reduces	MaxMapTime	MinMapTIme	AvgMapTime	MedianMapTime	MaxReduceTime	MinReduceTime	AvgReduceTime	MedianReducetime	Alias	Feature	Outputs
+job_1422692164023_7148	1	1	7	7	7	7	7	7	7	7	files,inverted_index,token_groups,tokenized	GROUP_BY	/user/rwang/inverted_index,
+
+Input(s):
+Successfully read 139769 records (13714893 bytes) from: "/user/rwang/metadata_graph.csv"
+
+Output(s):
+Successfully stored 13725 records (44429150 bytes) in: "/user/rwang/inverted_index"
+
+Counters:
+Total records written : 13725
+Total bytes written : 44429150
+Spillable Memory Manager spill count : 0
+Total bags proactively spilled: 0
+Total records proactively spilled: 0
+
+Job DAG:
+job_1422692164023_7148
+
