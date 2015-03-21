@@ -1,0 +1,56 @@
+------------------
+--- 03/21/2015 ---
+------------------
+
+### iteration 1:
+Map: 12
+Reduce: 10
+Submitted:	Sat Mar 21 16:10:51 PDT 2015
+Started:	Sat Mar 21 16:11:01 PDT 2015
+Finished:	Sat Mar 21 16:12:39 PDT 2015
+Elapsed:	1mins, 37sec
+Diagnostics:	
+Average Map Time	45sec
+Average Reduce Time	20sec
+Average Shuffle Time	9sec
+Average Merge Time	2sec
+
+### iteration 2:
+Map: 10
+Reduce: 10
+Submitted:	Sat Mar 21 16:13:28 PDT 2015
+Started:	Sat Mar 21 16:13:37 PDT 2015
+Finished:	Sat Mar 21 16:15:26 PDT 2015
+Elapsed:	1mins, 48sec
+Diagnostics:	
+Average Map Time	52sec
+Average Reduce Time	23sec
+Average Shuffle Time	3sec
+Average Merge Time	4sec
+
+### iteration 3:
+Map: 10
+Reduce: 10
+Submitted:	Sat Mar 21 16:16:15 PDT 2015
+Started:	Sat Mar 21 16:16:24 PDT 2015
+Finished:	Sat Mar 21 16:18:14 PDT 2015
+Elapsed:	1mins, 50sec
+Diagnostics:	
+Average Map Time	52sec
+Average Reduce Time	23sec
+Average Shuffle Time	3sec
+Average Merge Time	4sec
+
+### iteration 4:
+Submitted:	Sat Mar 21 16:19:07 PDT 2015
+Started:	Sat Mar 21 16:19:17 PDT 2015
+Finished:	Sat Mar 21 16:21:04 PDT 2015
+Elapsed:	1mins, 47sec
+Diagnostics:	
+Average Map Time	52sec
+Average Reduce Time	23sec
+Average Shuffle Time	3sec
+Average Merge Time	4sec
+
+total number of iteration: 5
+max_diff: 0.009330258049885742
