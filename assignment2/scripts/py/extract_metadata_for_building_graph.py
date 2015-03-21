@@ -6,17 +6,31 @@ import nltk
 from nltk.tokenize import RegexpTokenizer
 from nltk.corpus import stopwords
 
+from keywords import keywords
 
 os.environ['CLASSPATH'] = "/home/renxia/tika/tika-core/target/tika-core-1.8-SNAPSHOT.jar:/home/renxia/tika/tika-app/target/tika-app-1.8-SNAPSHOT.jar:/home/renxia/tika/tika-parsers/target/tika-parsers-1.8-SNAPSHOT.jar"
 
 from jnius import autoclass
 
-fields = ["keyword",
+fields = ["title",
+          "DC.title",
+          "dc:title",
+          "og:title",
+          "Title-1",
+          "description",
+          "keyword",
           "keywords",
           "Keywords",
           "KeyWords",
           "meta:keyword",
-          "KEYWORDS"]
+          "KEYWORDS",
+          "DC.description",
+          "dc:description",
+          "Description",
+          "DESCRIPTION",
+          "Description-3",
+          "Description-2",
+          "Description-1",]
 
 
 ## Import the Java classes we are going to need
@@ -28,7 +42,7 @@ FileInputStream = autoclass('java.io.FileInputStream')
 tika = Tika()
 
 ## init nltk
-tokenizer = RegexpTokenizer(r'\w+')
+tokenizer = RegexpTokenizer(r'\b[a-zA-Z]{2,}\b')
 stopwords_en = stopwords.words('english')
 
 ## result file
@@ -36,13 +50,15 @@ result = open('meta_for_graph.csv', 'w')
 csv_writer = csv.writer(result, delimiter = "\t", lineterminator='\n',
                         quotechar="\"", quoting=csv.QUOTE_MINIMAL)
 
+numOfProcessed = 0
 for root, dirnames, filenames in os.walk('all'):
     for filename in filenames:
         filepath = os.path.join(root, filename)
 
         meta = Metadata()
         try:
-            print 'processing: ', filepath
+            print 'Number of file processed: ', numOfProcessed
+            numOfProcessed += 1
             tika.parseToString(FileInputStream(filepath), meta)
         except:
             print 'failed: ', filepath
@@ -52,9 +68,6 @@ for root, dirnames, filenames in os.walk('all'):
             value = meta.get(field) if meta.get(field) else ''
             values.append(value)
 
-        if len(values) == 0:
-            continue
-
         ## tokenize and remove punc/stopwords
         meta_values = ','.join(values)
 
@@ -62,9 +75,10 @@ for root, dirnames, filenames in os.walk('all'):
         tokens = tokenizer.tokenize(meta_values)
         filtered_words = [w for w in tokens if not w in stopwords_en]
 
-        output_text = ' '.join(list(set(filtered_words)))
+        # extract tokens exists in keywords
+        filtered_words = set(filtered_words)
+        filtered_keywords = keywords & filtered_words
+
+        output_text = ' '.join(list(filtered_keywords))
 
         csv_writer.writerow([filename, output_text])
-
-
-
