@@ -11,25 +11,12 @@ os.environ['CLASSPATH'] = "/home/renxia/tika/tika-core/target/tika-core-1.8-SNAP
 
 from jnius import autoclass
 
-fields = ["title",
-          "DC.title",
-          "dc:title",
-          "og:title",
-          "Title-1",
-          "keyword",
+fields = ["keyword",
           "keywords",
           "Keywords",
           "KeyWords",
           "meta:keyword",
-          "KEYWORDS",
-          "description",
-          "DC.description",
-          "dc:description",
-          "Description",
-          "DESCRIPTION",
-          "Description-3",
-          "Description-2",
-          "Description-1"]
+          "KEYWORDS"]
 
 
 ## Import the Java classes we are going to need
@@ -64,6 +51,9 @@ for root, dirnames, filenames in os.walk('all'):
         for field in fields:
             value = meta.get(field) if meta.get(field) else ''
             values.append(value)
+
+        if len(values) == 0:
+            continue
 
         ## tokenize and remove punc/stopwords
         meta_values = ','.join(values)
