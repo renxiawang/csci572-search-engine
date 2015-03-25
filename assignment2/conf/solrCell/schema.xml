@@ -146,10 +146,10 @@
    -->
    <field name="title" type="text_general" indexed="true" stored="true" multiValued="true"/>
    <field name="subject" type="text_general" indexed="true" stored="true"/>
-   <field name="description" type="text_general" indexed="true" stored="true"/>
+   <field name="description" type="text_general" indexed="true" stored="true" multiValued="true"/>
    <field name="comments" type="text_general" indexed="true" stored="true"/>
    <field name="author" type="text_general" indexed="true" stored="true"/>
-   <field name="keywords" type="text_general" indexed="true" stored="true"/>
+   <field name="keywords" type="text_general" indexed="true" stored="true" multiValued="true"/>
    <field name="category" type="text_general" indexed="true" stored="true"/>
    <field name="resourcename" type="text_general" indexed="true" stored="true"/>
    <field name="url" type="text_general" indexed="true" stored="true"/>
@@ -183,11 +183,97 @@
     <field name="lon" type="location" indexed="true" stored="true" multiValued="true"/>
     <field name="lat" type="location" indexed="true" stored="true" multiValued="true"/>
     <field name="alt" type="location" indexed="true" stored="true" multiValued="true"/>
+    <field name="gps" type="text_general" indexed="true" stored="true" multiValued="true"/>
     <!-- datetimes -->
     <field name="start_datetime" type="date" indexed="true" stored="true" multiValued="true"/>
     <field name="end_datetime" type="date" indexed="true" stored="true" multiValued="true" />
     <field name="datetime" type="date" indexed="true" stored="true" multiValued="true"/>
 
+    <!-- pagerank -->
+    <field name="pagerank" type="float" indexed="false" stored="true"/>
+
+    <!-- fields from metadata -->
+    <!--<field name="title_1" type="text_general" indexed="true" stored="true" />
+    <field name="title_2" type="text_general" indexed="true" stored="true" />
+    <field name="title_3" type="text_general" indexed="true" stored="true" />
+    <field name="title_4" type="text_general" indexed="true" stored="true" />
+    <field name="title_5" type="text_general" indexed="true" stored="true" />
+    <field name="keywords_1" type="text_general" indexed="true" stored="true" />
+    <field name="keywords_2" type="text_general" indexed="true" stored="true" />
+    <field name="keywords_3" type="text_general" indexed="true" stored="true" />
+    <field name="keywords_4" type="text_general" indexed="true" stored="true" />
+    <field name="keywords_5" type="text_general" indexed="true" stored="true" />
+    <field name="keywords_6" type="text_general" indexed="true" stored="true" />
+    <field name="description_1" type="text_general" indexed="true" stored="true" />
+    <field name="description_2" type="text_general" indexed="true" stored="true" />
+    <field name="description_3" type="text_general" indexed="true" stored="true" />
+    <field name="description_4" type="text_general" indexed="true" stored="true" />
+    <field name="description_5" type="text_general" indexed="true" stored="true" />
+    <field name="description_6" type="text_general" indexed="true" stored="true" />
+    <field name="description_7" type="text_general" indexed="true" stored="true" />
+    <field name="description_8" type="text_general" indexed="true" stored="true" />
+    <field name="description_9" type="text_general" indexed="true" stored="true" />
+    <field name="creator_1" type="text_general" indexed="true" stored="true" />
+    <field name="creator_2" type="text_general" indexed="true" stored="true" />
+    <field name="creator_3" type="text_general" indexed="true" stored="true" />
+    <field name="lon_1" type="text_general" indexed="true" stored="true" />
+    <field name="lat_1" type="text_general" indexed="true" stored="true" />
+    <field name="gps_version_1" type="text_general" indexed="true" stored="true" />
+    <field name="gps_track_ref_1" type="text_general" indexed="true" stored="true" />
+    <field name="gps_track_1" type="text_general" indexed="true" stored="true" />
+    <field name="gps_time_stamp_1" type="date" indexed="true" stored="true" />
+    <field name="gps_status_1" type="text_general" indexed="true" stored="true" />
+    <field name="gps_speed_ref_1" type="text_general" indexed="true" stored="true" />
+    <field name="gps_speed_1" type="text_general" indexed="true" stored="true" />
+    <field name="gps_measure_mode_1" type="text_general" indexed="true" stored="true" />
+    <field name="gps_map_datum_1" type="location" indexed="true" stored="true" />
+    <field name="gps_lon_ref_1" type="text_general" indexed="true" stored="true" />
+    <field name="lon_2" type="location" indexed="true" stored="true" />
+    <field name="gps_lat_ref_1" type="text_general" indexed="true" stored="true" />
+    <field name="lat_2" type="location" indexed="true" stored="true" />
+    <field name="gps_diff_1" type="text_general" indexed="true" stored="true" />
+    <field name="gps_date_stamp_1" type="date" indexed="true" stored="true" />
+    <field name="gps_alt_ref_1" type="text_general" indexed="true" stored="true" />
+    <field name="alt_1" type="location" indexed="true" stored="true" />
+    <field name="alt_2" type="location" indexed="true" stored="true" />
+    <field name="start_time_1" type="date" indexed="true" stored="true" />
+    <field name="end_time_1" type="date" indexed="true" stored="true" />
+    <field name="start_time_2" type="date" indexed="true" stored="true" />
+    <field name="end_time_2" type="date" indexed="true" stored="true" />
+    <field name="date_time_1" type="date" indexed="true" stored="true" />
+    <field name="date_time_2" type="date" indexed="true" stored="true" />
+    <field name="create_date_1" type="date" indexed="true" stored="true" />
+    <field name="date_time_3" type="date" indexed="true" stored="true" />
+    <field name="date_time_original_1" type="date" indexed="true" stored="true" />
+    <field name="date_reviewed_1" type="date" indexed="true" stored="true" />
+    <field name="create_date_2" type="date" indexed="true" stored="true" />
+    <field name="date_time_original_2" type="date" indexed="true" stored="true" />
+    <field name="date_time_digitized_1" type="date" indexed="true" stored="true" />
+    <field name="date_time_4" type="date" indexed="true" stored="true" />
+    <field name="date_1" type="date" indexed="true" stored="true" />
+    <field name="create_date_3" type="date" indexed="true" stored="true" />
+    <field name="create_date_4" type="date" indexed="true" stored="true" />
+    <field name="total_time_1" type="text_general" indexed="true" stored="true" />
+    <field name="time_1" type="date" indexed="true" stored="true" />
+    <field name="date_time_original_3" type="date" indexed="true" stored="true" />
+    <field name="date_time_digitized_2" type="date" indexed="true" stored="true" />
+    <field name="time_2" type="date" indexed="true" stored="true" />
+    <field name="date_2" type="date" indexed="true" stored="true" />
+    <field name="total_time_2" type="text_general" indexed="true" stored="true" />
+    <field name="time_3" type="date" indexed="true" stored="true" />
+    <field name="start_time_4" type="date" indexed="true" stored="true" />
+    <field name="end_time_3" type="date" indexed="true" stored="true" />
+    <field name="start_time_3" type="date" indexed="true" stored="true" />
+    <field name="time_4" type="date" indexed="true" stored="true" />
+    <field name="start_time_5" type="date" indexed="true" stored="true" />
+    <field name="end_time_4" type="date" indexed="true" stored="true" />
+    <field name="end_time_5" type="date" indexed="true" stored="true" />
+    <field name="start_time_6" type="date" indexed="true" stored="true" />
+    <field name="end_time_6" type="date" indexed="true" stored="true" />
+    <field name="time_5" type="date" indexed="true" stored="true" />
+    <field name="time_6" type="date" indexed="true" stored="true" />
+    <field name="time_7" type="date" indexed="true" stored="true" />
+    <field name="create_time_1" type="date" indexed="true" stored="true" />-->
    <!--
      Some fields such as popularity and manu_exact could be modified to
      leverage doc values:
@@ -207,7 +293,7 @@
        RESTRICTION: the glob-like pattern in the name attribute must have
        a "*" only at the start or the end.  -->
    
-   <dynamicField name="*_i"  type="int"    indexed="true"  stored="true"/>
+   <!--<dynamicField name="*_i"  type="int"    indexed="true"  stored="true"/>
    <dynamicField name="*_is" type="int"    indexed="true"  stored="true"  multiValued="true"/>
    <dynamicField name="*_s"  type="string"  indexed="true"  stored="true" />
    <dynamicField name="*_ss" type="string"  indexed="true"  stored="true" multiValued="true"/>
@@ -223,26 +309,45 @@
    <dynamicField name="*_d"  type="double" indexed="true"  stored="true"/>
    <dynamicField name="*_ds" type="double" indexed="true"  stored="true"  multiValued="true"/>
 
-   <!-- Type used to index the lat and lon components for the "location" FieldType -->
+   &lt;!&ndash; Type used to index the lat and lon components for the "location" FieldType &ndash;&gt;
    <dynamicField name="*_coordinate"  type="tdouble" indexed="true"  stored="false" />
 
    <dynamicField name="*_dt"  type="date"    indexed="true"  stored="true"/>
    <dynamicField name="*_dts" type="date"    indexed="true"  stored="true" multiValued="true"/>
    <dynamicField name="*_p"  type="location" indexed="true" stored="true"/>
 
-   <!-- some trie-coded dynamic fields for faster range queries -->
+   &lt;!&ndash; some trie-coded dynamic fields for faster range queries &ndash;&gt;
    <dynamicField name="*_ti" type="tint"    indexed="true"  stored="true"/>
    <dynamicField name="*_tl" type="tlong"   indexed="true"  stored="true"/>
    <dynamicField name="*_tf" type="tfloat"  indexed="true"  stored="true"/>
    <dynamicField name="*_td" type="tdouble" indexed="true"  stored="true"/>
    <dynamicField name="*_tdt" type="tdate"  indexed="true"  stored="true"/>
 
-   <dynamicField name="*_c"   type="currency" indexed="true"  stored="true"/>
+   <dynamicField name="*_c"   type="currency" indexed="true"  stored="true"/>-->
 
    <dynamicField name="ignored_*" type="ignored" multiValued="true"/>
    <dynamicField name="attr_*" type="text_general" indexed="true" stored="true" multiValued="true"/>
 
    <dynamicField name="random_*" type="random" />
+
+    <dynamicField name="title_*" type="text_general" indexed="true" stored="true" multiValued="true" />
+    <dynamicField name="keywords_*" type="text_general" indexed="true" stored="true" multiValued="true" />
+    <dynamicField name="description_*" type="text_general" indexed="true" stored="true" multiValued="true" />
+    <dynamicField name="creator_*" type="text_general" indexed="true" stored="true" multiValued="true" />
+    <dynamicField name="lon_*" type="location" indexed="true" stored="true" multiValued="true" />
+    <dynamicField name="lat_*" type="location" indexed="true" stored="true" multiValued="true" />
+    <dynamicField name="alt_*" type="location" indexed="true" stored="true" multiValued="true" />
+    <dynamicField name="create_date_*" type="date" indexed="true" stored="true" multiValued="true" />
+    <dynamicField name="create_time_*" type="date" indexed="true" stored="true" multiValued="true" />
+    <dynamicField name="start_date_*" type="date" indexed="true" stored="true" multiValued="true" />
+    <dynamicField name="start_time_*" type="date" indexed="true" stored="true" multiValued="true" />
+    <dynamicField name="end_date_*" type="date" indexed="true" stored="true" multiValued="true" />
+    <dynamicField name="end_time_*" type="date" indexed="true" stored="true" multiValued="true" />
+    <dynamicField name="date_time_*" type="date" indexed="true" stored="true" multiValued="true" />
+    <dynamicField name="time_*" type="date" indexed="true" stored="true" multiValued="true" />
+    <dynamicField name="date_*" type="date" indexed="true" stored="true" multiValued="true" />
+    <dynamicField name="date_reviewed_*" type="date" indexed="true" stored="true" multiValued="true" />
+    <dynamicField name="gps_*" type="text_general" indexed="true" stored="true" multiValued="true" />
 
    <!-- uncomment the following to ignore any fields that don't already match an existing 
         field name or dynamic field, rather than reporting them as an error. 
@@ -277,15 +382,15 @@
         is added to the index.  It's used either to index the same field differently,
         or to add multiple fields to the same field for easier/faster searching.  -->
 
-   <copyField source="cat" dest="text"/>
+   <!--<copyField source="cat" dest="text"/>
    <copyField source="name" dest="text"/>
    <copyField source="manu" dest="text"/>
    <copyField source="features" dest="text"/>
    <copyField source="includes" dest="text"/>
    <copyField source="manu" dest="manu_exact"/>
 
-   <!-- Copy the price into a currency enabled field (default USD) -->
-   <copyField source="price" dest="price_c"/>
+   &lt;!&ndash; Copy the price into a currency enabled field (default USD) &ndash;&gt;
+   <copyField source="price" dest="price_c"/>-->
 
    <!-- Text fields from SolrCell to search by default in our catch-all field -->
    <copyField source="title" dest="text"/>
@@ -305,6 +410,7 @@
    <copyField source="lon_*" dest="lon" />
    <copyField source="lat_*" dest="lat" />
    <copyField source="alt_*" dest="alt" />
+   <copyField source="gps_*" dest="gps" />
    <copyField source="create_date_*" dest="start_datetime" />
    <copyField source="create_time_*" dest="start_datetime" />
    <copyField source="start_date_*" dest="start_datetime" />
@@ -317,22 +423,24 @@
    <copyField source="date_reviewed_*" dest="datetime" />
 
   <!-- copy to text -->
+   <copyField source="title_*" dest="text" />
+   <copyField source="keywords_*" dest="text" />
+   <copyField source="description_*" dest="text" />
+   <copyField source="creator_*" dest="text" />
    <copyField source="creator_*" dest="text" />
    <copyField source="lon_*" dest="text" />
    <copyField source="lat_*" dest="text" />
    <copyField source="alt_*" dest="text" />
+   <copyField source="gps_*" dest="text" />
    <copyField source="create_date_*" dest="text" />
    <copyField source="create_time_*" dest="text" />
    <copyField source="start_date_*" dest="text" />
    <copyField source="start_time_*" dest="text" />
    <copyField source="end_date_*" dest="text" />
    <copyField source="end_time_*" dest="text" />
-   <copyField source="date*" dest="text" />
-   <copyField source="time*" dest="text" />
-   <copyField source="gps_*" dest="text" />
 
    <!-- Create a string version of author for faceting -->
-   <copyField source="author" dest="author_s"/>
+   <!--<copyField source="author" dest="author_s"/>-->
 	
    <!-- Above, multiple source fields are copied to the [text] field. 
 	  Another way to map multiple source fields to the same 
@@ -745,7 +853,7 @@
 
     <!-- since fields of this type are by default not stored or indexed,
          any data added to them will be ignored outright.  --> 
-    <fieldtype name="ignored" stored="true" indexed="false" multiValued="true" class="solr.StrField" />
+    <fieldtype name="ignored" stored="false" indexed="false" multiValued="true" class="solr.StrField" />
 
     <!-- This point type indexes the coordinates as separate fields (subFields)
       If subFieldType is defined, it references a type, and a dynamic field
