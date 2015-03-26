@@ -12,6 +12,7 @@ FileInputStream = autoclass('java.io.FileInputStream')
 
 tika = Tika()
 
+i = 0
 for root, dirnames, filenames in os.walk('all'):
     for filename in filenames:
         filepath = os.path.join(root, filename)
@@ -23,6 +24,8 @@ for root, dirnames, filenames in os.walk('all'):
         except:
             print 'failed: ', filepath
             continue
-        print meta.names()
-        subprocess.call(['curl', 'http://localhost:8983/solr/solrCell/update/extract?commit=true&literal.id='+filename, '--data-binary', '@' + filepath, '-H', 'Content-type:'+meta.get('Content-Type')])
+        # print meta.names()
+        subprocess.call(['curl', 'http://localhost:8983/solr/solrCell/update/extract?literal.id='+filename, '--data-binary', '@' + filepath, '-H', 'Content-type:'+meta.get('Content-Type')])
 
+        i += 1
+        print 'finished: ', i
