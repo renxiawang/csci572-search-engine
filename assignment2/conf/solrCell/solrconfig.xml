@@ -365,9 +365,9 @@
          is recommended (see below).
          "dir" - the target directory for transaction logs, defaults to the
                 solr data directory.  --> 
-    <updateLog>
+    <!--<updateLog>
       <str name="dir">${solr.ulog.dir:}</str>
-    </updateLog>
+    </updateLog>-->
  
     <!-- AutoCommit
 
@@ -390,10 +390,12 @@
          If the updateLog is enabled, then it's highly recommended to
          have some sort of hard autoCommit to limit the log size.
       -->
-     <autoCommit> 
-       <maxTime>${solr.autoCommit.maxTime:15000}</maxTime> 
+     <autoCommit>
+       <maxDocs>5000</maxDocs>
+       <maxTime>30000</maxTime>
        <openSearcher>false</openSearcher> 
      </autoCommit>
+      <updateLog />
 
     <!-- softAutoCommit is like autoCommit except it causes a
          'soft' commit which only ensures that changes are visible
@@ -402,7 +404,7 @@
       -->
 
      <autoSoftCommit> 
-       <maxTime>${solr.autoSoftCommit.maxTime:-1}</maxTime> 
+       <maxTime>30000</maxTime>
      </autoSoftCommit>
 
     <!-- Update Related Event Listeners
@@ -1134,7 +1136,7 @@
         <str name="fmap.GPS Version ID">gps_</str>
         <str name="fmap.GPS Track Ref">gps_</str>
         <str name="fmap.GPS Track">gps_</str>
-        <str name="fmap.GPS Time-Stamp">gps_</str>
+        <str name="fmap.GPS Time-Stamp">datetime_</str>
         <str name="fmap.GPS Status">gps_</str>
         <str name="fmap.GPS Speed Ref">gps_</str>
         <str name="fmap.GPS Speed">gps_</str>
@@ -1145,56 +1147,57 @@
         <str name="fmap.GPS Latitude Ref">gps_</str>
         <str name="fmap.GPS Latitude">lat_</str>
         <str name="fmap.GPS Differential">gps_</str>
-        <str name="fmap.GPS Date Stamp">gps_</str>
+        <str name="fmap.GPS Date Stamp">datetime_</str>
         <str name="fmap.GPS Altitude Ref">gps_</str>
-        <str name="fmap.GPS Altitude">alt_</str>
-        <str name="fmap.Global Altitude">alt_</str>
-        <str name="fmap.DescendingGridStartTimeUTC">start_time_</str>
-        <str name="fmap.DescendingGridEndTimeUTC">end_time_</str>
-        <str name="fmap.AscendingGridStartTimeUTC">start_time_</str>
-        <str name="fmap.AscendingGridEndTimeUTC">end_time_</str>
-        <str name="fmap.Profile Date/Time">date_time_</str>
-        <str name="fmap.meta:save-date">date_time_</str>
-        <str name="fmap.meta:creation-date">create_date_</str>
-        <str name="fmap.Last-Save-Date">date_time_</str>
-        <str name="fmap.exif:DateTimeOriginal">date_time_</str>
-        <str name="fmap.DC.date.reviewed">date_</str>
-        <str name="fmap.DC.date.created">create_date_</str>
-        <str name="fmap.Date/Time Original">date_time_</str>
-        <str name="fmap.Date/Time Digitized">date_time_</str>
-        <str name="fmap.Date/Time">date_time_</str>
-        <str name="fmap.date">date_</str>
-        <str name="fmap.Date Created">create_date_</str>
-        <str name="fmap.Creation-Date">create_date_</str>
-        <str name="fmap.tIME">time_</str>
-        <str name="fmap.Sub-Sec Time Original">date_time_</str>
-        <str name="fmap.Sub-Sec Time Digitized">date_time_</str>
-        <str name="fmap.Sub-Sec Time">time_</str>
-        <str name="fmap.meta:print-date">date_</str>
-        <str name="fmap.Edit-Time">time_</str>
-        <str name="fmap.StartTime">start_time_</str>
-        <str name="fmap.RangeEndingTime">end_time_</str>
-        <str name="fmap.RangeBeginningTime">start_time_</str>
-        <str name="fmap.ProductionTime">time_</str>
-        <str name="fmap.PGE_StartTime">start_time_</str>
-        <str name="fmap.PGE_EndTime">end_time_</str>
-        <str name="fmap.GranuleEndingDateTime">end_time_</str>
-        <str name="fmap.GranuleBeginningDateTime">start_time_</str>
-        <str name="fmap.EndingTime">end_time_</str>
-        <str name="fmap.GRIB_VALID_TIME">time_</str>
-        <str name="fmap.GRIB_REF_TIME">time_</str>
-        <str name="fmap.Document ImageModificationTime">time_</str>
-        <str name="fmap.Time Created">create_time_</str>
+        <str name="fmap.DescendingGridStartTimeUTC">datetime_</str>
+        <str name="fmap.DescendingGridEndTimeUTC">datetime_</str>
+        <str name="fmap.AscendingGridStartTimeUTC">datetime_</str>
+        <str name="fmap.AscendingGridEndTimeUTC">datetime_</str>
+        <str name="fmap.Profile Date/Time">datetime_</str>
+        <str name="fmap.meta:save-date">datetime_</str>
+        <str name="fmap.meta:creation-date">datetime_</str>
+        <str name="fmap.Last-Save-Date">datetime_</str>
+        <str name="fmap.exif:DateTimeOriginal">datetime_</str>
+        <str name="fmap.DC.date.reviewed">datetime_</str>
+        <str name="fmap.DC.date.created">datetime_</str>
+        <str name="fmap.Date/Time Original">datetime_</str>
+        <str name="fmap.Date/Time Digitized">datetime_</str>
+        <str name="fmap.Date/Time">datetime_</str>
+        <str name="fmap.date">datetime_</str>
+        <str name="fmap.Date Created">datetime_</str>
+        <str name="fmap.Creation-Date">datetime_</str>
+        <str name="fmap.tIME">datetime_</str>
+        <str name="fmap.Sub-Sec Time Original">datetime_</str>
+        <str name="fmap.Sub-Sec Time Digitized">datetime_</str>
+        <str name="fmap.Sub-Sec Time">datetime_</str>
+        <str name="fmap.meta:print-date">datetime_</str>
+        <str name="fmap.Edit-Time">datetime_</str>
+        <str name="fmap.StartTime">datetime_</str>
+        <str name="fmap.RangeEndingTime">datetime_</str>
+        <str name="fmap.RangeBeginningTime">datetime_</str>
+        <str name="fmap.ProductionTime">datetime_</str>
+        <str name="fmap.PGE_StartTime">datetime_</str>
+        <str name="fmap.PGE_EndTime">datetime_</str>
+        <str name="fmap.GranuleEndingDateTime">datetime_</str>
+        <str name="fmap.GranuleBeginningDateTime">datetime_</str>
+        <str name="fmap.EndingTime">datetime_</str>
+        <str name="fmap.GRIB_VALID_TIME">datetime_</str>
+        <str name="fmap.GRIB_REF_TIME">datetime_</str>
+        <str name="fmap.Document ImageModificationTime">datetime_</str>
+        <str name="fmap.Time Created">datetime_</str>
 
         <bool name="ignoreTikaException">true</bool>
     </lst>
     <lst name="date.formats">
+      <str>MM/dd/yyyy</str>
       <str>yyyy-MM-dd</str>
+      <str>hh:mm:ss</str>
       <str>yyyy-MM-dd'T'HH:mm:ss'Z'</str>
       <str>yyyy-MM-dd'T'HH:mm:ss</str>
       <str>yyyy-MM-dd</str>
       <str>yyyy-MM-dd hh:mm:ss</str>
       <str>yyyy-MM-dd HH:mm:ss</str>
+      <str>yyyy:MM:dd HH:mm:ss</str>
       <str>EEE MMM d hh:mm:ss z yyyy</str>
       <str>EEE, dd MMM yyyy HH:mm:ss zzz</str>
       <str>EEEE, dd-MMM-yy HH:mm:ss zzz</str>
