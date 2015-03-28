@@ -187,7 +187,7 @@
     <field name="datetime" type="date" indexed="true" stored="true" multiValued="true"/>
 
     <!-- pagerank -->
-    <field name="pagerank" type="float" indexed="false" stored="true"/>
+    <field name="pagerank" type="float" indexed="true" stored="true" default="0.0"/>
 
    <!--
      Some fields such as popularity and manu_exact could be modified to
