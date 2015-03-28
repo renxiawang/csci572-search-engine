@@ -1,0 +1,346 @@
+Question:  Questions: What time-based trends exist for discussion of water resource in Arctic?
+
+=================================================
+Query:  Discussion of oil in Artic in the last 5 years.
+=================================================
+-------------------------------------------------
+Content-based Query Results:
+number of matches= 40
+score	pagerank	title	keywords
+0.525547	2.096713	[u'An improved bathymetric portrayal of the Arctic Ocean: Implications for ocean modeling and geological, geophysical and oceanographic analyses']	[u'http://dx.doi.org/10.1029/2008GL033520, doi:10.1029/2008GL033520, bathymetry, Arctic Ocean, multibeam']
+0.2495227	1.302604	[u'1997 Report: Arctic Bathymetry Workshop, St. Petersburg, September 1997']	None
+0.24805392	2.073869	[u'Microsoft Word - Arctic-Antarctic Seafloor Mapping Meeting 2011-report.docx']	None
+0.15929511	None	[u'Ground-based Spectral Infrared Radiometers for Profiling Temperature and Water Vapor']	None
+0.12633856	0.821984	[u'Waterfalls on Wolf Creek in Banning State Park, Minnesota']	[u'waterfalls', u'wolf', u'creek', u'banning', u'state', u'park', u'minnesota', u'america', u'us', u'usa', u'summer', u'nature', u'landscape', u'water', u'forest', u'rock', u'colored', u'sandstone', u'waterfalls', u'wolf', u'creek', u'banning', u'state', u'park', u'minnesota', u'america', u'us', u'usa', u'summer', u'nature', u'landscape', u'water', u'forest', u'rock', u'colored', u'sandstone']
+0.11209797	1.654028	[u'Microsoft Word - The International Bathymetric Chart of the Arctic Ocean-June3-Auxilliary Material.docx']	None
+0.057994153	1.726183	[u'Snowflake (DI02630) Photo by Greg Thompson']	[u'DI02630', u'weather', u'snow', u'snowflake', u'winter', u'Greg Thompson', u'DI02630', u'weather', u'snow', u'snowflake', u'winter', u'Greg Thompson']
+0.019122643	0.0	None	None
+0.018448094	0.670558	[u'IBCAO Draft Report of Editorial Board Meeting Copenhagen, Oct 19-20 1998']	None
+0.01774038	0.0	[u'Linnea M. Avallone']	None
+-------------------------------------------------
+Link-based Query Results:
+number of matches= 20
+score	pagerank	title	keywords
+0.064509444	2.26543	[u'The Earth Observer July-August 2011']	[u'NASA, Earth, Science, light precipitation, Global Precipitation Measurement, LPVEx, DISCOVER-AQ, Odyssey of the MInd World Finals, DEVELOP Summer program, CERES, HyspIRI, Glacier Monitoring Summit, MODIS Science Team meeting, Land-cover Land-use, Actic Ocean Research Voyage, Aquarius SAC-D mission, Science Education']
+0.5471435	2.096713	[u'An improved bathymetric portrayal of the Arctic Ocean: Implications for ocean modeling and geological, geophysical and oceanographic analyses']	[u'http://dx.doi.org/10.1029/2008GL033520, doi:10.1029/2008GL033520, bathymetry, Arctic Ocean, multibeam']
+0.27742097	2.073869	[u'Microsoft Word - Arctic-Antarctic Seafloor Mapping Meeting 2011-report.docx']	None
+0.12411757	1.726183	[u'Snowflake (DI02630) Photo by Greg Thompson']	[u'DI02630', u'weather', u'snow', u'snowflake', u'winter', u'Greg Thompson', u'DI02630', u'weather', u'snow', u'snowflake', u'winter', u'Greg Thompson']
+0.12623192	1.654028	[u'Microsoft Word - The International Bathymetric Chart of the Arctic Ocean-June3-Auxilliary Material.docx']	None
+0.28098872	1.302604	[u'1997 Report: Arctic Bathymetry Workshop, St. Petersburg, September 1997']	None
+0.061134033	0.927152	[u'Microsoft Word - Annual_Rept.docx']	[u'']
+0.05649806	0.927152	[u'Microsoft Word - OCO-2 _L2_FP_ATBD_v1_rev4_Nov10_FV_3.docx']	None
+0.0587919	0.927152	[u'Microsoft Word - RequestFormEOL-final']	None
+0.058396462	0.927152	[u'Microsoft Word - OWLeS_OpsPlan_draft_131127.docx']	[u'']
+
+=================================================
+Query:  Discussion of oil in Artic in the last 10 years to the last 5 years.
+=================================================
+-------------------------------------------------
+Content-based Query Results:
+number of matches= 18
+score	pagerank	title	keywords
+0.016818011	0.0	None	None
+0.0149844345	0.0	None	None
+0.013666534	0.0	None	None
+0.013515044	0.0	None	None
+0.013363227	0.976066	[u'Microsoft Word - 2006EPI_Report.doc']	None
+0.013165274	0.976066	[u'Microsoft Word - AllFinalCruiseReport.doc']	None
+0.012697057	1.426292	[u'SUSTAINABLE DEVELOPMENT IN FP6: Global Change and Ecosystems     Giovanni ANGELETTI  Environment Directorate  Research Directorate General    EUROPEAN COMMISSION   E-mail: giovanni.angeletti@cec.eu.int']	None
+0.012205532	0.0	[u'C130Handbook.Chapter6_tables.rev.xls']	None
+0.012037203	0.0	None	None
+0.012037203	0.0	None	None
+-------------------------------------------------
+Link-based Query Results:
+number of matches= 6
+score	pagerank	title	keywords
+0.063837476	1.426292	[u'SUSTAINABLE DEVELOPMENT IN FP6: Global Change and Ecosystems     Giovanni ANGELETTI  Environment Directorate  Research Directorate General    EUROPEAN COMMISSION   E-mail: giovanni.angeletti@cec.eu.int']	None
+0.06497481	0.976066	[u'Microsoft Word - AllFinalCruiseReport.doc']	None
+0.065455645	0.976066	[u'Microsoft Word - 2006EPI_Report.doc']	None
+0.057870492	0.850431	[u'Climate Change']	None
+0.057870492	0.850431	[u'Climate Change']	None
+0.062053047	0.779536	[u'Pilot 2006 Environmental Performance Index (EPI)']	[u'environmental performance, metrics, sustainability, benchmarking, coutnries, targets, MDGs, environmental policymaking']
+
+=================================================
+Query:  Discussion of oil in Artic in the last 15 years to the last 10 years.
+=================================================
+-------------------------------------------------
+Content-based Query Results:
+number of matches= 18
+score	pagerank	title	keywords
+0.016818011	0.0	None	None
+0.0149844345	0.0	None	None
+0.013666534	0.0	None	None
+0.013515044	0.0	None	None
+0.013363227	0.976066	[u'Microsoft Word - 2006EPI_Report.doc']	None
+0.013165274	0.976066	[u'Microsoft Word - AllFinalCruiseReport.doc']	None
+0.012697057	1.426292	[u'SUSTAINABLE DEVELOPMENT IN FP6: Global Change and Ecosystems     Giovanni ANGELETTI  Environment Directorate  Research Directorate General    EUROPEAN COMMISSION   E-mail: giovanni.angeletti@cec.eu.int']	None
+0.012205532	0.0	[u'C130Handbook.Chapter6_tables.rev.xls']	None
+0.012037203	0.0	None	None
+0.012037203	0.0	None	None
+-------------------------------------------------
+Link-based Query Results:
+number of matches= 1
+score	pagerank	title	keywords
+0.06061302	1.195917	[u'Microsoft Word - Report from the Open Meeting Oct 16-18.doc']	None
+Question:  Which region has the most security discussions than others?
+
+=================================================
+Query:  Security discussion in Arctic.
+=================================================
+-------------------------------------------------
+Content-based Query Results:
+number of matches= 1511
+score	pagerank	title	keywords
+0.70824146	1.062254	[u'Polar Gateways Arctic Circle Sunrise 2008']	None
+0.7066109	1.062254	[u'Polar Gateways Arctic Circle Sunrise 2008']	None
+0.7066109	1.062254	[u'Polar Gateways Arctic Circle Sunrise 2008']	None
+0.70596176	1.062254	[u'Polar Gateways Arctic Circle Sunrise 2008']	None
+0.70517665	None	[u'Polar Gateways Arctic Circle Sunrise 2008']	None
+0.70517665	1.062254	[u'Polar Gateways Arctic Circle Sunrise 2008']	None
+0.70348275	1.062254	[u'Polar Gateways Arctic Circle Sunrise 2008']	None
+0.70037687	1.062254	[u'Polar Gateways Arctic Circle Sunrise 2008']	None
+0.6985531	1.062254	[u'Polar Gateways Arctic Circle Sunrise 2008']	None
+0.6925122	None	[u'Polar Gateways Arctic Circle Sunrise 2008']	None
+-------------------------------------------------
+Link-based Query Results:
+number of matches= 1494
+score	pagerank	title	keywords
+0.15620413	3.932701	[u'NASA GSFC Sciences and Exploration Directorate - Earth Science Division Arctic Boreal Zone Workshop']	[u'earth science, earth sciences, Goddard, NASA, GSFC, Goddard Space Flight Center, Earth and Space, Science Research, education, climate, atmospheric chemistry, global modeling and assimilation, atmospheres, hydrospheric and biospheric science, cryospheric science, ocean science, hydrological science, biospheric science, terrestrial information systems, field support office, hurricanes, Terra, Aqua, MODIS, mesoscale atmospheric processes, climate and radiation, sea ice, glaciers, land surface']
+0.028299753	2.596661	[u'International Projects for Ocean Mapping | ngdc.noaa.gov']	[u'marine geology, marine geophysics, ocean mapping, IOC, GEBCO, IBCAO, IBCCA, IBCEA, IBCM, IBCWIO, International Bathymetry Charts of the Arctic Ocean, Central Eastern Atlantic, Mediterranean, Western Indian Ocean, Caribbean, General Bathymetric Chart of the Ocean, Intergovernmental Oceanographic Commission, International Hydrographic Organization, Data Center for Digital Bathymetry, IHO DCDB.']
+0.028299753	2.596661	[u'International Projects for Ocean Mapping | ngdc.noaa.gov']	[u'marine geology, marine geophysics, ocean mapping, IOC, GEBCO, IBCAO, IBCCA, IBCEA, IBCM, IBCWIO, International Bathymetry Charts of the Arctic Ocean, Central Eastern Atlantic, Mediterranean, Western Indian Ocean, Caribbean, General Bathymetric Chart of the Ocean, Intergovernmental Oceanographic Commission, International Hydrographic Organization, Data Center for Digital Bathymetry, IHO DCDB.']
+0.07212491	2.317252	[u'INSTAAR/NGDC goSEABED Cooperation']	[u'data, marine geology, seafloor, sea floor, physical properties of sediment, grain size, lithology, lithologic composition, GIS, gridding, maps, mappings, global ocean floor, geographic information systems, images, goSEABED, facies, munsell color, sediment type.']
+0.07212491	2.317252	[u'INSTAAR/NGDC goSEABED Cooperation']	[u'data, marine geology, seafloor, sea floor, physical properties of sediment, grain size, lithology, lithologic composition, GIS, gridding, maps, mappings, global ocean floor, geographic information systems, images, goSEABED, facies, munsell color, sediment type.']
+0.07212491	2.317252	[u'INSTAAR/NGDC goSEABED Cooperation']	[u'data, marine geology, seafloor, sea floor, physical properties of sediment, grain size, lithology, lithologic composition, GIS, gridding, maps, mappings, global ocean floor, geographic information systems, images, goSEABED, facies, munsell color, sediment type.']
+0.008121366	2.26543	[u'The Earth Observer July-August 2011']	[u'NASA, Earth, Science, light precipitation, Global Precipitation Measurement, LPVEx, DISCOVER-AQ, Odyssey of the MInd World Finals, DEVELOP Summer program, CERES, HyspIRI, Glacier Monitoring Summit, MODIS Science Team meeting, Land-cover Land-use, Actic Ocean Research Voyage, Aquarius SAC-D mission, Science Education']
+0.30469882	2.172801	[u'International Bathymetric Chart of the Southern Ocean (IBCSO) 2013 Poster | ngdc.noaa.gov']	[u'marine geology marine geophysics posters maps images bathymetry arctic relief']
+0.30469882	2.172801	[u'International Bathymetric Chart of the Southern Ocean (IBCSO) 2013 Poster | ngdc.noaa.gov']	[u'marine geology marine geophysics posters maps images bathymetry arctic relief']
+0.21763718	2.096713	[u'An improved bathymetric portrayal of the Arctic Ocean: Implications for ocean modeling and geological, geophysical and oceanographic analyses']	[u'http://dx.doi.org/10.1029/2008GL033520, doi:10.1029/2008GL033520, bathymetry, Arctic Ocean, multibeam']
+
+=================================================
+Query:  Security discussion in Antarctica.
+=================================================
+-------------------------------------------------
+Content-based Query Results:
+number of matches= 189
+score	pagerank	title	keywords
+0.48856664	None	[u'Home Page - Office of Scientific Computing  - 660.2']	[u'Office of Scientific Computing, Astrophysics Science Division, information technology, IT security']
+0.48856664	None	[u'Home Page - Office of Scientific Computing  - 660.2']	[u'Office of Scientific Computing, Astrophysics Science Division, information technology, IT security']
+0.48856664	None	[u'Home Page - Office of Scientific Computing  - 660.2']	[u'Office of Scientific Computing, Astrophysics Science Division, information technology, IT security']
+0.28626725	None	[u'Agriculture and Food Security | SEDAC']	None
+0.28626725	None	[u'Agriculture and Food Security | SEDAC']	None
+0.28626725	None	[u'Agriculture and Food Security | SEDAC']	None
+0.28626725	None	[u'Agriculture and Food Security | SEDAC']	None
+0.28626725	None	[u'Agriculture and Food Security | SEDAC']	None
+0.28626725	None	[u'Agriculture and Food Security | SEDAC']	None
+0.28626725	None	[u'Agriculture and Food Security | SEDAC']	None
+-------------------------------------------------
+Link-based Query Results:
+number of matches= 131
+score	pagerank	title	keywords
+0.007599595	2.212347	[u'Assessment of Digital Elevation Data - Global Land One-km Base Elevation Project | ngdc.noaa.gov']	[u'science, Digital Terrain Data, bathymetry, geophysical data, topography, DEM, elevation, images, TerrainBase, GLOBE']
+0.12739749	1.229715	[u'Privacy Policy, Disclaimer, and Copyright Notice | ngdc.noaa.gov']	None
+0.10397412	1.228209	[u'MULTICHANNEL SEISMIC-REFLECTION DATA WILKES LAND-ANTARCTICA | ngdc.noaa.gov']	None
+0.0107474495	1.062254	[u'Polar Gateways Arctic Circle Sunrise 2008']	None
+0.008597961	1.062254	[u'Polar Gateways Arctic Circle Sunrise 2008']	None
+0.0072728964	1.007659	[u'Metadata \xbb Complete Collection, v1.01: Compendium of Environmental Sustainability Indicators | SEDAC']	None
+0.0052542086	1.0	[u'GeoMedia Catalog Report']	None
+0.008133921	1.0	[u'GeoMedia Catalog Report']	None
+0.002536844	0.976066	[u'Microsoft Word - potere_dissertation_5dec.doc']	None
+0.008559593	0.866857	[u'Metadata \xbb Population Density Grid Future Estimates, v3: Gridded Population of the World (GPW), v3 | SEDAC']	None
+
+=================================================
+Query:  Security discussion in Southern Ocean.
+=================================================
+-------------------------------------------------
+Content-based Query Results:
+number of matches= 74
+score	pagerank	title	keywords
+1.3153411	None	[u'Data Announcements: Gravity Atlas of the Southern Ocean | ngdc.noaa.gov']	[u'marine geology geophysics satellite altimetry images gravity atlas fliers announcements GEOSAT Southern Ocean']
+1.3153411	None	[u'Data Announcements: Gravity Atlas of the Southern Ocean | ngdc.noaa.gov']	[u'marine geology geophysics satellite altimetry images gravity atlas fliers announcements GEOSAT Southern Ocean']
+1.3153411	1.698575	[u'Data Announcements: Gravity Atlas of the Southern Ocean | ngdc.noaa.gov']	[u'marine geology geophysics satellite altimetry images gravity atlas fliers announcements GEOSAT Southern Ocean']
+1.3153411	1.698575	[u'Data Announcements: Gravity Atlas of the Southern Ocean | ngdc.noaa.gov']	[u'marine geology geophysics satellite altimetry images gravity atlas fliers announcements GEOSAT Southern Ocean']
+0.75329477	None	[u'International Bathymetric Chart of the Southern Ocean (IBCSO) 2013 Poster | ngdc.noaa.gov']	[u'marine geology marine geophysics posters maps images bathymetry arctic relief']
+0.75329477	2.172801	[u'International Bathymetric Chart of the Southern Ocean (IBCSO) 2013 Poster | ngdc.noaa.gov']	[u'marine geology marine geophysics posters maps images bathymetry arctic relief']
+0.75329477	2.172801	[u'International Bathymetric Chart of the Southern Ocean (IBCSO) 2013 Poster | ngdc.noaa.gov']	[u'marine geology marine geophysics posters maps images bathymetry arctic relief']
+0.40065196	None	[u'Home Page - Office of Scientific Computing  - 660.2']	[u'Office of Scientific Computing, Astrophysics Science Division, information technology, IT security']
+0.40065196	None	[u'Home Page - Office of Scientific Computing  - 660.2']	[u'Office of Scientific Computing, Astrophysics Science Division, information technology, IT security']
+0.40065196	None	[u'Home Page - Office of Scientific Computing  - 660.2']	[u'Office of Scientific Computing, Astrophysics Science Division, information technology, IT security']
+-------------------------------------------------
+Link-based Query Results:
+number of matches= 69
+score	pagerank	title	keywords
+0.68217045	2.172801	[u'International Bathymetric Chart of the Southern Ocean (IBCSO) 2013 Poster | ngdc.noaa.gov']	[u'marine geology marine geophysics posters maps images bathymetry arctic relief']
+0.68217045	2.172801	[u'International Bathymetric Chart of the Southern Ocean (IBCSO) 2013 Poster | ngdc.noaa.gov']	[u'marine geology marine geophysics posters maps images bathymetry arctic relief']
+0.24287571	1.702915	[u'Predicted Topography Data | ngdc.noaa.gov']	[u'marine geology geophysics estimated topography satellite altimetry gravity images posters fliers announcements Southern Ocean GEOSAT CDROM CD-ROM']
+0.24287571	1.702915	[u'Predicted Topography Data | ngdc.noaa.gov']	[u'marine geology geophysics estimated topography satellite altimetry gravity images posters fliers announcements Southern Ocean GEOSAT CDROM CD-ROM']
+0.24287571	1.702915	[u'Predicted Topography Data | ngdc.noaa.gov']	[u'marine geology geophysics estimated topography satellite altimetry gravity images posters fliers announcements Southern Ocean GEOSAT CDROM CD-ROM']
+1.1110582	1.698575	[u'Data Announcements: Gravity Atlas of the Southern Ocean | ngdc.noaa.gov']	[u'marine geology geophysics satellite altimetry images gravity atlas fliers announcements GEOSAT Southern Ocean']
+1.1110582	1.698575	[u'Data Announcements: Gravity Atlas of the Southern Ocean | ngdc.noaa.gov']	[u'marine geology geophysics satellite altimetry images gravity atlas fliers announcements GEOSAT Southern Ocean']
+0.27757224	1.698575	[u'Gravity Field over the S Ocean from GEOSAT | ngdc.noaa.gov']	[u'marine geology marine geophysics satellite altimetry gravity field fliers announcements GEOSAT Southern Ocean images posters']
+0.27757224	1.698575	[u'S Ocean Gravity Field from GEOSAT | ngdc.noaa.gov']	[u'marine geology marine geophysics satellite altimetry gravity field images posters fliers announcements Southern Ocean GEOSAT']
+0.27757224	1.698575	[u'S Ocean Gravity Field from GEOSAT | ngdc.noaa.gov']	[u'marine geology marine geophysics satellite altimetry gravity field images posters fliers announcements Southern Ocean GEOSAT']
+Question:  Does the frequency of climate change discussion change based on time, or region?
+
+=================================================
+Query:  Climate change discussion in Arctic, Antarctica and Southern Ocean in the last 10 years.
+=================================================
+-------------------------------------------------
+Content-based Query Results:
+number of matches= 55
+score	pagerank	title	keywords
+0.11852956	0.850431	[u'Climate Change']	None
+0.11852956	0.850431	[u'Climate Change']	None
+0.06060126	2.096713	[u'An improved bathymetric portrayal of the Arctic Ocean: Implications for ocean modeling and geological, geophysical and oceanographic analyses']	[u'http://dx.doi.org/10.1029/2008GL033520, doi:10.1029/2008GL033520, bathymetry, Arctic Ocean, multibeam']
+0.034913894	1.260229	[u'A New Approach to Modeling Low Cloud Feedbacks on Climate']	None
+0.02961214	1.076225	[u'Multiscale approaches to understanding low-latitude cloud feedbacks on climate']	None
+0.02961214	1.076225	[u'Multiscale approaches to understanding low-latitude cloud feedbacks on climate']	None
+0.02961214	1.076225	[u'Multiscale approaches to understanding low-latitude cloud feedbacks on climate']	None
+0.028915232	None	[u'Ground-based Spectral Infrared Radiometers for Profiling Temperature and Water Vapor']	None
+0.024310388	0.850431	[u'An Annotated Outline of the Maping Exercise \u2013 Vulnerability to Climate Change from the IPCC Perspective that Reflects Exposure']	None
+0.022350343	1.654028	[u'Microsoft Word - The International Bathymetric Chart of the Arctic Ocean-June3-Auxilliary Material.docx']	None
+-------------------------------------------------
+Link-based Query Results:
+number of matches= 26
+score	pagerank	title	keywords
+0.03277733	2.26543	[u'The Earth Observer July-August 2011']	[u'NASA, Earth, Science, light precipitation, Global Precipitation Measurement, LPVEx, DISCOVER-AQ, Odyssey of the MInd World Finals, DEVELOP Summer program, CERES, HyspIRI, Glacier Monitoring Summit, MODIS Science Team meeting, Land-cover Land-use, Actic Ocean Research Voyage, Aquarius SAC-D mission, Science Education']
+0.07064112	2.096713	[u'An improved bathymetric portrayal of the Arctic Ocean: Implications for ocean modeling and geological, geophysical and oceanographic analyses']	[u'http://dx.doi.org/10.1029/2008GL033520, doi:10.1029/2008GL033520, bathymetry, Arctic Ocean, multibeam']
+0.037306853	2.073869	[u'Microsoft Word - Arctic-Antarctic Seafloor Mapping Meeting 2011-report.docx']	None
+0.035484206	1.726183	[u'Snowflake (DI02630) Photo by Greg Thompson']	[u'DI02630', u'weather', u'snow', u'snowflake', u'winter', u'Greg Thompson', u'DI02630', u'weather', u'snow', u'snowflake', u'winter', u'Greg Thompson']
+0.037306853	1.654028	[u'Microsoft Word - The International Bathymetric Chart of the Arctic Ocean-June3-Auxilliary Material.docx']	None
+0.037306853	1.302604	[u'1997 Report: Arctic Bathymetry Workshop, St. Petersburg, September 1997']	None
+0.046628654	1.260229	[u'A New Approach to Modeling Low Cloud Feedbacks on Climate']	None
+0.042694904	1.076225	[u'Multiscale approaches to understanding low-latitude cloud feedbacks on climate']	None
+0.042694904	1.076225	[u'Multiscale approaches to understanding low-latitude cloud feedbacks on climate']	None
+0.042694904	1.076225	[u'Multiscale approaches to understanding low-latitude cloud feedbacks on climate']	None
+
+=================================================
+Query:  Climate change discussion in Arctic, Antarctica and Southern Ocean in the last 20 years to the last 10 years.
+=================================================
+-------------------------------------------------
+Content-based Query Results:
+number of matches= 13
+score	pagerank	title	keywords
+0.007900295	0.0	[u'C:\\Documents and Settings\\mpulliam.000\\My Documents\\Weekly Projects - trash weekly\\DM03\\layout\\letters.pmd']	None
+0.007780985	0.0	[u'C:\\Documents and Settings\\mpulliam.000\\My Documents\\Weekly Projects - trash weekly\\DM03\\layout\\letters.pmd']	None
+0.007219496	0.0	None	None
+0.0071792332	1.195917	[u'Microsoft Word - Report from the Open Meeting Oct 16-18.doc']	None
+0.00611151	0.0	[u'Untitled-1']	[u'']
+0.00611151	0.0	[u'Untitled-1']	[u'']
+0.0059304964	0.0	None	None
+0.005849912	0.0	[u'HIRDLS_Level2_ATBD_VERSION2.dvi']	None
+0.0051894328	0.0	None	None
+0.004942517	0.683678	[u"Nimbus-7 TOMS User's Guide"]	None
+-------------------------------------------------
+Link-based Query Results:
+number of matches= 2
+score	pagerank	title	keywords
+0.033106726	1.195917	[u'Microsoft Word - Report from the Open Meeting Oct 16-18.doc']	None
+0.02757479	0.683678	[u"Nimbus-7 TOMS User's Guide"]	None
+
+=================================================
+Query:  Climate change discussion in Arctic, Antarctica and Southern Ocean in the last 30 years to the last 20 years.
+=================================================
+-------------------------------------------------
+Content-based Query Results:
+number of matches= 0
+score	pagerank	title	keywords
+-------------------------------------------------
+Link-based Query Results:
+number of matches= 0
+score	pagerank	title	keywords
+
+=================================================
+Query:  Climate change discussion in Arctic all the time.
+=================================================
+-------------------------------------------------
+Content-based Query Results:
+number of matches= 2807
+score	pagerank	title	keywords
+0.6733053	0.893396	[u'Climate and Radiation Research', u'Climate and Radiation Research']	None
+0.6482705	2.16223	[u'Weather and Climate--Lesson Plan #36A']	[u'atmospheric pressure,atmospheric temperature,scale height,radiation,convection,thunderstorms, heat transfer,weather,humidity,thunderstorm, global circulation, coriolis force, Hadley cell,trade winds, El Ni\xf1o']
+0.6482705	2.16223	[u'Weather and Climate--Lesson Plan #36B']	[u'atmospheric pressure,atmospheric temperature,scale height,radiation,convection,thunderstorms, heat transfer,weather,humidity,thunderstorm, global circulation, coriolis force, Hadley cell,trade winds, El Ni\xf1o']
+0.5844306	1.16766	[u'Project: Collaborative Research: Nonlinearities in the Arctic climate system during the Holocene']	None
+0.5708133	None	[u'Ozone Hole Watch: 2015 Antarctic MERRA Temperature']	[u'ozone hole, ozone watch, ozone, goddard, gsfc, nasa']
+0.5708133	1.39118	[u'Ozone Hole Watch: 2001 Antarctic MERRA Temperature']	[u'ozone hole, ozone watch, ozone, goddard, gsfc, nasa']
+0.5708133	1.39118	[u'Ozone Hole Watch: 2009 Antarctic MERRA Temperature']	[u'ozone hole, ozone watch, ozone, goddard, gsfc, nasa']
+0.5708133	1.39118	[u'Ozone Hole Watch: 2015 Antarctic MERRA Temperature']	[u'ozone hole, ozone watch, ozone, goddard, gsfc, nasa']
+0.5708133	1.39118	[u'Ozone Hole Watch: 1996 Antarctic MERRA Temperature']	[u'ozone hole, ozone watch, ozone, goddard, gsfc, nasa']
+0.5708133	1.39118	[u'Ozone Hole Watch: 1991 Antarctic MERRA Temperature']	[u'ozone hole, ozone watch, ozone, goddard, gsfc, nasa']
+-------------------------------------------------
+Link-based Query Results:
+number of matches= 2713
+score	pagerank	title	keywords
+0.021971926	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_PM_B890126_E890130                      ']	None
+0.021971926	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_AM_B890210_E890214                      ']	None
+0.021971926	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_AM_B890307_E890311                      ']	None
+0.021971926	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_AM_B890302_E890306                      ']	None
+0.021971926	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_AM_B891212_E891216                      ']	None
+0.021971926	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_PM_B890225_E890301                      ']	None
+0.021971926	5.565001	[u'TOVS_NOAA12_PATHB_GLOBAL_GRIDDED_5DAYS_AM_B921117_E921121                      ']	None
+0.021971926	5.565001	[u'TOVS_NOAA12_PATHB_GLOBAL_GRIDDED_5DAYS_AM_B920421_E920425                      ']	None
+0.021971926	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_PM_B890106_E890110                      ']	None
+0.021971926	5.565001	[u'TOVS_NOAA12_PATHB_GLOBAL_GRIDDED_5DAYS_PM_B920111_E920115                      ']	None
+
+=================================================
+Query:  Climate change discussion in Antarctica all the time.
+=================================================
+-------------------------------------------------
+Content-based Query Results:
+number of matches= 1817
+score	pagerank	title	keywords
+0.53834724	2.16223	[u'Weather and Climate--Lesson Plan #36A']	[u'atmospheric pressure,atmospheric temperature,scale height,radiation,convection,thunderstorms, heat transfer,weather,humidity,thunderstorm, global circulation, coriolis force, Hadley cell,trade winds, El Ni\xf1o']
+0.53834724	2.16223	[u'Weather and Climate--Lesson Plan #36B']	[u'atmospheric pressure,atmospheric temperature,scale height,radiation,convection,thunderstorms, heat transfer,weather,humidity,thunderstorm, global circulation, coriolis force, Hadley cell,trade winds, El Ni\xf1o']
+0.4406829	0.851364	[u'Climate Analysis', u'Climate Analysis']	None
+0.33908263	None	[u'Climate and Radiation Research', u'Climate and Radiation Research']	None
+0.33908263	0.893396	[u'Climate and Radiation Research', u'Climate and Radiation Research']	None
+0.33908263	0.893396	[u'Climate and Radiation Research', u'Climate and Radiation Research']	None
+0.33908263	0.893396	[u'Climate and Radiation Research', u'Climate and Radiation Research']	None
+0.33908263	0.893396	[u'Climate and Radiation Research', u'Climate and Radiation Research']	None
+0.3142089	1.99041	None	[u'meteorology, weather, atmospheric heat flow,atmospheric pressure distribution,atmospheric convection,atmospheric temperature, humidity, thunderstorm, squall line, everybody talks about the weather, Charles Dudley Warner']
+0.28408122	None	[u'Ozone Hole Watch: 2015 Antarctic MERRA Temperature']	[u'ozone hole, ozone watch, ozone, goddard, gsfc, nasa']
+-------------------------------------------------
+Link-based Query Results:
+number of matches= 1756
+score	pagerank	title	keywords
+0.018393721	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_PM_B890126_E890130                      ']	None
+0.018393721	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_AM_B890210_E890214                      ']	None
+0.018393721	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_AM_B890307_E890311                      ']	None
+0.018393721	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_AM_B890302_E890306                      ']	None
+0.018393721	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_AM_B891212_E891216                      ']	None
+0.018393721	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_PM_B890225_E890301                      ']	None
+0.018393721	5.565001	[u'TOVS_NOAA12_PATHB_GLOBAL_GRIDDED_5DAYS_AM_B921117_E921121                      ']	None
+0.018393721	5.565001	[u'TOVS_NOAA12_PATHB_GLOBAL_GRIDDED_5DAYS_AM_B920421_E920425                      ']	None
+0.018393721	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_PM_B890106_E890110                      ']	None
+0.018393721	5.565001	[u'TOVS_NOAA12_PATHB_GLOBAL_GRIDDED_5DAYS_PM_B920111_E920115                      ']	None
+
+=================================================
+Query:  Climate change discussion in Southern Ocean all the time.
+=================================================
+-------------------------------------------------
+Content-based Query Results:
+number of matches= 1671
+score	pagerank	title	keywords
+0.8616047	None	[u'Data Announcements: Gravity Atlas of the Southern Ocean | ngdc.noaa.gov']	[u'marine geology geophysics satellite altimetry images gravity atlas fliers announcements GEOSAT Southern Ocean']
+0.8616047	None	[u'Data Announcements: Gravity Atlas of the Southern Ocean | ngdc.noaa.gov']	[u'marine geology geophysics satellite altimetry images gravity atlas fliers announcements GEOSAT Southern Ocean']
+0.8616047	1.698575	[u'Data Announcements: Gravity Atlas of the Southern Ocean | ngdc.noaa.gov']	[u'marine geology geophysics satellite altimetry images gravity atlas fliers announcements GEOSAT Southern Ocean']
+0.8616047	1.698575	[u'Data Announcements: Gravity Atlas of the Southern Ocean | ngdc.noaa.gov']	[u'marine geology geophysics satellite altimetry images gravity atlas fliers announcements GEOSAT Southern Ocean']
+0.49344027	None	[u'International Bathymetric Chart of the Southern Ocean (IBCSO) 2013 Poster | ngdc.noaa.gov']	[u'marine geology marine geophysics posters maps images bathymetry arctic relief']
+0.49344027	2.172801	[u'International Bathymetric Chart of the Southern Ocean (IBCSO) 2013 Poster | ngdc.noaa.gov']	[u'marine geology marine geophysics posters maps images bathymetry arctic relief']
+0.49344027	2.172801	[u'International Bathymetric Chart of the Southern Ocean (IBCSO) 2013 Poster | ngdc.noaa.gov']	[u'marine geology marine geophysics posters maps images bathymetry arctic relief']
+0.4451753	2.16223	[u'Weather and Climate--Lesson Plan #36A']	[u'atmospheric pressure,atmospheric temperature,scale height,radiation,convection,thunderstorms, heat transfer,weather,humidity,thunderstorm, global circulation, coriolis force, Hadley cell,trade winds, El Ni\xf1o']
+0.4451753	2.16223	[u'Weather and Climate--Lesson Plan #36B']	[u'atmospheric pressure,atmospheric temperature,scale height,radiation,convection,thunderstorms, heat transfer,weather,humidity,thunderstorm, global circulation, coriolis force, Hadley cell,trade winds, El Ni\xf1o']
+0.36441377	0.851364	[u'Climate Analysis', u'Climate Analysis']	None
+-------------------------------------------------
+Link-based Query Results:
+number of matches= 1663
+score	pagerank	title	keywords
+0.015560454	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_PM_B890126_E890130                      ']	None
+0.015560454	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_AM_B890210_E890214                      ']	None
+0.015560454	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_AM_B890307_E890311                      ']	None
+0.015560454	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_AM_B890302_E890306                      ']	None
+0.015560454	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_AM_B891212_E891216                      ']	None
+0.015560454	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_PM_B890225_E890301                      ']	None
+0.015560454	5.565001	[u'TOVS_NOAA12_PATHB_GLOBAL_GRIDDED_5DAYS_AM_B921117_E921121                      ']	None
+0.015560454	5.565001	[u'TOVS_NOAA12_PATHB_GLOBAL_GRIDDED_5DAYS_AM_B920421_E920425                      ']	None
+0.015560454	5.565001	[u'TOVS_NOAA10_PATHB_GLOBAL_GRIDDED_5DAYS_PM_B890106_E890110                      ']	None
+0.015560454	5.565001	[u'TOVS_NOAA12_PATHB_GLOBAL_GRIDDED_5DAYS_PM_B920111_E920115                      ']	None
