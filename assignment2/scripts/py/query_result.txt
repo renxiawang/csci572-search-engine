@@ -1,7 +1,7 @@
 Question:  Questions: What time-based trends exist for discussion of water resource in Arctic?
 
 =================================================
-Query:  Discussion of oil in Artic in the last 5 years.
+Query:  Discussion of water in Artic in the last 5 years.
 =================================================
 -------------------------------------------------
 Content-based Query Results:
@@ -33,7 +33,7 @@ score	pagerank	title	keywords
 0.058396462	0.927152	[u'Microsoft Word - OWLeS_OpsPlan_draft_131127.docx']	[u'']
 
 =================================================
-Query:  Discussion of oil in Artic in the last 10 years to the last 5 years.
+Query:  Discussion of water in Artic in the last 10 years to the last 5 years.
 =================================================
 -------------------------------------------------
 Content-based Query Results:
@@ -61,7 +61,7 @@ score	pagerank	title	keywords
 0.062053047	0.779536	[u'Pilot 2006 Environmental Performance Index (EPI)']	[u'environmental performance, metrics, sustainability, benchmarking, coutnries, targets, MDGs, environmental policymaking']
 
 =================================================
-Query:  Discussion of oil in Artic in the last 15 years to the last 10 years.
+Query:  Discussion of water in Artic in the last 15 years to the last 10 years.
 =================================================
 -------------------------------------------------
 Content-based Query Results:
