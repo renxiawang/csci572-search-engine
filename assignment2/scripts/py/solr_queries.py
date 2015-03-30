@@ -3,17 +3,17 @@ questions = [
         "question":"Questions: What time-based trends exist for discussion of water resource in Arctic?",
         "queries":[
             {
-                "query":"Discussion of oil in Artic in the last 5 years.",
+                "query":"Discussion of water in Artic in the last 5 years.",
                 "content_based":"http://192.168.1.143:8983/solr/solrCell/select?q=((title%3Awater+OR+title%3Aarctic)%5E10+OR+(keywords%3Awater+OR+keywords%3Aarctic)%5E8+OR+(description%3Awater+OR+description%3Aarctic)%5E5+OR+(text%3Awater+AND+text%3Aarctic)%5E3)+AND+datetime%3A%5BNOW-5YEAR+TO+NOW%5D&rows=10&fl=score%2Cpagerank%2Ctitle%2Ckeywords%2Cdatetime&wt=json&indent=true",
                 "link_based":"http://192.168.1.143:8983/solr/solrCell/select?q=((title%3Awater+OR+title%3Aarctic)+OR+(keywords%3Awater+OR+keywords%3Aarctic)+OR+(description%3Awater+OR+description%3Aarctic)+OR+(text%3Awater+AND+text%3Aarctic))+AND+datetime%3A%5BNOW-5YEAR+TO+NOW%5D+AND+-pagerank:0.0&sort=pagerank+desc&fl=score%2Cpagerank%2Ctitle%2Ckeywords&wt=json&indent=true"
             },
             {
-                "query":"Discussion of oil in Artic in the last 10 years to the last 5 years.",
+                "query":"Discussion of water in Artic in the last 10 years to the last 5 years.",
                 "content_based":"http://192.168.1.143:8983/solr/solrCell/select?q=((title%3Awater+OR+title%3Aarctic)%5E10+OR+(keywords%3Awater+OR+keywords%3Aarctic)%5E8+OR+(description%3Awater+OR+description%3Aarctic)%5E5+OR+(text%3Awater+AND+text%3Aarctic)%5E3)+AND+datetime%3A%5BNOW-10YEAR+TO+NOW-5YEAR%5D&rows=10&fl=score%2Cpagerank%2Ctitle%2Ckeywords%2Cdatetime&wt=json&indent=true",
                 "link_based":"http://192.168.1.143:8983/solr/solrCell/select?q=((title%3Awater+OR+title%3Aarctic)+OR+(keywords%3Awater+OR+keywords%3Aarctic)+OR+(description%3Awater+OR+description%3Aarctic)+OR+(text%3Awater+AND+text%3Aarctic))+AND+datetime%3A%5BNOW-10YEAR+TO+NOW-5YEAR%5D+AND+-pagerank:0.0&sort=pagerank+desc&fl=score%2Cpagerank%2Ctitle%2Ckeywords&wt=json&indent=true"
             },
             {
-                "query":"Discussion of oil in Artic in the last 15 years to the last 10 years.",
+                "query":"Discussion of water in Artic in the last 15 years to the last 10 years.",
                 "content_based":"http://192.168.1.143:8983/solr/solrCell/select?q=((title%3Awater+OR+title%3Aarctic)%5E10+OR+(keywords%3Awater+OR+keywords%3Aarctic)%5E8+OR+(description%3Awater+OR+description%3Aarctic)%5E5+OR+(text%3Awater+AND+text%3Aarctic)%5E3)+AND+datetime%3A%5BNOW-10YEAR+TO+NOW-5YEAR%5D&rows=10&fl=score%2Cpagerank%2Ctitle%2Ckeywords%2Cdatetime&wt=json&indent=true",
                 "link_based":"http://192.168.1.143:8983/solr/solrCell/select?q=((title%3Awater+OR+title%3Aarctic)+OR+(keywords%3Awater+OR+keywords%3Aarctic)+OR+(description%3Awater+OR+description%3Aarctic)+OR+(text%3Awater+AND+text%3Aarctic))+AND+datetime%3A%5BNOW-15YEAR+TO+NOW-10YEAR%5D+AND+-pagerank:0.0&sort=pagerank+desc&fl=score%2Cpagerank%2Ctitle%2Ckeywords&wt=json&indent=true"
             }

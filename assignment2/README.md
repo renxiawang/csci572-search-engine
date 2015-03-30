@@ -98,7 +98,7 @@ ant dist
 ```
 cp dist/solr-4.10.5-SNAPSHOT.war example/webapps/solr.war
 cd example
-jar -jar start.jar
+java -jar start.jar
 ```
 
 * Open Solr admin in browser: ```http://localhost:8983/solr/```
