@@ -145,11 +145,14 @@
        "resourcename": From SolrCell request param resource.name
    -->
    <field name="title" type="text_general" indexed="true" stored="true" multiValued="true"/>
+    <field name="title_autocomplete" type="text_autocomplete" indexed="true" stored="true" multiValued="true"/>
    <field name="subject" type="text_general" indexed="true" stored="true"/>
    <field name="description" type="text_general" indexed="true" stored="true" multiValued="true"/>
+    <field name="description_autocomplete" type="text_autocomplete" indexed="true" stored="true" multiValued="true"/>
    <field name="comments" type="text_general" indexed="true" stored="true"/>
    <field name="author" type="text_general" indexed="true" stored="true"/>
    <field name="keywords" type="text_general" indexed="true" stored="true" multiValued="true"/>
+    <field name="keywords_autocomplete" type="text_autocomplete" indexed="true" stored="true" multiValued="true"/>
    <field name="category" type="text_general" indexed="true" stored="true"/>
    <field name="resourcename" type="text_general" indexed="true" stored="true"/>
    <field name="url" type="text_general" indexed="true" stored="true"/>
@@ -184,7 +187,7 @@
     <field name="lat" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="gps" type="string" indexed="true" stored="true" multiValued="true"/>
     <!-- datetimes -->
-    <field name="datetime" type="date" indexed="true" stored="true" multiValued="true"/>
+    <field name="datetime" type="date" indexed="true" stored="true" multiValued="false"/>
 
     <!-- pagerank -->
     <field name="pagerank" type="float" indexed="true" stored="true" default="0.0"/>
@@ -279,7 +282,11 @@
    <copyField source="gps_*" dest="gps" />
    <copyField source="datetime_*" dest="datetime" />
 
-  <!-- copy to text -->
+    <copyField source="title" dest="title_autocomplete"/>
+    <copyField source="keywords" dest="keywords_autocomplete"/>
+    <copyField source="description" dest="description_autocomplete"/>
+
+    <!-- copy to text -->
    <copyField source="title_*" dest="text" />
    <copyField source="keywords_*" dest="text" />
    <copyField source="description_*" dest="text" />
@@ -317,6 +324,13 @@
        It supports doc values but in that case the field needs to be
        single-valued and either required or have a default value.
       -->
+    <fieldType name="text_autocomplete" class="solr.TextField" positionIncrementGap="100">
+        <analyzer>
+            <tokenizer class="solr.KeywordTokenizerFactory"/>
+            <filter class="solr.LowerCaseFilterFactory"/>
+        </analyzer>
+    </fieldType>
+
     <fieldType name="string" class="solr.StrField" sortMissingLast="true" />
 
     <!-- boolean type: "true" or "false" -->
