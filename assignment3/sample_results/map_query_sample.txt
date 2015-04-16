@@ -1,0 +1,168 @@
+Query: 
+
+http://localhost:8983/solr/solrCell/select?q=locationName%3A%5B%27%27+TO+*%5D&fl=locationName%2ClocationLatLon_0_coordinate%2ClocationLatLon_1_coordinate&wt=json&indent=true&group=true&group.field=locationName
+
+Sample Result:
+
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 8,
+    "params": {
+      "fl": "locationName,locationLatLon_0_coordinate,locationLatLon_1_coordinate",
+      "indent": "true",
+      "q": "locationName:['' TO *]",
+      "_": "1429159831707",
+      "group.field": "locationName",
+      "group": "true",
+      "wt": "json"
+    }
+  },
+  "grouped": {
+    "locationName": {
+      "matches": 44024,
+      "groups": [
+        {
+          "groupValue": "Prince Charles Mountains",
+          "doclist": {
+            "numFound": 3728,
+            "start": 0,
+            "docs": [
+              {
+                "locationName": "Prince Charles Mountains",
+                "locationLatLon_0_coordinate": -71.42722,
+                "locationLatLon_1_coordinate": 67.24611
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "Australia",
+          "doclist": {
+            "numFound": 8098,
+            "start": 0,
+            "docs": [
+              {
+                "locationName": "Australia",
+                "locationLatLon_0_coordinate": -25,
+                "locationLatLon_1_coordinate": 135
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "Mountain Province",
+          "doclist": {
+            "numFound": 276,
+            "start": 0,
+            "docs": [
+              {
+                "locationName": "Mountain Province",
+                "locationLatLon_0_coordinate": 17.08333,
+                "locationLatLon_1_coordinate": 121.16667
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "Kingdom",
+          "doclist": {
+            "numFound": 2615,
+            "start": 0,
+            "docs": [
+              {
+                "locationName": "Kingdom",
+                "locationLatLon_0_coordinate": 29.30035,
+                "locationLatLon_1_coordinate": 120.0704
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "Cape Daly",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "locationName": "Cape Daly",
+                "locationLatLon_0_coordinate": 62.56714,
+                "locationLatLon_1_coordinate": -64.51417
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "The Matterhorn",
+          "doclist": {
+            "numFound": 1,
+            "start": 0,
+            "docs": [
+              {
+                "locationName": "The Matterhorn",
+                "locationLatLon_0_coordinate": 45.97639,
+                "locationLatLon_1_coordinate": 7.65833
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "Afghanistan",
+          "doclist": {
+            "numFound": 330,
+            "start": 0,
+            "docs": [
+              {
+                "locationName": "Afghanistan",
+                "locationLatLon_0_coordinate": 33,
+                "locationLatLon_1_coordinate": 66
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "United States",
+          "doclist": {
+            "numFound": 1512,
+            "start": 0,
+            "docs": [
+              {
+                "locationName": "United States",
+                "locationLatLon_0_coordinate": 39.76,
+                "locationLatLon_1_coordinate": -98.5
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "Windmill Islands",
+          "doclist": {
+            "numFound": 159,
+            "start": 0,
+            "docs": [
+              {
+                "locationName": "Windmill Islands",
+                "locationLatLon_0_coordinate": -66.35,
+                "locationLatLon_1_coordinate": 110.41667
+              }
+            ]
+          }
+        },
+        {
+          "groupValue": "Maldives",
+          "doclist": {
+            "numFound": 16,
+            "start": 0,
+            "docs": [
+              {
+                "locationName": "Maldives",
+                "locationLatLon_0_coordinate": 3.2,
+                "locationLatLon_1_coordinate": 73
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
