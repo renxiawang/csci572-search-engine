@@ -1,0 +1,1 @@
+http://localhost:8983/solr/solrCell/select?q=datetime%3A%5B*+TO+NOW%5D&fl=datetime&wt=json&indent=true&facet.range=datetime&facet=true&facet.range.start=1990-01-01T23:59:59.999Z/MONTH&facet.range.end=NOW/MONTH%2B1MONTH&facet.range.gap=%2B1MONTH
