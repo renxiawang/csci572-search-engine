@@ -1,0 +1,6 @@
+http://localhost:8983/solr/solrCell/select?q=datetime%3A%5B2010-01-01T23%3A59%3A59.999Z+TO+2010-12-31T23%3A59%3A59.999Z%5D&fl=datetime&wt=json&indent=true&group=true&group.field=content_type&facet.field=content_type
+http://localhost:8983/solr/solrCell/select?q=datetime%3A%5B2011-01-01T23%3A59%3A59.999Z+TO+2011-12-31T23%3A59%3A59.999Z%5D&fl=datetime&wt=json&indent=true&group=true&group.field=content_type&facet.field=content_type
+http://localhost:8983/solr/solrCell/select?q=datetime%3A%5B2012-01-01T23%3A59%3A59.999Z+TO+2012-12-31T23%3A59%3A59.999Z%5D&fl=datetime&wt=json&indent=true&group=true&group.field=content_type&facet.field=content_type
+http://localhost:8983/solr/solrCell/select?q=datetime%3A%5B2013-01-01T23%3A59%3A59.999Z+TO+2013-12-31T23%3A59%3A59.999Z%5D&fl=datetime&wt=json&indent=true&group=true&group.field=content_type&facet.field=content_type
+http://localhost:8983/solr/solrCell/select?q=datetime%3A%5B2014-01-01T23%3A59%3A59.999Z+TO+2014-12-31T23%3A59%3A59.999Z%5D&fl=datetime&wt=json&indent=true&group=true&group.field=content_type&facet.field=content_type
+http://localhost:8983/solr/solrCell/select?q=datetime%3A%5B2015-01-01T23%3A59%3A59.999Z+TO+2015-12-31T23%3A59%3A59.999Z%5D&fl=datetime&wt=json&indent=true&group=true&group.field=content_type&facet.field=content_type

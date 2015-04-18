@@ -1,0 +1,5 @@
+http://localhost:8983/solr/solrCell/select?q=datetime%3A%5B*+TO+NOW%5D+AND+text%3Aoil&fl=datetime&wt=json&indent=true&facet.range=datetime&facet=true&facet.range.start=1990-01-01T23:59:59.999Z/YEAR&facet.range.end=NOW/YEAR%2B1YEAR&facet.range.gap=%2B1YEAR
+
+http://localhost:8983/solr/solrCell/select?q=datetime%3A%5B*+TO+NOW%5D+AND+text%3Awater&fl=datetime&wt=json&indent=true&facet.range=datetime&facet=true&facet.range.start=1990-01-01T23:59:59.999Z/YEAR&facet.range.end=NOW/YEAR%2B1YEAR&facet.range.gap=%2B1YEAR
+
+http://localhost:8983/solr/solrCell/select?q=datetime%3A%5B*+TO+NOW%5D+AND+text%3Airon&fl=datetime&wt=json&indent=true&facet.range=datetime&facet=true&facet.range.start=1990-01-01T23:59:59.999Z/YEAR&facet.range.end=NOW/YEAR%2B1YEAR&facet.range.gap=%2B1YEAR

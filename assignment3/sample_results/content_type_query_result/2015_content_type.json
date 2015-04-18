@@ -1,0 +1,29 @@
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":2,
+    "params":{
+      "fl":"datetime",
+      "indent":"true",
+      "q":"datetime:[2015-01-01T23:59:59.999Z TO 2015-12-31T23:59:59.999Z]",
+      "group.field":"content_type",
+      "facet.field":"content_type",
+      "group":"true",
+      "wt":"json"}},
+  "grouped":{
+    "content_type":{
+      "matches":86,
+      "groups":[{
+          "groupValue":"application/pdf",
+          "doclist":{"numFound":79,"start":0,"docs":[
+              {
+                "datetime":["2015-02-21T12:07:35Z",
+                  "2015-02-21T12:07:35Z"]}]
+          }},
+        {
+          "groupValue":"image/jpeg",
+          "doclist":{"numFound":7,"start":0,"docs":[
+              {
+                "datetime":["2015-01-06T11:08:12Z",
+                  "2015-01-06T11:08:12Z"]}]
+          }}]}}}
