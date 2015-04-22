@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+			body {
+				display: block;
+				margin: 0px;
+				overflow: hidden;
+				padding: 0px;
+			}
+		</style>
+		<link href="/bootstrap-3.3.4-dist/css/bootstrap.min.css" rel="stylesheet">
+		<script src="http://d3js.org/d3.v3.min.js"/Users/suzu/Documents/azimuthal.webarchive charset="utf-8"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+		<script type="text/javascript" src="http://underscorejs.org/underscore-min.js"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/">Dashboards</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+		<div id="container"></div>
+		<svg>
+			<radialGradient id="tip">
+				<stop offset="0" stop-color="white"/>
+				<stop offset="0.2" stop-color="pink"/>
+				<stop offset="1" stop-color="white"/>
+			</radialGradient>
+		</svg>
+		<script type="text/javascript">
+		
+			
+			var height = window.innerHeight;
+			var width = window.innerWidth;
+			var svg = d3.select('#container').append('svg');
+
+			d3.json("world-countries.json", function(data) {
+				/* Antarctica will not shown on the map */
+				var features = data.features;
+
+				var projection = d3.geo.mercator();
+				var oldScala = projection.scale();
+				var oldTranslate = projection.translate();
+
+				xy = projection.scale(oldScala * (width / oldTranslate[0] / 2) * 0.9).translate([width / 2, height / 2]);
+
+				path = d3.geo.path().projection(xy);
+
+				svg.attr('width', width).attr('height', height);
+				svg.selectAll('path').data(features).enter().append('svg:path').attr('d', path).on('mouseover', function(data) {
+					d3.select(this).attr('fill', 'rgba(2,2,139,0.61)');
+				}).on('mouseout', function(data) {
+					d3.select(this).attr('fill', 'rgba(131,175,155,0.61');
+				}).attr('fill', 'rgba(131,175,155,0.61)').attr('stroke', 'rgba(255,255,255,1)').attr('stroke-width', 1);
+
+				var map_data;
+				d3.json("http://localhost:8080/sample_results/map_query_result/map_query_result.json", function(map_data) {
+					var groups = map_data["grouped"]["locationName"]["groups"];
+					for (var i = 0; i < groups.length; i++) {
+						var loc = xy([groups[i]["doclist"]["docs"][0]["locationLatLon_1_coordinate"], groups[i]["doclist"]["docs"][0]["locationLatLon_0_coordinate"]]);
+						svg.append('circle').attr('r', width/1500 * Math.log(groups[i]["doclist"]["numFound"])).attr('fill', "rgba(249,205,173,0.61)").attr('stroke', "blue").attr('transform', 'translate(' + loc[0] + ', ' + loc[1] + ')');
+
+					}
+
+				});
+			});
+		</script>
+	</body>
+</html>

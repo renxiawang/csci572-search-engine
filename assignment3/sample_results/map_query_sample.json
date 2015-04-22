@@ -1,9 +1,3 @@
-Query: 
-
-http://localhost:8983/solr/solrCell/select?q=locationName%3A%5B%27%27+TO+*%5D&fl=locationName%2ClocationLatLon_0_coordinate%2ClocationLatLon_1_coordinate&wt=json&indent=true&group=true&group.field=locationName
-
-Sample Result:
-
 {
   "responseHeader": {
     "status": 0,
