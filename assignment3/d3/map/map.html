@@ -69,7 +69,7 @@
 				}).attr('fill', 'rgba(131,175,155,0.61)').attr('stroke', 'rgba(255,255,255,1)').attr('stroke-width', 1);
 
 				var map_data;
-				d3.json("http://localhost:8080/sample_results/map_query_result/map_query_result.json", function(map_data) {
+				d3.json("/sample_results/map_query_result/map_query_result.json", function(map_data) {
 					var groups = map_data["grouped"]["locationName"]["groups"];
 					for (var i = 0; i < groups.length; i++) {
 						var loc = xy([groups[i]["doclist"]["docs"][0]["locationLatLon_1_coordinate"], groups[i]["doclist"]["docs"][0]["locationLatLon_0_coordinate"]]);
